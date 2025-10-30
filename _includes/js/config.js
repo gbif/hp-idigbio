@@ -1,54 +1,40 @@
-/*
-This is the fil in which you configure the data widgets. Feel free to experiment with the configuration options. 
-But it is also completely okay to write and issue and ask for help to configure the widgets.
-You probably want to check out the documentation at https://hp-theme.gbif-staging.org/documentation-intro
-*/
+var siteTheme = gbifReactComponents.themeBuilder.extend({
+  baseTheme: 'light', extendWith: {
+    primary: themeStyle.colors.primary
+  }
+});
+
 var siteConfig = {
   "version": 3,
-  "pages": [ // which pages do we want to enable
+  "pages": [
     {
       "id": "occurrenceSearch"
     },
     {
-      "id": "occurrenceKey"
+      "id": "collectionKey",
     },
     {
-      "id": "collectionSearch"
-    },
-    {
-      "id": "collectionKey"
-    },
-    {
-      "id": "datasetSearch"
-    },
-    {
-      "id": "datasetKey"
+      "id": "institutionKey",
     },
     {
       "id": "institutionSearch"
     },
     {
-      "id": "institutionKey"
-    },
-    {
-      "id": "literatureSearch"
+      "id": "collectionSearch"
     }
   ],
   "disableInlineTableFilterButtons": false,
   "availableCatalogues": [
-    // TODO: you should remove types you do not want to use
     "OCCURRENCE",
-    "DATASET",
-    "COLLECTION",
     "INSTITUTION",
-    "LITERATURE"
+    "COLLECTION"
   ],
   "dataHeader": {
     "enableApiPopup": false,
     "enableInfoPopup": false
   },
   "theme": {
-    "primary": "#001972",
+    "primary": themeStyle.colors.primary,
     "borderRadius": 3,
     "stickyOffset": "0px"
   },
@@ -57,9 +43,24 @@ var siteConfig = {
       "defaultProjection": "MERCATOR",
       "defaultMapStyle": "BRIGHT",
       "options": {
-        "MERCATOR": [
+        "ARCTIC": [
+          "NATURAL",
+          "BRIGHT"
+        ],
+        "PLATE_CAREE": [
+          "NATURAL",
           "BRIGHT",
-          "NATURAL"
+          "DARK"
+        ],
+        "MERCATOR": [
+          "NATURAL",
+          "BRIGHT",
+          "DARK"
+        ],
+        "ANTARCTIC": [
+          "NATURAL",
+          "BRIGHT",
+          "DARK"
         ]
       }
     }
@@ -75,30 +76,54 @@ var siteConfig = {
       "cmsLocale": "en-GB",
       "gbifOrgLocalePrefix": "",
       "mapTileLocale": "en"
-    },
-    {
-      "code": "da",
-      "localeCode": "da",
-      "label": "Dansk",
-      "default": false,
-      "textDirection": "ltr",
-      "iso3LetterCode": "dan",
-      "cmsLocale": "en-GB",
-      "gbifOrgLocalePrefix": "",
-      "mapTileLocale": "en"
     }
   ],
-  "messages": {},
+  "messages": {
+    "en": {
+      "catalogues.occurrences": "Specimens"
+    }
+  },
   "occurrenceSearch": {
     "scope": {
-      "type": "in",
-      "key": "publishingOrg",
-      "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
+      "type": "and",
+      "predicates": [
+        {
+          "type": "or",
+          "predicates": [
+            {
+              "type": "isNotNull",
+              "key": "institutionKey"
+            },
+            {
+              "type": "isNotNull",
+              "key": "collectionKey"
+            }
+          ]
+        },
+        {
+          "type": "in",
+          "key": "basisOfRecord",
+          "values": [
+            "PRESERVED_SPECIMEN",
+            "FOSSIL_SPECIMEN",
+            "MATERIAL_SAMPLE",
+            "LIVING_SPECIMEN"
+          ]
+        },
+        {
+          "type": "equals",
+          "key": "publishingCountry",
+          "value": "US"
+        }
       ]
     },
+    "tabs": [
+      "table",
+      "gallery",
+      "map",
+      "dashboard",
+      "download"
+    ],
     "highlightedFilters": [
       "taxonKey",
       "verbatimScientificName",
@@ -117,7 +142,7 @@ var siteConfig = {
       "institutionCode",
       "collectionCode"
     ],
-    "defaultEnabledTableColumns": [
+    "availableTableColumns": [
       "features",
       "institutionKey",
       "collectionKey",
@@ -127,61 +152,32 @@ var siteConfig = {
       "recordedBy",
       "identifiedBy"
     ],
-    "tabs": [
-      "table",
-      "gallery",
-      "map",
-      "clusters",
-      "dashboard",
-      "download"
-    ],
+    
     "mapSettings": {
-      "lat": 52,
-      "lng": 12,
-      "zoom": 4.911544076366507
+      "lat": 0,
+      "lng": 0,
+      "zoom": 0
     }
   },
   "collectionSearch": {
-    excludedFilters: ['country', 'active'],
-    // highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-    // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-    scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      active: true
+    "scope": {
+      "displayOnNHCPortal": true,
+      "country": "US"
     },
+    "excludedFilters": [
+      "countrySingleGrSciColl"
+    ]
   },
   "institutionSearch": {
-    // excludedFilters: ['country', 'active'],
-    // highlightedFilters: ['q', 'type'],
-    // defaultTableColumns: ['title', 'type'],
-    scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      active: true
-    }
-  },
-  "datasetSearch": {
-    excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
-    highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-    scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      type: ['OCCURRENCE', 'CHECKLIST']
-    },
-  },
-  "publisherSearch": {},
-  "literatureSearch": {
     "scope": {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // literature search use the predicate format similar to occurrence search
-      "type": "in",
-      "key": "publishingOrganizationKey",
-      "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
-      ]
-    }
-  }
-}
+      "displayOnNHCPortal": true,
+      "country": "US"
+    },
+    "excludedFilters": [
+      "country"
+    ]
+  },
+  "datasetSearch": {},
+  "publisherSearch": {},
+  "literatureSearch": {}
+};

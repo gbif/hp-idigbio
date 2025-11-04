@@ -1,9 +1,9 @@
 ---
 lang-ref: home
 layout: home
-title: My headline
-description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
-background: /assets/images/placeholders/templates/w1600h800.png
+title: Integrated Digitized Biocollections
+description: Making data and images of millions of biological specimens available on the web.
+background: /assets/images/gecko-239812_1280-removebg.png
 imageLicense: None for this image
 height: 70vh
 cta:
@@ -15,14 +15,12 @@ cta:
 permalink: /
 ---
 
-Edit `/home.md` to change the text.
+{% include sections/about_idigbio.html %}
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
+{% include sections/stats.html %}
 
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+{% include sections/collections_value.html %}
+
+{% include sections/tiles_data_share_services.html %}
+
+{% include sections/learn_participate.html %}

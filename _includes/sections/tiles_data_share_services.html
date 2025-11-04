@@ -1,0 +1,44 @@
+<div style="display:flex; justify-content:center; margin-top: 5rem;">
+<style>
+@media (max-width: 1150px) {
+  .tiles-grid { width: 100% !important; grid-template-columns: 1fr !important; }
+}
+.tile-card { position: relative; }
+.tile-card h3 { font-size: 2rem; margin: 0 0 0.75rem 0; }
+.tile-card .tile-image { position: relative; overflow: hidden; }
+.tile-card .tile-image img { width: auto; height: 400px; display: block; }
+.tile-card .tile-text { margin: 0.75rem 0 0 0; font-size: 1.15rem; line-height: 1.6; }
+.tile-card .cover-link { position: absolute; inset: 0; z-index: 1; }
+.tile-card .badge-wrapper { position: absolute; right: 12px; top: 12px; z-index: 2; }
+.tile-card .badge { background: #b6e3bd; color: #02261F; font-weight: 700; padding: 6px 10px; border-radius: 999px; font-size: 0.85rem; text-transform: uppercase; }
+</style>
+<div class="tiles-grid" style="display:grid; grid-template-columns: repeat(3, 360px); gap: 2.5rem; width:max-content;">
+  <article class="tile-card">
+    <h3>Get Data</h3>
+    <div class="tile-image">
+      <img src="https://www.idigbio.org/sites/default/files/styles/hero_text___image/public/paragraph-images/AdobeStock_346191544_0.jpeg?itok=SlvZ1RiW" alt="Get Data" />
+    </div>
+    <div class="tile-text"><p>Search the portal or access our API</p></div>
+    <a class="cover-link" href="https://www.idigbio.org/portal"></a>
+  </article>
+
+  <article class="tile-card">
+    <h3>Share Data</h3>
+    <div class="tile-image">
+      <img src="https://www.idigbio.org/sites/default/files/styles/hero_text___image/public/paragraph-images/AdobeStock_439924842_0.jpeg?itok=SFGKdism" alt="Share Data" />
+    </div>
+    <div class="tile-text"><p>Ready to publish your Collections data?</p></div>
+    <a class="cover-link" href="https://www.idigbio.org/content/idigbio-data-ingestion-requirements-and-guidelines"></a>
+  </article>
+
+  <article class="tile-card">
+    <h3>Data Services</h3>
+    <div class="tile-image">
+      <div class="badge-wrapper"><div class="badge">Coming Soon</div></div>
+      <img src="https://www.idigbio.org/sites/default/files/styles/hero_text___image/public/paragraph-images/AdobeStock_168596650_0.jpeg?itok=Reen5q5s" alt="Data Services" />
+    </div>
+    <div class="tile-text"><p>Don't know how to get what you need?<br/>Let us prep the data for you for a fee.</p></div>
+  </article>
+</div>
+</div>
+

@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: Integrated Digitized Biocollections
 description: Making data and images of millions of biological specimens available on the web.
-background: /assets/images/gecko-239812_1280-removebg.png
+background: https://idigbio.hp.gbif.org/assets/images/gecko-239812_1280-removebg.png
 ignoreThumbor: true
 imageLicense: None for this image
 height: 70vh

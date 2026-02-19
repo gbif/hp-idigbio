@@ -3,9 +3,8 @@ lang-ref: home
 layout: home
 title: Integrated Digitized Biocollections
 description: Making data and images of millions of biological specimens available on the web.
-background:
-  image: "{{ site.data.images.GeckoTokay.src }}"
-  alt: "{{ site.data.images.GeckoTokay.alt }}"
+background: "{{ site.data.images.GeckoTokay.src }}"
+alt: "{{ site.data.images.GeckoTokay.alt }}"
 ignoreThumbor: true
 imageLicense: "{{ site.data.images.GeckoTokay.caption }}"
 height: 70vh

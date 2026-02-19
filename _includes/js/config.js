@@ -152,7 +152,7 @@ var siteConfig = {
       "recordedBy",
       "identifiedBy"
     ],
-    
+
     "mapSettings": {
       "lat": 0,
       "lng": 0,
@@ -162,7 +162,7 @@ var siteConfig = {
   "collectionSearch": {
     "scope": {
       "displayOnNHCPortal": true,
-      "country": "US"
+      "machineTagNamespace": "iDigBio.org"
     },
     "excludedFilters": [
       "countrySingleGrSciColl"
@@ -171,7 +171,7 @@ var siteConfig = {
   "institutionSearch": {
     "scope": {
       "displayOnNHCPortal": true,
-      "country": "US"
+      "machineTagNamespace": "iDigBio.org"
     },
     "excludedFilters": [
       "country"

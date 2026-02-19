@@ -1,7 +1,8 @@
 ---
+lang: en
 lang-ref: home
 layout: home
-title: Integrated Digitized Biocollections
+title: Integrated Digitized Biocollections (iDigBio)
 description: Making data and images of millions of biological specimens available on the web.
 background: "{{ site.data.images.GeckoTokay.src }}"
 alt: "{{ site.data.images.GeckoTokay.alt }}"

@@ -2,7 +2,7 @@
 # Or you can choose to just type them in the front matter. It is a matter of preference. 
 # If you reuse images a lot, it can be convinent to only have them one place.
 
-# So in your frontmatter you can either use this data file :
+# So in your front matter you can either use this data file :
 # background:  "{{ site.data.images.catocala_ilia_cramer.src }}"
 # imageLicense: "{{ site.data.images.catocala_ilia_cramer.caption }}"
 #
@@ -10,7 +10,19 @@
 # background:  /assets/images/placeholders/irpex_spiculifer_1135723338.jpg
 # imageLicense: [Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)
 
+# SOME NOTES TO MAKE THESE CONSISTENT
+# CodeName: use the common name underneath the scientific name at the top of the GBIF occurrence page; remove all spaces, dashes, etc. to be safe
+#   src: use the "Identifier" link associated with the image on the GBIF occurrence page
+#   alt: use the scientific name at the top of the GBIF occurrence page
+#   caption: use the "Suggested attribution" associated with the image on the GBIF occurrence; link to the hosted portal using the GBIF ID
+
 example:
   src: /assets/images/placeholders/templates/w1600h800.png
-  caption: |
-    Isotype of _Gradiental rosa_
+  alt: "placeholder image"
+  caption: "A placeholder image sized to 1600 by 800"
+    
+GeckoTokay:
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
+  alt: "Gekko gecko (Linnaeus, 1758)"
+  caption: "[*Gekko gecko* (Linnaeus, 1758)](/data?entity=3698251722&view=TABLE) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
+  

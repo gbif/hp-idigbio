@@ -10,19 +10,40 @@
 # background:  /assets/images/placeholders/irpex_spiculifer_1135723338.jpg
 # imageLicense: [Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)
 
-# SOME NOTES TO MAKE THESE CONSISTENT
+
+# SOME NOTES TO MAKE THESE CONSISTENT WHEN YOU USE IMAGES FROM GBIF
 # CodeName: use the common name underneath the scientific name at the top of the GBIF occurrence page; remove all spaces, dashes, etc. to be safe
 #   src: use the "Identifier" link associated with the image on the GBIF occurrence page
 #   alt: use the scientific name at the top of the GBIF occurrence page
 #   caption: use the "Suggested attribution" associated with the image on the GBIF occurrence; if possible, link to the hosted portal using the GBIF ID otherwise link to GBIF
-
-example:
-  src: /assets/images/placeholders/templates/w1600h800.png
-  alt: "placeholder image"
-  caption: "A placeholder image sized to 1600 by 800"
-    
 GeckoTokay:
   src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
   alt: "Gekko gecko (Linnaeus, 1758)"
   caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
-  
+
+
+# These are for the placeholder image templates  
+Template500x800:
+  src: /assets/images/placeholders/templates/w500h800.png
+  alt: "placeholder image template"
+  caption: "Placeholder image template sized to 500x800"
+
+Template600x400:
+  src: /assets/images/placeholders/templates/w600h400.png
+  alt: "placeholder image template"
+  caption: "Placeholder image template sized to 600x400"
+
+Template1000x600:
+  src: /assets/images/placeholders/templates/w1000h600.png
+  alt: "placeholder image template"
+  caption: "Placeholder image template sized to 1000x600"
+
+Template1200x800:
+  src: /assets/images/placeholders/templates/w1200h800.png
+  alt: "placeholder image template"
+  caption: "Placeholder image template sized to 1200x800"
+
+Template1600x800:
+  src: /assets/images/placeholders/templates/w1600h800.png
+  alt: "placeholder image template"
+  caption: "Placeholder image template sized to 1600x800"

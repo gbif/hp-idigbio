@@ -4,6 +4,8 @@ var siteTheme = gbifReactComponents.themeBuilder.extend({
   }
 });
 
+const iDigBioNetworkKey = '68e8e67a-43e6-44a3-8817-dc0e6b70f973';
+
 var siteConfig = {
   "version": 3,
   "pages": [
@@ -85,37 +87,9 @@ var siteConfig = {
   },
   "occurrenceSearch": {
     "scope": {
-      "type": "and",
-      "predicates": [
-        {
-          "type": "or",
-          "predicates": [
-            {
-              "type": "isNotNull",
-              "key": "institutionKey"
-            },
-            {
-              "type": "isNotNull",
-              "key": "collectionKey"
-            }
-          ]
-        },
-        {
-          "type": "in",
-          "key": "basisOfRecord",
-          "values": [
-            "PRESERVED_SPECIMEN",
-            "FOSSIL_SPECIMEN",
-            "MATERIAL_SAMPLE",
-            "LIVING_SPECIMEN"
-          ]
-        },
-        {
-          "type": "equals",
-          "key": "publishingCountry",
-          "value": "US"
-        }
-      ]
+      "type": "equals",
+      "key": "networkKey",
+      "value": iDigBioNetworkKey
     },
     "tabs": [
       "table",

@@ -26,24 +26,24 @@ GeckoTokay:
 Template500x800:
   src: /assets/images/placeholders/templates/w500h800.png
   alt: "image placeholder template"
-  caption: "Image placeholder template sized to [500x800](https://via.assets.so/img.jpg?w=500&h=800&gradientFrom=ef629f&gradientTo=eecda3&gradientAngle=270&f=png&fontColor=ffffff) created via https://via.assets.so/"
+  caption: "Image placeholder template sized to 500x800"
 
 Template600x400:
   src: /assets/images/placeholders/templates/w600h400.png
   alt: "image placeholder template"
-  caption: "Image placeholder template sized to [600x400](https://via.assets.so/img.jpg?w=600&h=400&gradientFrom=ef629f&gradientTo=eecda3&gradientAngle=270&f=png&fontColor=ffffff) created via https://via.assets.so/"
+  caption: "Image placeholder template sized to 600x400"
 
 Template1000x600:
   src: /assets/images/placeholders/templates/w1000h600.png
   alt: "image placeholder template"
-  caption: "Image placeholder template sized to [1000x600](https://via.assets.so/img.jpg?w=1000&h=600&gradientFrom=ef629f&gradientTo=eecda3&gradientAngle=270&f=png&fontColor=ffffff) created via https://via.assets.so/"
+  caption: "Image placeholder template sized to 1000x600"
 
 Template1200x800:
   src: /assets/images/placeholders/templates/w1200h800.png
   alt: "image placeholder template"
-  caption: "Image placeholder template sized to [1200x800](https://via.assets.so/img.jpg?w=1200&h=800&gradientFrom=ef629f&gradientTo=eecda3&gradientAngle=270&f=png&fontColor=ffffff) created via https://via.assets.so/"
+  caption: "Image placeholder template sized to 1200x800"
 
 Template1600x800:
   src: /assets/images/placeholders/templates/w1600h800.png
   alt: "image placeholder template"
-  caption: "Image placeholder template sized to [1600x800](https://via.assets.so/img.jpg?w=1600&h=800&gradientFrom=ef629f&gradientTo=eecda3&gradientAngle=270&f=png&fontColor=ffffff) created via https://via.assets.so/"
+  caption: "Image placeholder template sized to 1600x800"

@@ -21,9 +21,11 @@ permalink: /
 ---
 
 <!-- About iDigBio -->
-<figure>
-    <img align="right" width="33%" src="{{ site.data.images.Template1000x600.src }}" alt="{{ site.data.images.Template1000x600.alt }}">
-    <figcaption>{{ site.data.images.Template1000x600.caption }}</figcaption>
+<figure style="float: right; width: 33%; margin: 0 0 1em 1em; text-align: right;">
+  <img src="{{ site.data.images.Template1000x600.src }}" alt="{{ site.data.images.Template1000x600.alt }}" style="width: 100%; height: auto;">
+  <figcaption style="font-size: smaller; color: #555;">
+    {{ site.data.images.Template1000x600.caption }}
+  </figcaption>
 </figure>
 ##### The mission of the iDigBio Node is to promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.
 

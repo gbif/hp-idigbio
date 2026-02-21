@@ -22,12 +22,12 @@ permalink: /
 
 <!-- About iDigBio -->
 <figure style="float: right; width: 33%; margin: 0 0 1em 1em; text-align: right;">
-  <img src="{{ site.data.images.Template1000x600.src }}" alt="{{ site.data.images.Template1000x600.alt }}" style="width: 100%; height: auto;">
+  <img src="{{ site.data.images.Template1600x800.src }}" alt="{{ site.data.images.Template1600x800.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
-    {{ site.data.images.Template1000x600.caption }}
+    {{ site.data.images.Template1600x800.caption }}
   </figcaption>
 </figure>
-##### The mission of the iDigBio Node is to promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.
+#### The mission of the iDigBio Node is to promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.
 
 
 <!-- Original setup using sections from Drupal

@@ -18,8 +18,8 @@
 #   caption: use the "Suggested attribution" associated with the image on the GBIF occurrence; if possible, link to the hosted portal using the GBIF ID otherwise link to GBIF
 
 GeckoTokay:
-  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
-  src: /assets/images/GeckoTokay3698251722.jpeg
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
+  # why won't this work? src: /assets/images/GeckoTokay3698251722.jpeg
   alt: "Gekko gecko media from GBIF occurence 3698251722"
   caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
 

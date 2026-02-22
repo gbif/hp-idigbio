@@ -19,7 +19,7 @@
 
 GeckoTokay:
   # src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
-  src: /assets/images/GekkoTokay_GBIF_occurence_3698251722.jpeg
+  src: /assets/images/GeckoTokay_3698251722.jpg
   alt: "Gekko gecko media from GBIF occurence 3698251722"
   caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
 

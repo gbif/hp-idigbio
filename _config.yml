@@ -28,15 +28,15 @@ url: "https://idigbio.hp.gbif.org/" # the base hostname & protocol for your site
 
 # SOCIAL PROFILES that will show in the footer
 email: info@gbif.org                                      # Social icon in footer
-twitter_username: yourname # if you have an account you want to link to. Else comment this line out
-github_username:  yourname # if you have an account you want to link to. Else comment this line out
-bluesky_username: yourname.org                            # Social icon in footer
-youtube_username: yourname                              # Social icon in footer
-facebook_username: yourname                             # Social icon in footer
-flickr_username: yourname                               # Social icon in footer
-instagram_username: yourname                              # Social icon in footer
-mastodon_url: https://something.goes/@here                # Social icon in footer
-linkedin_url: https://www.linkedin.com/company/yourname # Social icon in footer
+twitter_username: iDigBio # if you have an account you want to link to. Else comment this line out
+#github_username:  yourname # if you have an account you want to link to. Else comment this line out
+#bluesky_username: yourname.org                            # Social icon in footer
+youtube_username: iDigBio                              # Social icon in footer
+facebook_username: iDigBio                             # Social icon in footer
+#flickr_username: yourname                               # Social icon in footer
+instagram_username: iDigBio                              # Social icon in footer
+#mastodon_url: https://something.goes/@here                # Social icon in footer
+linkedin_url: https://www.linkedin.com/company/93419602/ # Social icon in footer
 
 # Build settings
 theme: minima
@@ -112,102 +112,102 @@ defaults:
       layout: "post"
       permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
   
-  - scope:
-      path: "es/" # For anything in the "es" folder the default is to set the lang frontMatter property to "es" . this should be deleted or adapted to your site if you support other languages
-    values:
-      lang: es
-  - scope:
-      path: "_posts/es" # our subfolder in posts for spanish translation of news items
-    values:
-      layout: "post"
-      permalink: "/es/post/:year/:slug/"   # Use /es/post/yyyy/{filename}/ as permalink for all posts
-      lang: es # And have the default language in that folder be spanish
+#  - scope:
+#      path: "es/" # For anything in the "es" folder the default is to set the lang frontMatter property to "es" . this should be deleted or adapted to your site if you support other languages
+#    values:
+#      lang: es
+#  - scope:
+#      path: "_posts/es" # our subfolder in posts for spanish translation of news items
+#    values:
+#      layout: "post"
+#      permalink: "/es/post/:year/:slug/"   # Use /es/post/yyyy/{filename}/ as permalink for all posts
+#      lang: es # And have the default language in that folder be spanish
   
-  - scope:
-      path: "fr/"
-    values:
-      lang: fr
-  - scope:
-      path: "_posts/fr"
-    values:
-      layout: "post"
-      permalink: "/fr/post/:year/:slug/"
-      lang: fr
+#  - scope:
+#      path: "fr/"
+#    values:
+#      lang: fr
+#  - scope:
+#      path: "_posts/fr"
+#    values:
+#      layout: "post"
+#      permalink: "/fr/post/:year/:slug/"
+#      lang: fr
 
-  - scope:
-      path: "ar/"
-    values:
-      lang: ar
-  - scope:
-      path: "_posts/ar"
-    values:
-      layout: "post"
-      permalink: "/ar/post/:year/:slug/"
-      lang: ar
+#  - scope:
+#      path: "ar/"
+#    values:
+#      lang: ar
+#  - scope:
+#      path: "_posts/ar"
+#    values:
+#      layout: "post"
+#      permalink: "/ar/post/:year/:slug/"
+#      lang: ar
   
-  - scope:
-      path: "ja/"
-    values:
-      lang: ja
-  - scope:
-      path: "_posts/ja"
-    values:
-      layout: "post"
-      permalink: "/ja/post/:year/:slug/"
-      lang: ja
+#  - scope:
+#      path: "ja/"
+#    values:
+#      lang: ja
+#  - scope:
+#      path: "_posts/ja"
+#    values:
+#      layout: "post"
+#      permalink: "/ja/post/:year/:slug/"
+#      lang: ja
 
-  - scope:
-      path: "ru/"
-    values:
-      lang: ru
-  - scope:
-      path: "_posts/ru"
-    values:
-      layout: "post"
-      permalink: "/ru/post/:year/:slug/"
-      lang: ru
+#  - scope:
+#      path: "ru/"
+#    values:
+#      lang: ru
+#  - scope:
+#      path: "_posts/ru"
+#    values:
+#      layout: "post"
+#      permalink: "/ru/post/:year/:slug/"
+#      lang: ru
 
-  - scope:
-      path: "zh/"
-    values:
-      lang: zh
-  - scope:
-      path: "_posts/zh"
-    values:
-      layout: "post"
-      permalink: "/zh/post/:year/:slug/"
-      lang: zh
+#  - scope:
+#      path: "zh/"
+#    values:
+#      lang: zh
+#  - scope:
+#      path: "_posts/zh"
+#    values:
+#      layout: "post"
+#      permalink: "/zh/post/:year/:slug/"
+#      lang: zh
 
       
-  - scope:
-      path: "zh-tw/"
-    values:
-      lang: zh-tw
-  - scope:
-      path: "_posts/zh-tw"
-    values:
-      layout: "post"
-      permalink: "/zh-tw/post/:year/:slug/"
-      lang: zh-tw
+#  - scope:
+#      path: "zh-tw/"
+#    values:
+#      lang: zh-tw
+#  - scope:
+#      path: "_posts/zh-tw"
+#    values:
+#      layout: "post"
+#      permalink: "/zh-tw/post/:year/:slug/"
+#      lang: zh-tw
 
-  - scope:
-      path: "it/"
-    values:
-      lang: it
-  - scope:
-      path: "_posts/it"
-    values:
-      layout: "post"
-      permalink: "/it/post/:year/:slug/"
-      lang: it
+#  - scope:
+#      path: "it/"
+#    values:
+#      lang: it
+#  - scope:
+#      path: "_posts/it"
+#    values:
+#      layout: "post"
+#      permalink: "/it/post/:year/:slug/"
+#      lang: it
 
-  - scope:
-      path: "da/"
-    values:
-      lang: da
-  - scope:
-      path: "_posts/da"
-    values:
-      layout: "post"
-      permalink: "/da/post/:year/:slug/"
-      lang: da
+#  - scope:
+#      path: "da/"
+#    values:
+#      lang: da
+#  - scope:
+#      path: "_posts/da"
+#    values:
+#      layout: "post"
+#      permalink: "/da/post/:year/:slug/"
+#      lang: da

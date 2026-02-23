@@ -1,5 +1,7 @@
 ## About iDigBio
 
+iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network).
+
 ### Mission
 The mission of the iDigBio Node is to promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data.
 

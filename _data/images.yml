@@ -23,6 +23,10 @@ GeckoTokay:
   alt: "Gekko gecko media from GBIF occurence 3698251722"
   caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
 
+FishImaging:
+  src: assets/images/FishImagingFLMNH.jpg
+  alt: "Digital imaging of a fish in a squeeze tank"
+  caption: "Digital imaging of a fish in a squeeze tank at the Florida Museum. Image by Gil Neslon. Licensed under CC BY-NC 4.0."
 
 # These are for the placeholder image templates  
 Template500x800:

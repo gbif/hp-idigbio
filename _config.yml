@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://idigbio.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SOCIAL PROFILES that will show in the footer
-email: info@gbif.org                                      # Social icon in footer
+#email: info@gbif.org                                      # Social icon in footer
 twitter_username: iDigBio # if you have an account you want to link to. Else comment this line out
 #github_username:  yourname # if you have an account you want to link to. Else comment this line out
 #bluesky_username: yourname.org                            # Social icon in footer
@@ -56,7 +56,7 @@ algae:
     # square: false               # Should corners be square or rounded
     colors:
       primary: "#6AA850"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      links: "#618CB8"            # What color should links have. Use a HEX code. Default is primary color. 
+      links: "#D58B28"            # What color should links have. Use a HEX code. Default is primary color. 
       # IDIGBIO LOGO COLORS:
       #    blue:    618CB8
       #    green:   6AA850

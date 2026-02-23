@@ -21,14 +21,14 @@ permalink: /
 ---
 
 <!-- About iDigBio -->
-<figure style="float: right; width: 50%; margin: 0 0 1em 1em; text-align: right;">
+<figure style="float: right; width: 35%; margin: 0 0 1em 1em; text-align: right;">
   <img src="{{ site.data.images.FishImaging.src }}" alt="{{ site.data.images.FishImaging.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
     {{ site.data.images.FishImaging.caption }}
   </figcaption>
 </figure>
 ### iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network). We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.
-<div class="cta"><a href="about.md" class="button-cta">Learn More</a></div>
+<a href="/about.md">Learn More</a>
 
 
 <!-- Original setup using sections from Drupal

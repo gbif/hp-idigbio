@@ -18,34 +18,34 @@
 #   caption: use the "Suggested attribution" associated with the image on the GBIF occurrence; if possible, link to the hosted portal using the GBIF ID otherwise link to GBIF
 
 GeckoTokay:
-  src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
-  # why won't this work? src: /assets/images/GeckoTokay3698251722.jpeg
+  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
+  src: assets/images/GeckoTokay3698251722.jpeg
   alt: "Gekko gecko media from GBIF occurence 3698251722"
   caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
 
 
 # These are for the placeholder image templates  
 Template500x800:
-  src: /assets/images/placeholders/templates/w500h800.png
+  src: assets/images/placeholders/templates/w500h800.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 500x800"
 
 Template600x400:
-  src: /assets/images/placeholders/templates/w600h400.png
+  src: assets/images/placeholders/templates/w600h400.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 600x400"
 
 Template1000x600:
-  src: /assets/images/placeholders/templates/w1000h600.png
+  src: assets/images/placeholders/templates/w1000h600.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 1000x600"
 
 Template1200x800:
-  src: /assets/images/placeholders/templates/w1200h800.png
+  src: assets/images/placeholders/templates/w1200h800.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 1200x800"
 
 Template1600x800:
-  src: /assets/images/placeholders/templates/w1600h800.png
+  src: assets/images/placeholders/templates/w1600h800.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 1600x800"

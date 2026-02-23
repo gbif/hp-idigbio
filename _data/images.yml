@@ -28,6 +28,11 @@ FishImaging:
   alt: "Digital imaging of a fish in a squeeze tank"
   caption: "Digital imaging of a fish in a squeeze tank at the Florida Museum. Image by Gil Neslon. Licensed under CC BY-NC 4.0."
 
+CaliforniaPoppy:
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/270962732/original.jpg
+  alt: "Eschscholzia californica Cham. media from GBIF occurence 4121349597"
+  caption: "[*Eschscholzia californica* Cham.](https://www.gbif.org/occurrence/4121349597) Observed in United States of America by Wildrose (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
+
 # These are for the placeholder image templates  
 Template500x800:
   src: assets/images/placeholders/templates/w500h800.png

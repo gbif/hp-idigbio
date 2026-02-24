@@ -7,7 +7,7 @@
 columns:
   - name: Network
     description: |
-      <img src="/assets/images/badges/pn-green-logo.png" alt="GBIF Node Badge" width="100" height="100"> <img src="/assets/images/badges/p-green-logo.png" alt="GBIF Publisher Badge" width="100" height="100">
+      <a href="https://www.gbif.org/participant/375"><img src="/assets/images/badges/pn-green-logo.png" alt="GBIF Node Badge" width="100" height="100"></a><a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71"><img src="/assets/images/badges/p-green-logo.png" alt="GBIF Publisher Badge" width="100" height="100"></a>
   - name: Feedback
     description: |
       [Create a new GitHub Issue](https://github.com/gbif/hp-idigbio/issues/new) to request a feature, report a bug, or provide feedback.

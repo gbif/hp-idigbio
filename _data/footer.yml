@@ -22,7 +22,7 @@ columns:
         }
       </script>
       <div id="google_translate_element"></div> 
-    connectIcons: false
+    connectIcons: true
 
 #  - name: About iDigBio
 #    links:

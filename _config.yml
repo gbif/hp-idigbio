@@ -53,10 +53,10 @@ algae:
   logoAndTitle: false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
-    # square: false               # Should corners be square or rounded
+    square: false               # Should corners be square or rounded
     colors:
       primary: "#6AA850"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      links: "#D58B28"            # What color should links have. Use a HEX code. Default is primary color. 
+      links: "#618CB8"            # What color should links have. Use a HEX code. Default is primary color. 
       #IDIGBIO LOGO COLORS:
       # blue:    618CB8
       # green:   6AA850

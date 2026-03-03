@@ -27,7 +27,7 @@ permalink: /
     {{ site.data.images.FishImaging.caption }}
   </figcaption>
 </figure>
-<p style="font-size: larger;">iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a>a> within the [GBIF Network](https://www.gbif.org/the-gbif-network). We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.</p>
+<span style="font-size: larger;">iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a> within the <a href="https://www.gbif.org/the-gbif-network">GBIF Network</a>. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.</span>
 [Learn More](/en/about)
 
 

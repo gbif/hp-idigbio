@@ -31,7 +31,7 @@ url: "https://idigbio.hp.gbif.org/" # the base hostname & protocol for your site
 twitter_username: iDigBio # if you have an account you want to link to. Else comment this line out
 #github_username:  yourname # if you have an account you want to link to. Else comment this line out
 #bluesky_username: yourname.org                            # Social icon in footer
-youtube_url: "https://www.youtube.com/user/@iDigBio"     # Social icon in footer
+youtube_url: "https://www.youtube.com/@iDigBio"     # Social icon in footer
 facebook_username: iDigBio                               # Social icon in footer
 #flickr_username: yourname                               # Social icon in footer
 instagram_username: iDigBio                              # Social icon in footer

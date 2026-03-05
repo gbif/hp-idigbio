@@ -7,7 +7,7 @@ lang-ref: faq
 background: "{{site.data.images.DNATissueVials.src}}"
 imageLicense: "{{site.data.images.DNATissueVials.caption}}"
 alt: "{{ site.data.images.DNATissueVials.alt }}"
-height: 70vh
+height: 50vh
 ---
 # General
 blah blah blah

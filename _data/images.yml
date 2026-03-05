@@ -13,10 +13,6 @@
 # PLEASE LIST CODENAMES IN ALPHABETICAL ORDER
 ## Except for the image place holder templates -- leave them at the end
 
-# IT IS BEST TO USE HTML FOR LINKS IN CAPTIONS INSTEAD OF MARKDOWN
-## This allows you to use <figure> and <figcaption> in pages and posts (so you can float right or left)
-## Markdown links do not render properly in <figcaption>, so HTML is more reliable
-
 # FOR CONSISTENCY WHEN USING IMAGES FROM GBIF:
 # CodeName: use the common name underneath the scientific name at the top of the GBIF occurrence page; remove all spaces, dashes, etc. to be safe
 #   src: use the "Identifier" link associated with the image on the GBIF occurrence page
@@ -26,85 +22,85 @@
 ADBCCollaborators:
   src: /assets/images/ADBC_Collaborator_Map_iDB.png
   alt: "Map of institutions collaborating in NSF's ADBC program"
-  caption: "Map of institutions collaborating in NSF's ADBC program. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Map of institutions collaborating in NSF's ADBC program. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 BatsDrawer:
   src: /assets/images/NMNH_drawer_bats_JG.jpg
   alt: "Drawer of bats from the National Museum of Natural History's collections"
-  caption: "Drawer of bats from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Drawer of bats from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 BeeImaging:
   src: /assets/images/RMBL_Bee_Imaging_GN.jpg
   alt: "Digital imaging of a bee at the Rocky Mountain Biological Laboratory"
-  caption: "Digital imaging of a bee at the Rocky Mountain Biological Laboratory. Image by Gil Nelson (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Digital imaging of a bee at the Rocky Mountain Biological Laboratory. Image by Gil Nelson (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 ButterflyDrawer:
   src: /assets/images/NMNH_drawer_eggs_JG.jpeg
   alt: "Drawer of butterflies from the University of Alaska's Musuem of the North"
-  caption: "Drawer of butterflies from the University of Alaska's Musuem of the North. Image by David Jennings (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Drawer of butterflies from the University of Alaska's Musuem of the North. Image by David Jennings (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 ButterflyImaging:
   src: /assets/images/Butterfly_Imaging_GN.jpg
   alt: "Digital imaging of butterflies"
-  caption: "Digital imaging of butterflies. Image by Gil Nelson (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Digital imaging of butterflies. Image by Gil Nelson (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 CaliforniaPoppy:
   src: https://inaturalist-open-data.s3.amazonaws.com/photos/270962732/original.jpg
   # src: /assets/images/CaliforniaPoppy4121349597.jpg
   alt: "Eschscholzia californica Cham. media from GBIF occurence 4121349597"
-  caption: "<a href="https://www.gbif.org/occurrence/4121349597"><i>Eschscholzia californica</i> Cham.</a> Observed in United States of America by Wildrose (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "[*Eschscholzia californica* Cham.](https://www.gbif.org/occurrence/4121349597) Observed in United States of America by Wildrose (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 DigitalArt:
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/8K_Futuristic_Digital_Art_Wallpaper.jpg/3840px-8K_Futuristic_Digital_Art_Wallpaper.jpg
   # src: /assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg
   alt: "Digital Art Wallpaper 3D with globe"
-  caption: "Digital Art Wallpaper 3D with globe created by Satheesh Sankaran (licensed under <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>)."
+  caption: "Digital Art Wallpaper 3D with globe created by Satheesh Sankaran (licensed under [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/))."
   
 DNATissueVials:
   src: /assets/images/DNA_Banking_Tissue_Vials_iDB.png
   alt: "Tissue vials used for DNA banking"
-  caption: "Tissue vials used for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Tissue vials used for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 DNAVialBoxes:
   src: /assets/images/DNA_Banking_Vial_Boxes_iDB.png
   alt: "Boxes of tissue vials stored in liquid nitrogen for DNA banking"
-  caption: "Boxes of tissue vials stored in liquid nitrogen for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Boxes of tissue vials stored in liquid nitrogen for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 EggsDrawer:
   src: /assets/images/NMNH_drawer_eggs_JG.jpeg
   alt: "Drawer of eggs from the National Museum of Natural History's collections"
-  caption: "Drawer of eggs from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Drawer of eggs from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 FishImaging:
   src: /assets/images/FLMNH_Fish_Imaging_GN.jpg
   alt: "Digital imaging of a fish in a squeeze tank at the Florida Museum"
-  caption: "Digital imaging of a fish in a squeeze tank at the Florida Museum. Image by Gil Neslon (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Digital imaging of a fish in a squeeze tank at the Florida Museum. Image by Gil Neslon (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 FungiDrawer:
   src: /assets/images/Fungi_drawer_iDB.jpg
   alt: "Drawer of fungi from a museum collection"
-  caption: "Drawer of fungi from a museum collection. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Drawer of fungi from a museum collection. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 GeckoTokay:
   src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
   # not sure why this won't work for the config background? src: /assets/images/GeckoTokay3698251722.jpeg
   alt: "Gekko gecko media from GBIF occurence 3698251722"
-  caption: "<a href="https://www.gbif.org/occurrence/3698251722"><i>Gekko gecko</i> (Linnaeus, 1758)</a> Observed in United States of America by Mikie Green (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 HerbariumSheets:
   src: /assets/images/Berkeley_Phenology_Workshop_JM.jpg
   alt: "Herbarium sheets from UC Berkeley's Jepson Herbarium"
-  caption: "Herbarium sheets from UC Berkeley's Jepson Herbarium. Image by Joanna McCaffrey (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Herbarium sheets from UC Berkeley's Jepson Herbarium. Image by Joanna McCaffrey (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 ImagingStation:
   src: /assets/images/Permanent_imaging_station_iDB.jpg
   alt: "Permanent imaging station in a museum collection"
-  caption: "Permanent imaging station in a museum collection. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Permanent imaging station in a museum collection. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 SpidersDrawer:
   src: /assets/images/NMNH_drawer_eggs_JG.jpeg
   alt: "Drawer of spiders from the National Museum of Natural History's collections"
-  caption: "Drawer of spiders from the National Museum of Natural History's collections (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+  caption: "Drawer of spiders from the National Museum of Natural History's collections (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 
 # These are for the placeholder image templates  

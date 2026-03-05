@@ -35,7 +35,7 @@ BeeImaging:
   caption: "Digital imaging of a bee at the Rocky Mountain Biological Laboratory. Image by Gil Nelson (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 ButterflyDrawer:
-  src: /assets/images/NMNH_drawer_eggs_JG.jpeg
+  src: /assets/images/UAF_butterflies_DJ.jpg
   alt: "Drawer of butterflies from the University of Alaska's Musuem of the North"
   caption: "Drawer of butterflies from the University of Alaska's Musuem of the North. Image by David Jennings (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
@@ -67,7 +67,7 @@ DNAVialBoxes:
   caption: "Boxes of tissue vials stored in liquid nitrogen for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 EggsDrawer:
-  src: /assets/images/NMNH_drawer_eggs_JG.jpeg
+  src: /assets/images/NMNH_drawer_eggs_JG.JPEG
   alt: "Drawer of eggs from the National Museum of Natural History's collections"
   caption: "Drawer of eggs from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
@@ -98,7 +98,7 @@ ImagingStation:
   caption: "Permanent imaging station in a museum collection. Image by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 SpidersDrawer:
-  src: /assets/images/NMNH_drawer_eggs_JG.jpeg
+  src: /assets/images/NMNH_drawer_eggs_JG.JPEG
   alt: "Drawer of spiders from the National Museum of Natural History's collections"
   caption: "Drawer of spiders from the National Museum of Natural History's collections (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 

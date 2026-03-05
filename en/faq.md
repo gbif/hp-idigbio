@@ -4,13 +4,22 @@ title: Frequently Asked Questions
 description: 
 lang: en
 lang-ref: faq
-background: "{{site.data.images.DNATissueVials.src}}"
-imageLicense: "{{site.data.images.DNATissueVials.caption}}"
-alt: "{{ site.data.images.DNATissueVials.alt }}"
+background: "{{site.data.images.AtlanticDolphin.src}}"
+imageLicense: "{{site.data.images.AtlanticDolphin.caption}}"
+alt: "{{ site.data.images.AtlanticDolphin.alt }}"
 height: 50vh
 ---
 # General
-blah blah blah
+<details>
+  <summary>Click to expand</summary>
+
+  This is the collapsible content. You can include **Markdown** here, such as:
+  *   Lists
+  *   *Emphasis*
+  *   [Links](https://example.com)
+
+  Make sure to add a new line after the `</summary>` tag if your content is Markdown.
+</details>
 
 # Digitization
 blah blah blah

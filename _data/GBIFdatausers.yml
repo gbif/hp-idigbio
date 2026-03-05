@@ -1,0 +1,38 @@
+# "Stories" Block Configuration Guide
+
+dataUse:
+  # Title (Optional)
+  title: "News from GBIF.org for Data Users and Publishers" 
+  id: "stories-data-use"
+
+  # Description (Optional)
+  description:  The most recent items from GBIF.org for data users and data publishers.  To see older items go to [gbif.org](https://www.gbif.org/resource/search?q=DATA_HOLDERS%20OR%20DATA_USERS&audiences=DATA_HOLDERS){:target="_blank"}
+  
+  # Filters
+  # Use these options to tailor the content displayed in your block.
+  filters:
+    contentType: 
+      - DATA_USE
+    purposes:
+      - DATA_PUBLISHING
+    # Set the number of items to showcase. Default is 6.
+    limit: 3
+
+    # Examples
+    # You could also filter by purposes:
+    # purposes: 
+    #  - DATA_PUBLISHING
+    # You could also filter by audiences
+    # audiences: 
+    #  - DATA_USERS
+
+# audiences:
+  # title: "audiences example" 
+  # id: "stories-data-use-audiences"
+  # description:  exmple entry
+  # filters:
+    # contentType: 
+      # - DATA_USE
+    # audiences:
+      # - DATA_USERS
+    # limit: 3

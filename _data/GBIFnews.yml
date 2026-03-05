@@ -1,0 +1,22 @@
+# "Stories" Block Configuration Guide
+
+# Title (Optional)
+title: "News from GBIF.org" 
+id: "stories-news"
+
+# Description (Optional)
+description:  The three most recent news items from GBIF.org.  To see older items go to [gbif.org](https://www.gbif.org/resource/search?contentType=news){:target="_blank"}
+ 
+# Filters
+# Use these options to tailor the content displayed in your block.
+filters:
+  # Content Type Filter (Optional)
+  # Define which types of content to display. If unspecified, all types are shown.
+  contentType: 
+    - NEWS
+  # Set the number of items to showcase. Default is 6.
+  limit: 3
+
+ # Filter content by country or coverage using ISO country codes. (Optional)
+ # countriesOfCoverage:
+ #   - CA

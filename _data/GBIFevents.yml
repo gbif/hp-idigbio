@@ -1,0 +1,18 @@
+# "Stories" Block Configuration Guide
+
+# Title (Optional)
+title: "Events from GBIF.org" 
+id: "stories-events"
+
+# Description (Optional)
+description: The most recent events announced by GBIF.org. To see earlier announcements visit [gbif.org](https://www.gbif.org/resource/search?contentType=event){:target="_blank"}
+
+# Filters
+# Use these options to tailor the content displayed in your block.
+filters:
+  # Content Type Filter (Optional)
+  # Define which types of content to display. If unspecified, all types are shown.
+  contentType: 
+    - EVENT
+  # Set the number of items to showcase. Default is 6.
+  limit: 3

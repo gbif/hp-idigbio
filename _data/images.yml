@@ -10,51 +10,139 @@
 # background:  /assets/images/placeholders/irpex_spiculifer_1135723338.jpg
 # imageLicense: [Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)
 
+# PLEASE LIST CODENAMES IN ALPHABETICAL ORDER
+## Except for the image place holder templates -- leave them at the end
 
-# HELP MAKE THESE CONSISTENT WHEN USING IMAGES FROM GBIF
+# IT IS BEST TO USE HTML FOR LINKS IN CAPTIONS INSTEAD OF MARKDOWN
+## This allows you to use <figure> and <figcaption> in pages and posts (so you can float right or left)
+## Markdown links do not render properly in <figcaption>, so HTML is more reliable
+
+# FOR CONSISTENCY WHEN USING IMAGES FROM GBIF:
 # CodeName: use the common name underneath the scientific name at the top of the GBIF occurrence page; remove all spaces, dashes, etc. to be safe
 #   src: use the "Identifier" link associated with the image on the GBIF occurrence page
 #   alt: use the scientific name at the top of the GBIF occurrence page plus a reference to the occurence ID
 #   caption: use the "Suggested attribution" associated with the image on the GBIF occurrence; if possible, link to the hosted portal using the GBIF ID otherwise link to GBIF
 
-GeckoTokay:
-  src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
-  # not sure why this won't work for the config background? src: assets/images/GeckoTokay3698251722.jpeg
-  alt: "Gekko gecko media from GBIF occurence 3698251722"
-  caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
+ADBCCollaborators:
+  src: /assets/images/ADBC_Collaborator_Map_iDB.png
+  alt: "Map of institutions collaborating in NSF's ADBC program"
+  caption: "Map of institutions collaborating in NSF's ADBC program. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
 
-FishImaging:
-  src: assets/images/FishImagingFLMNH.jpg
-  alt: "Digital imaging of a fish in a squeeze tank"
-  caption: "Digital imaging of a fish in a squeeze tank at the Florida Museum. Image by Gil Neslon. Licensed under CC BY-NC 4.0."
+BatsDrawer:
+  src: /assets/images/NMNH_drawer_bats_JG.jpg
+  alt: "Drawer of bats from the National Museum of Natural History's collections"
+  caption: "Drawer of bats from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+BeeImaging:
+  src: /assets/images/RMBL_Bee_Imaging_GN.jpg
+  alt: "Digital imaging of a bee at the Rocky Mountain Biological Laboratory"
+  caption: "Digital imaging of a bee at the Rocky Mountain Biological Laboratory. Image by Gil Nelson (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+ButterflyDrawer:
+  src: /assets/images/NMNH_drawer_eggs_JG.jpeg
+  alt: "Drawer of butterflies from the University of Alaska's Musuem of the North"
+  caption: "Drawer of butterflies from the University of Alaska's Musuem of the North. Image by David Jennings (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+ButterflyImaging:
+  src: /assets/images/Butterfly_Imaging_GN.jpg
+  alt: "Digital imaging of butterflies"
+  caption: "Digital imaging of butterflies. Image by Gil Nelson (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
 
 CaliforniaPoppy:
   src: https://inaturalist-open-data.s3.amazonaws.com/photos/270962732/original.jpg
+  # src: /assets/images/CaliforniaPoppy4121349597.jpg
   alt: "Eschscholzia californica Cham. media from GBIF occurence 4121349597"
-  caption: "[*Eschscholzia californica* Cham.](https://www.gbif.org/occurrence/4121349597) Observed in United States of America by Wildrose (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))"
+  caption: "<a href="https://www.gbif.org/occurrence/4121349597"><i>Eschscholzia californica</i> Cham.</a> Observed in United States of America by Wildrose (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+DigitalArt:
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/8K_Futuristic_Digital_Art_Wallpaper.jpg/3840px-8K_Futuristic_Digital_Art_Wallpaper.jpg
+  # src: /assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg
+  alt: "Digital Art Wallpaper 3D with globe"
+  caption: "Digital Art Wallpaper 3D with globe created by Satheesh Sankaran (licensed under <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>)."
+  
+DNATissueVials:
+  src: /assets/images/DNA_Banking_Tissue_Vials_iDB.png
+  alt: "Tissue vials used for DNA banking"
+  caption: "Tissue vials used for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+DNAVialBoxes:
+  src: /assets/images/DNA_Banking_Vial_Boxes_iDB.png
+  alt: "Boxes of tissue vials stored in liquid nitrogen for DNA banking"
+  caption: "Boxes of tissue vials stored in liquid nitrogen for DNA banking at the Florida Museum. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+EggsDrawer:
+  src: /assets/images/NMNH_drawer_eggs_JG.jpeg
+  alt: "Drawer of eggs from the National Museum of Natural History's collections"
+  caption: "Drawer of eggs from the National Museum of Natural History's collections. Image by Jessica Grosso (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+FishImaging:
+  src: /assets/images/FLMNH_Fish_Imaging_GN.jpg
+  alt: "Digital imaging of a fish in a squeeze tank at the Florida Museum"
+  caption: "Digital imaging of a fish in a squeeze tank at the Florida Museum. Image by Gil Neslon (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+FungiDrawer:
+  src: /assets/images/Fungi_drawer_iDB.jpg
+  alt: "Drawer of fungi from a museum collection"
+  caption: "Drawer of fungi from a museum collection. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+GeckoTokay:
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
+  # not sure why this won't work for the config background? src: /assets/images/GeckoTokay3698251722.jpeg
+  alt: "Gekko gecko media from GBIF occurence 3698251722"
+  caption: "<a href="https://www.gbif.org/occurrence/3698251722"><i>Gekko gecko</i> (Linnaeus, 1758)</a> Observed in United States of America by Mikie Green (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+HerbariumSheets:
+  src: /assets/images/Berkeley_Phenology_Workshop_JM.jpg
+  alt: "Herbarium sheets from UC Berkeley's Jepson Herbarium"
+  caption: "Herbarium sheets from UC Berkeley's Jepson Herbarium. Image by Joanna McCaffrey (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+ImagingStation:
+  src: /assets/images/Permanent_imaging_station_iDB.jpg
+  alt: "Permanent imaging station in a museum collection"
+  caption: "Permanent imaging station in a museum collection. Image by iDigBio Staff (licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
+SpidersDrawer:
+  src: /assets/images/NMNH_drawer_eggs_JG.jpeg
+  alt: "Drawer of spiders from the National Museum of Natural History's collections"
+  caption: "Drawer of spiders from the National Museum of Natural History's collections ((licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>)."
+
 
 # These are for the placeholder image templates  
 Template500x800:
-  src: assets/images/placeholders/templates/w500h800.png
+  src: /assets/images/placeholders/templates/w500h800.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 500x800"
 
 Template600x400:
-  src: assets/images/placeholders/templates/w600h400.png
+  src: /assets/images/placeholders/templates/w600h400.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 600x400"
 
 Template1000x600:
-  src: assets/images/placeholders/templates/w1000h600.png
+  src: /assets/images/placeholders/templates/w1000h600.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 1000x600"
 
 Template1200x800:
-  src: assets/images/placeholders/templates/w1200h800.png
+  src: /assets/images/placeholders/templates/w1200h800.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 1200x800"
 
 Template1600x800:
-  src: assets/images/placeholders/templates/w1600h800.png
+  src: /assets/images/placeholders/templates/w1600h800.png
   alt: "image placeholder template"
   caption: "Image placeholder template sized to 1600x800"
+
+
+# These were the default images in the initial Hosted Portal setup
+acalypha_gillespieae:
+  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+  alt: "Acalypha gillespieae media from GBIF occurence 1258001892"
+  caption: |
+    [Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)
+    
+gecko_removebg:
+  src: /assets/images/placeholders/gecko-239812_1280-removebg.png
+  alt: "gecko with background removed"
+  caption: |
+    Unknown attribution and license    

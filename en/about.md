@@ -20,7 +20,7 @@ We envision a world in which digitized biodiversity and extended specimen data u
 
 ## History
 An estimated 1.8 million named species of organisms exist on Earth today and many more are now extinct. This rich diversity is documented through research collections of fossil and extant organisms housed in natural history museums, universities, field facilities, botanical gardens, state surveys, and other institutions maintaining collection facilities. These vouchered collections provide validation for species names and identifications along with a wealth of ancillary data such as DNA sequences, field notes, stratigraphic position, environment/habitat information, time of collection, audio recordings, and the condition of the specimen at the time of collection. Paleontological collections provide time of existence, evolutionary history, proxy data, and past distribution information in space and time.
-<figure style="float: left; width: 35%; margin: 0 0 1em 1em; text-align: right;">
+<figure style="float: right; width: 35%; margin: 0 0 1em 1em; text-align: right;">
   <img src="{{ site.data.images.HerbariumSheets.src }}" alt="{{ site.data.images.HerbariumSheets.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
     {{ site.data.images.HerbariumSheets.caption }}

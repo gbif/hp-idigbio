@@ -38,6 +38,12 @@ instagram_username: iDigBio                              # Social icon in footer
 #mastodon_url: https://something.goes/@here                # Social icon in footer
 linkedin_url: https://www.linkedin.com/company/93419602/ # Social icon in footer
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    title: Events
+
 # Build settings
 theme: minima
 plugins:

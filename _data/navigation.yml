@@ -20,7 +20,7 @@
   - text: Digitization Academy
     href: https://digitizationacademy.org/
   - text: Digitization Knowledgebase
-    href: https://digitizationacademy.org/ #NEED TO UPDATE
+    href: /404 #NEED TO UPDATE
   - text: Sustainability Webinar Recordings
     href: https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV
   - text: "---"
@@ -28,9 +28,11 @@
     href: http://web.archive.org/web/idigbio.org
 - text: News and Events
   menu:
-  - text: from iDigBio
+  - text: iDigBio Events Hub
+    href: https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg
+  - text: iDigBio News
     href: /news
-  - text: from GBIF
+  - text: GBIF Events and News
     href: /en/stories
     
 #- text: Links

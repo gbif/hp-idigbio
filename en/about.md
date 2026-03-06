@@ -27,7 +27,7 @@ An estimated 1.8 million named species of organisms exist on Earth today and man
 <figure style="float: right; width: 35%; margin: 1em 1em 1em 1em; text-align: right;">
   <img src="{{ site.data.images.HerbariumSheets.src }}" alt="{{ site.data.images.HerbariumSheets.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
-    {{ site.data.images.HerbariumSheets.caption }}
+    {{ site.data.images.HerbariumSheets.caption | markdownify }}
   </figcaption>
 </figure>
 Collections data reveal gaps in our knowledge of biodiversity and provide the baseline from which to continue biodiversity studies. Filling these gaps is crucial to a complete understanding of the biodiversity of the planet, both in space and time. Specimens and their associated data allow us to reconstruct the history of climate and tectonic plate changes as reflected in a validated record of life on earth. Having this baseline information allows efficiency of effort in biodiversity exploration. Gaps in specimen collections and associated natural history data can be used to strategically target further research and field exploration. The effort to digitize, image, and provide online accessibility to these data is critical for understanding biological knowledge in space and time, and underpins how we address contemporary scientific and societal issues, including planetary biogeography and climate change.
@@ -36,7 +36,7 @@ Knowledge of the planet's biodiversity documented in vouchered scientific collec
 <figure style="float: left; width: 35%; margin: 1em 1em 1em 1em; text-align: left;">
   <img src="{{ site.data.images.ImagingStation.src }}" alt="{{ site.data.images.ImagingStation.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
-    {{ site.data.images.ImagingStation.caption }}
+    {{ site.data.images.ImagingStation.caption | markdownify }}
   </figcaption>
 </figure>
 In 2008-2009, the Interagency Working Group on Scientific Collections (IWGSC) developed a [comprehensive report](http://nscalliance.org/wordpress/wp-content/uploads/2009/11/iwgsc-report.pdf) on the current status of federally owned collections, and the U.S. National Science Foundation, as part of that working group, [surveyed](https://www.nsf.gov/bio/pubs/reports/prelim_findings_sc_2008.pdf) federally supported collections and published a [summary](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf09044) of the findings. Both reports emphasized the importance of leveraging past investments by digitizing collections and making them available and searchable online to researchers worldwide.
@@ -45,7 +45,7 @@ Responding to concerns expressed in these reports, members of the biological and
 <figure style="float: right; width: 50%; right: 1em 1em 1em 1em; text-align: right;">
   <img src="{{ site.data.images.ADBCCollaborators.src }}" alt="{{ site.data.images.ADBCCollaborators.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
-    {{ site.data.images.ADBCCollaborators.caption }}
+    {{ site.data.images.ADBCCollaborators.caption | markdownify }}
   </figcaption>
 </figure>
 iDigBio, or Integrated Digitized Biocollections, was initially funded in 2011 as part of the ADBC program to serve as the national coordinating center for the digitization effort. iDigBio was charged with being the administrative home for the digitization effort, fostering partnerships and innovations, facilitating best practice recommendations and workflows, and establishing integration and interconnectivity among the collection digitization projects, including Thematic Collections Networks (TCNs) and Partners to Existing Networks (PENs). The goal of accessibility of these long-term data resources was to provide opportunities for fostering new and innovative research on biodiversity issues. Over its life cycle, the iDigBio project was funded by three grants from the U.S. National Science Foundation: [DBI-1115210](https://www.nsf.gov/awardsearch/show-award?AWD_ID=1115210) (2011-2018), [DBI-1547229](https://www.nsf.gov/awardsearch/show-award?AWD_ID=1547229) (2016-2022), and [DBI-2027654](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2027654) (2021-2027).

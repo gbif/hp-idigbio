@@ -25,9 +25,9 @@ about:
   title: Making data and images of millions of biological specimens available on the web.
   description: |
       iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network). We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.
-  background: "{{site.data.images.ImagingStation.src}}"
+  background: "{{ site.data.images.ImagingStation.src }}"
   alt: "{{ site.data.images.ImagingStation.alt }}"
-  imageLicense: "{{site.data.images.ImagingStation.caption}}"
+  imageLicense: "{{ site.data.images.ImagingStation.caption }}"
   ratio: 100
   cta:
   - text: Learn More
@@ -38,9 +38,9 @@ explorer:
   title: Explore Data
   description: |
       Access, browse, visualize, and filter specimen-based biodiversity data
-  background: "{{site.data.images.ButterflyDrawer.src}}"
+  background: "{{ site.data.images.ButterflyDrawer.src }}"
   alt: "{{ site.data.images.ButterflyDrawer.alt }}"
-  imageLicense: "{{site.data.images.ButterflyDrawer.caption}}"
+  imageLicense: "{{ site.data.images.ButterflyDrawer.caption }}"
   ratio: 100
   cta:
   - text: Occurrences

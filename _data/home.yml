@@ -6,7 +6,7 @@ stats:
       background: "{{ site.data.images.MultipleIcon.src }}"
       alt: "{{ site.data.images.MultipleIcon.alt }}"
       imageLicense: "{{ site.data.images.MultipleIcon.caption }}"
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973&taxonKey=44&limit=0"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973&limit=0"></span>
       description: Occurrences
       href: /occurrence/search
       background: "{{ site.data.images.LocationIcon.src }}"

@@ -10,8 +10,10 @@
     href: /dataset/search
   - text: Collections
     href: /collection/search
-  - text: Literature
-    href: /literature/search
+  - text: Institutions
+    href: /institutions/search
+#  - text: Literature
+#    href: /literature/search
   - text: "---"
   - text: Legacy iDigBio Portal
     href: https://portal.idigbio.org/
@@ -20,7 +22,7 @@
   - text: Digitization Academy
     href: https://digitizationacademy.org/
   - text: Digitization Knowledgebase
-    href: /404 #NEED TO UPDATE
+    href: https://digitizationknowledge.org/
   - text: Sustainability Webinar Recordings
     href: https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV
   - text: "---"

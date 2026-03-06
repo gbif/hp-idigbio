@@ -5,11 +5,11 @@ layout: home
 preTitle: Digitizing the past and present for the future
 title: Integrated Digitized Biocollections (iDigBio)
 description: |
-    <div>
+    <div class="mt-6">
       <form action="/occurrence/search" type="get">
-        <div style="display: flex;">
-          <input type="text" placeholder="Full text search of occurrence records" name="q" />
-          <button type="submit">Search</button>
+        <div class="field" style="display: flex;">
+          <input type="text" placeholder="Full text search of occurrence records" name="q" class="input" />
+          <button type="submit" class="button is-primary ml-4">Search</button>
         </div>
       </form>
     </div>

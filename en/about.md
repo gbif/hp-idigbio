@@ -4,9 +4,9 @@ title: About Integrated Digitized Biocollections (iDigBio)
 description: 
 lang: en
 lang-ref: about
-background: "{{site.data.images.CaliforniaPoppy.src}}"
-imageLicense: "{{site.data.images.CaliforniaPoppy.caption}}"
-alt: "{{ site.data.images.CaliforniaPoppy.alt }}"
+background: "/assets/images/CaliforniaPoppy4121349597.jpg"
+imageLicense: "[*Eschscholzia californica* Cham.](https://www.gbif.org/occurrence/4121349597) Observed in United States of America by Wildrose (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+alt: "Eschscholzia californica Cham. media from GBIF occurence 4121349597"
 height: 70vh
 ---
 ## Overview

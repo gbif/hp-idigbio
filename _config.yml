@@ -24,7 +24,7 @@ title: Integrated Digitized Biocollections (iDigBio) # the title of your site sh
 description: >- # this means to ignore newlines (until baseurl:)
   Making data and images of millions of biological specimens available on the web.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://idigbio.gbif.us/" # the base hostname & protocol for your site
+url: "https://idigbio.gbif.us" # the base hostname & protocol for your site
 
 # SOCIAL PROFILES that will show in the footer
 #email: info@gbif.org                                      # Social icon in footer

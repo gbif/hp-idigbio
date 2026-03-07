@@ -14,7 +14,7 @@ iDigBio's legacy website and wiki have been archived on the Internet Archive's W
 <figure style="float: right; width: 35%; margin: 1em 1em 1em 1em; text-align: right;">
   <img src="{{ site.data.images.WaybackMachine.src }}" alt="{{ site.data.images.WaybackMachine.alt }}" style="width: 100%; height: auto;">
   <figcaption style="font-size: smaller; color: #555;">
-    {{ site.data.images.WaybackMachine.caption }}
+    {{ site.data.images.WaybackMachine.caption | markdownify }}
   </figcaption>
 </figure>
 - The most recent archive may be accessed via: [web.archive.org/web/idigbio.org](https://web.archive.org/web/idigbio.org)

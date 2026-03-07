@@ -16,15 +16,16 @@ This page provides a visual reference to the photos contained in the [`images.ym
 
 ```
 {% raw %}
-background: "{{site.data.images.CodeName.src}}"
-imageLicense: "{{site.data.images.CodeName.caption}}"
+background: "{{ site.data.images.CodeName.src }}"
+alt: "{{ site.data.images.CodeName.alt }}"
+imageLicense: "{{ site.data.images.CodeName.caption }}"
 {% endraw %}
 ```
 
 ## Images
 {% for item in site.data.images %}
   <figure style="display: inline-block; width: 300px; height: auto; margin: 10px; vertical-align: top;">
-    <img src="{{site.baseurl | prepend: site.url}}{{ item[1].src }}" title="{{ item[0] }}" style="height: auto; width: 300px;"><br />
+    <img src="{{site.baseurl | prepend: site.url}}/{{ item[1].src }}" title="{{ item[0] }}" style="height: auto; width: 300px;"><br />
     <figcaption><b>{{ item[0] }}</b><br />{{ item[1].caption | markdownify }}</figcaption>
   </figure>
 {% endfor %}

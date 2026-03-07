@@ -28,7 +28,7 @@ about:
   background: "{{ site.data.images.ImagingStation.src }}"
   alt: "{{ site.data.images.ImagingStation.alt }}"
   imageLicense: "{{ site.data.images.ImagingStation.caption }}"
-  ratio: 100
+  ratio: 70
   cta:
   - text: Learn More
     href: /en/about
@@ -41,7 +41,7 @@ explorer:
   background: "{{ site.data.images.ButterflyDrawer.src }}"
   alt: "{{ site.data.images.ButterflyDrawer.alt }}"
   imageLicense: "{{ site.data.images.ButterflyDrawer.caption }}"
-  ratio: 100
+  ratio: 70
   cta:
   - text: Occurrences
     href: /occurrence/search

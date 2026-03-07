@@ -32,8 +32,8 @@ ADBCCollaborators:
   caption: "Map of institutions collaborating in NSF's ADBC program by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 AtlanticDolphin:
-  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/573630943/original.jpg
-  src: assets/images/AtlanticDolphin5838037485.jpg
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/573630943/original.jpg
+  # src: assets/images/AtlanticDolphin5838037485.jpg
   alt: "Delphinus delphis media from GBIF occurence 5838037485"
   caption: "[*Delphinus delphis* Linnaeus, 1758](https://www.gbif.org/occurrence/5838037485) Observed in United States of America by James Maughn (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
@@ -58,13 +58,14 @@ ButterflyImaging:
   caption: "Digital imaging of butterflies by Gil Nelson (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 CaliforniaPoppy:
-  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/270962732/original.jpg
-  src: assets/images/CaliforniaPoppy4121349597.jpg
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/270962732/original.jpg
+  # src: assets/images/CaliforniaPoppy4121349597.jpg
   alt: "Eschscholzia californica Cham. media from GBIF occurence 4121349597"
   caption: "[*Eschscholzia californica* Cham.](https://www.gbif.org/occurrence/4121349597) Observed in United States of America by Wildrose (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 DigitalArt:
-  src: assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/8K_Futuristic_Digital_Art_Wallpaper.jpg/1280px-8K_Futuristic_Digital_Art_Wallpaper.jpg
+  # src: assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg
   alt: "Digital Art Wallpaper 3D with globe"
   caption: "[Digital Art Wallpaper 3D with globe](https://commons.wikimedia.org/wiki/File:8K_Futuristic_Digital_Art_Wallpaper.jpg) by Satheesh Sankaran (licensed under [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/))."
   
@@ -94,8 +95,8 @@ FungiDrawer:
   caption: "Drawer of fungi from a museum collection by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 GeckoTokay:
-  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
-  src: assets/images/GeckoTokay3698251722.jpeg
+  src: https://inaturalist-open-data.s3.amazonaws.com/photos/180342639/original.jpeg
+  # src: assets/images/GeckoTokay3698251722.jpeg
   alt: "Gekko gecko media from GBIF occurence 3698251722"
   caption: "[*Gekko gecko* (Linnaeus, 1758)](https://www.gbif.org/occurrence/3698251722) Observed in United States of America by Mikie Green (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
@@ -133,17 +134,20 @@ WaybackMachine:
 ##  ICONS  ##
 #############
 LocationIcon:
-  src: assets/images/icons/Noun_Project_location_icon_1318441.png
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Noun_Project_location_icon_1318441_cc.svg/960px-Noun_Project_location_icon_1318441_cc.svg.png
+  # src: assets/images/icons/Noun_Project_location_icon_1318441.png
   alt: "Noun Project location icon"
   caption: "[Noun Project location icon](https://commons.wikimedia.org/wiki/File:Noun_Project_location_icon_1318441_cc.svg) by Noah (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
 
 MultipleIcon:
-  src: assets/images/icons/Noun_Project_multiple_icon_2584614.png
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Noun_Project_multiple_icon_2584614.svg/960px-Noun_Project_multiple_icon_2584614.svg.png
+  # src: assets/images/icons/Noun_Project_multiple_icon_2584614.png
   alt: "Noun Project multiple icon"
   caption: "[Noun Project multiple icon](https://commons.wikimedia.org/wiki/File:Noun_Project_multiple_icon_2584614.svg) by Cryssac Franson Aldo.E, IN (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
 
 NetworkIcon:
-  src: assets/images/icons/Noun_project_network_icon_1365244.png
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Noun_project_network_icon_1365244_cc.svg/960px-Noun_project_network_icon_1365244_cc.svg.png
+  # src: assets/images/icons/Noun_project_network_icon_1365244.png
   alt: "Noun Project network icon"
   caption: "[Noun Project network icon](https://commons.wikimedia.org/wiki/File:Noun_project_network_icon_1365244_cc.svg) by Popular (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
 

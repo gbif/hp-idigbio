@@ -134,17 +134,35 @@ WaybackMachine:
 #############
 ##  ICONS  ##
 #############
+BiologyIcon:
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Biology_-_The_Noun_Project.svg/960px-Biology_-_The_Noun_Project.svg.png
+  # src: /assets/images/icons/Noun_Project_biology_icon.png
+  alt: "Noun Project biology icon"
+  caption: "[Noun Project biology icon](https://commons.wikimedia.org/wiki/File:Biology_-_The_Noun_Project.svg) by [Modik](https://thenounproject.com/modik) (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
+
+JigsawIcon:
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Noun_Project_Jigsaw_icon_1415396.svg/960px-Noun_Project_Jigsaw_icon_1415396.svg.png
+  # src: /assets/images/icons/Noun_Project_Jigsaw_icon_1415396.png
+  alt: "Noun Project jigsaw icon"
+  caption: "[Noun Project jigsaw icon](https://commons.wikimedia.org/wiki/File:Noun_Project_Jigsaw_icon_1415396.svg) by [Adnen Kadri](https://thenounproject.com/adnen.kadri) (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+
 LocationIcon:
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Noun_Project_location_icon_1318441_cc.svg/960px-Noun_Project_location_icon_1318441_cc.svg.png
   # src: /assets/images/icons/Noun_Project_location_icon_1318441.png
   alt: "Noun Project location icon"
-  caption: "[Noun Project location icon](https://commons.wikimedia.org/wiki/File:Noun_Project_location_icon_1318441_cc.svg) by Noah (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+  caption: "[Noun Project location icon](https://commons.wikimedia.org/wiki/File:Noun_Project_location_icon_1318441_cc.svg) by [Noah](https://thenounproject.com/sitarama295) (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
 
 MultipleIcon:
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Noun_Project_multiple_icon_2584614.svg/960px-Noun_Project_multiple_icon_2584614.svg.png
   # src: /assets/images/icons/Noun_Project_multiple_icon_2584614.png
   alt: "Noun Project multiple icon"
   caption: "[Noun Project multiple icon](https://commons.wikimedia.org/wiki/File:Noun_Project_multiple_icon_2584614.svg) by Cryssac Franson Aldo.E, IN (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+
+MuseumIcon:
+  src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Noun_project_-_Museum_-_Acropolis.svg/960px-Noun_project_-_Museum_-_Acropolis.svg.png
+  # src: /assets/images/icons/Noun_project_Museum_icon.png
+  alt: "Noun Project museum icon"
+  caption: "[Noun Project museum icon](https://commons.wikimedia.org/wiki/File:Noun_project_-_Museum_-_Acropolis.svg) by Thomas Helbig (licensed under [CC BY-SA 3.0 US](https://creativecommons.org/licenses/by-sa/3.0/us/))."
 
 NetworkIcon:
   src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Noun_project_network_icon_1365244_cc.svg/960px-Noun_project_network_icon_1365244_cc.svg.png

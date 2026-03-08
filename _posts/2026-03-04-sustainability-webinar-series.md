@@ -12,6 +12,6 @@ As iDigBio approaches the conclusion of 15 years of NSF support, this webinar se
 
 This ebinar series will highlight innovations, workflows, and institutional strategies aimed at ensuring the long-term sustainability of digitization and data mobilization efforts. Whether you're a collections professional, data manager, or researcher, we invite you to take part in these forward-looking conversations about sustaining momentum beyond NSF funding.
 
-For additional information:
+**For additional information:**
 - Look for upcoming webinars are available on the [iDigBio Events Hub](https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg).
 - Recordings or previous webinars are available in a [Playlist](https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV) on iDigBio's YouTube.

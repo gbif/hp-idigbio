@@ -8,16 +8,47 @@ background: "{{site.data.images.AtlanticDolphin.src}}"
 imageLicense: "{{site.data.images.AtlanticDolphin.caption}}"
 alt: "{{ site.data.images.AtlanticDolphin.alt }}"
 height: 55vh
+toc: true
+toc-depth: 2.0
+toc-title: Table of Contents
 ---
 # General
-<details>
-  <summary>## What is iDigBio?</summary>
 
-  iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a> within the <a href="https://www.gbif.org/the-gbif-network">GBIF Network</a>. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making. [Learn More](/en/about)
-</details>
+## What is iDigBio?
 
-<details>
-  <summary>## What is biodiversity digitization?</summary>
-  
-  Biodiversity digitization is the process of converting physical specimen information -- such as labels, images, and associated data -- into digital formats. This allows researchers and the public to access specimen records online and use them for scientific analysis, environmental monitoring, and education.
-</details>
+iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a> within the <a href="https://www.gbif.org/the-gbif-network">GBIF Network</a>. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making. [Learn More](/en/about)
+
+
+## Why does this look different now?
+
+In order to ensure the longevity and persistence of iDigBio's online presence, we have transitioned to a GBIF Hosted Portal. This enables us to stay online and to continue to serve data via GBIF infrastructure.
+
+
+## Why are my data not represented here?
+
+Since we have transitioned to a GBIF Hosted Portal, if your data are not published to GBIF, they will not be visible. Only data published to GBIF will be visible on this latest iteration of iDigBio's website. Please contact us if you have any questions or concerns, including if you would like help publishing data to GBIF.
+
+
+## What is biodiversity digitization?
+
+Biodiversity digitization is the process of converting physical specimen information -- such as labels, images, and associated data -- into digital formats. This allows researchers and the public to access specimen records online and use them for scientific analysis, environmental monitoring, and education.
+
+
+## Why are natural history collections important?
+
+Natural history collections preserve specimens that document life on Earth across time and geography. These collections support research in fields such as ecology, evolution, genomics, climate science, agriculture, and public health.
+
+
+## Does iDigBio provide training or support?
+
+Yes. iDigBio offers workshops, webinars, documentation, and community resources to help institutions digitize collections and manage biodiversity data effectively.
+
+
+## Are there educational materials available?
+
+Yes. iDigBio provides training materials, guides, and learning resources related to biodiversity data, digitization workflows, and informatics tools.
+
+
+## Have questions?
+
+Reach to us on [Slack](https://join.slack.com/t/idigbiocommunity/shared_invite/zt-1dqdkhcfb-kE8ELmB8HXH_6Kd3hL48VQ)!

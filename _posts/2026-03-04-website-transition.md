@@ -20,4 +20,4 @@ Note that access to the legacy [iDigBio data portal](https://portal.idigbio.org/
 </figure>
 iDigBio's legacy website and wiki have been archived on the Internet Archive's Wayback Machine and will remain available in perpetuity.
 - The most recent archive may be accessed via: [web.archive.org/web/idigbio.org](https://web.archive.org/web/idigbio.org)
-- A calendar-style listing of *every* archived version may be accessed via: [web.archive.org/web/\*/idigbio.org](https://web.archive.org/web\*/idigbio.org)
+- A calendar-style listing of *every* archived version may be accessed via: [web.archive.org/web/\*/idigbio.org](https://web.archive.org/web/%2a/idigbio.org)

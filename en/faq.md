@@ -15,7 +15,7 @@ toc-title: Table of Contents
 # General Questions
 
 ## What is iDigBio?
-iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a> within the <a href="https://www.gbif.org/the-gbif-network">GBIF Network</a>. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making. [Learn More](/en/about)
+iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a> within the <a href="https://www.gbif.org/the-gbif-network">GBIF Network</a>. Our focus is on specimen-based biodiversity collections from U.S. institutions. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making. [Learn More](/en/about)
 
 ## Why does this look different now?
 In order to ensure the longevity and persistence of iDigBio's online presence, we have transitioned to a GBIF Hosted Portal. This enables us to stay online and to continue to serve data and information via GBIF infrastructure. [Learn More]({% post_url 2026-03-04-website-transition %})

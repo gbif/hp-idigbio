@@ -10,7 +10,7 @@ alt: "{{ site.data.images.CaliforniaPoppy.alt }}"
 height: 70vh
 ---
 ## Overview
-iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network). As a Node, iDigBio provides:
+iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network). Our focus is on specimen-based biodiversity collections from U.S. institutions. As a Node, iDigBio provides:
 - Support for science and research
 - Support for policy and decisions
 - Community engagement and capacity building

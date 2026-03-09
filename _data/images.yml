@@ -171,6 +171,79 @@ NetworkIcon:
   caption: "[Noun Project network icon](https://commons.wikimedia.org/wiki/File:Noun_project_network_icon_1365244_cc.svg) by Popular (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
 
 
+#####################
+##  IDIGBIO LOGOS  ##
+#####################
+iDigBioAvatar:
+  src: /assets/images/logos/iDigBio_Avatar.jpeg
+  alt: "iDigBio Avatar in Full Color"
+  caption: "iDigBio Avatar in Full Color by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+iDigBioAvatarReverse:
+  src: /assets/images/logos/iDigBio_Avatar_Reverse.jpg
+  alt: "iDigBio Avatar in Reverse Color"
+  caption: "iDigBio Avatar in Reverse Color by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+iDigBioLogoCMYK:
+  src: /assets/images/logos/IDigBio_Logo_CMYK.png
+  alt: "iDigBio Logo in the CMYK Color Space"
+  caption: "iDigBio Logo in the CMYK Color Space by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+iDigBioLogoK:
+  src: /assets/images/logos/IDigBio_Logo_K.png
+  alt: "iDigBio Logo in Black"
+  caption: "iDigBio Logo in Black by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+iDigBioLogoRGB:
+  src: /assets/images/logos/IDigBio_Logo_RGB.png
+  alt: "iDigBio Logo in the RGB Color Space"
+  caption: "iDigBio Logo in the RGB Color Space by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+iDigBioStackedLogoCMYK:
+  src: /assets/images/logos/IDigBio_Logo_stacked_CMYK.png
+  alt: "iDigBio Stacked Logo in the CMYK Color Space"
+  caption: "iDigBio Stacked Logo in the CMYK Color Space by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+iDigBioStackedStackedLogoK:
+  src: /assets/images/logos/IDigBio_Logo_stacked_K.png
+  alt: "iDigBio Stacked Logo in Black"
+  caption: "iDigBio Stacked Logo in Black by iDigBio (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+
+###################
+##  GBIF BADGES  ##
+###################
+DataPublisherBadgeBlack:
+  src: /assets/images/badges/p-black-logo.png
+  alt: "GBIF Data Publisher Badge in Black"
+  caption: "[GBIF Data Publisher Badge in Black](https://www.gbif.org/logos) by GBIF (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+DataPublisherBadgeGreen:
+  src: /assets/images/badges/p-green-logo.png
+  alt: "GBIF Data Publisher Badge in Green"
+  caption: "[GBIF Data Publisher Badge in Green](https://www.gbif.org/logos) by GBIF (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+DataPublisherBadgeWhite:
+  src: /assets/images/badges/p-white-logo.png
+  alt: "GBIF Data Publisher Badge in White"
+  caption: "[GBIF Data Publisher Badge in White](https://www.gbif.org/logos) by GBIF (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+ParticipantNodeBadgeBlack:
+  src: /assets/images/badges/pn-black-logo.png
+  alt: "GBIF Participant Node Badge in Black"
+  caption: "[GBIF Participant Node Badge in Black](https://www.gbif.org/logos) by GBIF (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+ParticipantNodeBadgeGreen:
+  src: /assets/images/badges/pn-green-logo.png
+  alt: "GBIF Participant Node Badge in Green"
+  caption: "[GBIF Participant Node Badge in Green](https://www.gbif.org/logos) by GBIF (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+ParticipantNodeBadgeWhite:
+  src: /assets/images/badges/pn-white-logo.png
+  alt: "GBIF Participant Node Badge in White"
+  caption: "[GBIF Participant Node Badge in White](https://www.gbif.org/logos) by GBIF (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+
 ###################################
 ##  PLACEHOLDER IMAGE TEMPLATES  ##
 ###################################

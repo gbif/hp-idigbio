@@ -7,12 +7,18 @@
 columns:
   - name: Network
     description: |
+      [The GBIF Network](https://www.gbif.org/the-gbif-network)
+      
+      [GBIF North America Region](https://www.gbif-north-america.org/)
+      
       <a href="https://www.gbif.org/participant/375"><img src="/assets/images/badges/pn-green-logo.png" alt="GBIF Node Badge" width="125" height="125"></a><a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71"><img src="/assets/images/badges/p-green-logo.png" alt="GBIF Publisher Badge" width="125" height="125"></a>
   - name: Feedback
     description: |
       To request a feature, report a bug, or provide feedback, [create a new GitHub Issue](https://github.com/gbif/hp-idigbio/issues/new) (sign-in required).
   - name: Connect
     description: |
+      [Node Staff Directory](https://www.gbif.org/participant/375)
+      
       [Join the community on Slack!](https://join.slack.com/t/idigbiocommunity/shared_invite/zt-1dqdkhcfb-kE8ELmB8HXH_6Kd3hL48VQ)
       
       View this site in another language:

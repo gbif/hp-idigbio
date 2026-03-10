@@ -17,7 +17,7 @@ background: "{{ site.data.images.GeckoTokay.src }}"
 alt: "{{ site.data.images.GeckoTokay.alt }}"
 ignoreThumbor: true
 imageLicense: "{{ site.data.images.GeckoTokay.caption }}"
-height: 70vh
+height: 65vh
 cta:
 #  - text: Specimens
 #    href: /occurrence/search

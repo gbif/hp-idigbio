@@ -4,23 +4,93 @@ title:
 permalink: /calendar/export.ics
 # see RFC 2445 ("Internet Calendaring and Scheduling Core Object Specification (iCalendar)")
 #TODO:
-#- UID NOT unique if >1 event on same date
-#- URL in DESCRIPTION breaks if non-site-relative path specified for event.event_date
-#- Add time specification rather than strict all-day events
-#- e.g. DT*:{{ event.event_date | date: "%Y%m%d" }}T235959Z
-#- Test with unspecified event values. Consider defaults.
+#- URL: absolute URL heuristic may be naive
+#- Below timezones require manual updating at every daylight saving time transition
+#- In DESCRIPTION, if a whitespace will end with a whitespace,
+#  the whitespace is textwrapped to the next line,
+#  but another newline is erroneously written afterward.
+#  Current workaround is to insert a '\n' line break sequence to not leave
+#  a line consisting of entirely whitespace (unspecified behaviour?)
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//iDigBio//NONSGML iCalendar Jeykll Templated//EN
-METHOD:PUBLISH{% for event in site.events %}
+PRODID:-//iDigBio//NONSGML iCalendar Jekyll Templated//EN
+METHOD:PUBLISH
+X-WR-CALNAME;VALUE=TEXT:iDigBio Events Calendar
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20251102T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RDATE:20261101T020000,20271107T020000
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20250309T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RDATE:20260308T020000,20270314T020000
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+{%- for event in site.events %}
 BEGIN:VEVENT
-UID:{{ event.event_date | date: "%Y%m%d" }}@idigbio.gbif.us
-LOCATION:https://ufl.zoom.us/my/idigbio
-SUMMARY:{{ event.title | remove: ',' | remove: ';' }}
-DESCRIPTION:More information at {{ site.url }}{{ event.url }}
+UID:{{ event.event_date | date: "%Y%m%d" }}.{{ forloop.index }}@idigbio.gbif.us
+{%- if event.location %}
+LOCATION:{{ event.location }}
+{%- endif %}
+SUMMARY:{{ event.title | replace: ',','\,' | replace: ';','\;' }}
+{%- if event.description %}
+  {%- capture description_longline -%}
+DESCRIPTION:{{ event.description
+    | rstrip | newline_to_br | strip_newlines | replace: '\','\\' | replace: '<br />','\\n'
+    | replace: ',','\,' | replace: ';','\;' }}
+  {%- endcapture -%}
+  {%- assign ach_description = description_longline | split: '' -%}
+  {%- assign cchrow = 0 -%}
+  {%- assign CCHROW_LIMIT = 74 -%}
+  {%- assign CCHROW_LIMIT_LESS1 = CCHROW_LIMIT | minus: 1 -%}
+  {%- assign testbool = true -%}
+  {%comment%}Liquid does not seem to allow re-assignment to outer-scope variables in for-loops?{%endcomment%}{{'
+'}}
+  {%- for c in ach_description -%}
+    {%- assign imod = forloop.index | modulo: CCHROW_LIMIT -%}
+    {%comment%}Avoid splitting escape sequences{%endcomment%}
+    {%- if imod == CCHROW_LIMIT_LESS1 and c == '\' -%}
+      {{ '
+ ' }}{{c}}
+    {%- elsif imod == 0 and ach_description[forloop.index0-1] == '\' -%}
+      {{c}}
+    {%comment%}Trailing whitespace ignored by specification, so prepend in new line{%endcomment%}
+    {%- elsif imod == CCHROW_LIMIT_LESS1 and c == ' ' -%}
+      {{ '
+ \n' }}{{c}}
+    {%- elsif imod == 0 and ach_description[forloop.index0-1] == empty -%}
+      {{c}}
+    {%- elsif imod == 0 -%}
+      {{ '
+ ' }}{{c}}
+    {%- else -%}
+      {{c}}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif %}
+{%- if event.event_time %}
+DTSTART:TZID={{ site.timezone }}:{{ event.event_date | append: ' ' | append: event.event_time | date: "%Y%m%dT%H%M%S" }}
+DTEND:TZID={{ site.timezone }}:{{ event.event_date_end | default: event.event_date | append: ' ' | append: event.event_time_end | date: "%Y%m%dT%H%M%S" }}
+{%- else %}
 DTSTART;VALUE=DATE:{{ event.event_date | date: "%Y%m%d" }}
-DTEND;VALUE=DATE:{{ event.event_date_end | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ event.event_date_end | default: event.event_date | date: "%Y%m%d" }}
+{%- endif %}
 DTSTAMP:{{ event.event_date | date: "%Y%m%d" }}T000000Z
-END:VEVENT{% endfor %}
+{%- if event.url_post -%}
+  {%- if event.url_post contains '://' %}{%comment%}FRAGILE. Assumed to be an absolute URL{%endcomment%}
+URL;TYPE=URI:{{ event.url_post | replace: ',','\,' | replace: ';','\;' }}
+  {%- else %}
+URL;TYPE=URI:{{ site.url | append: event.url_post | replace: ',','\,' | replace: ';','\;' }}
+  {%- endif -%}
+{%- endif %}
+END:VEVENT
+{%- endfor %}
 END:VCALENDAR

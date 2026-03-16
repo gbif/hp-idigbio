@@ -2,15 +2,38 @@
 layout: 
 title: 
 permalink: /calendar/data.json
+
+# FullCalendar JSON documentation: https://fullcalendar.io/docs/v3/events-json-feed
+# We're using strftime '%z', I'm not implementing daylight saving time logic myself,
+# especially using liquid.
+#NOTE# This is dependent on Jekyll _config.yml setting 'timezone'.
 ---
 [
 {%- for event in site.events %}
   {
     "title": "{{event.title}}",
+  {%- if event.event_time -%}
+    {%- assign tzstr = event.event_date | append: ' ' | append: event.event_time | date: '%z' -%}
+    {%- assign tzh = tzstr | slice: 0,3 -%}
+    {%- assign tzm = tzstr | slice: 3,2 %}
+    "start": "{{event.event_date}}T{{event.event_time}}{{tzh}}:{{tzm}}",
+
+    {%- assign eed_end = event.event_date_end | default: event.event_date -%}
+    {%- assign tzstr = eed_end | append: ' ' | append: event.event_time_end | date: '%z' -%}
+    {%- assign tzh = tzstr | slice: 0,3 -%}
+    {%- assign tzm = tzstr | slice: 3,2 %}
+    "end": "{{eed_end}}T{{event.event_time_end}}{{tzh}}:{{tzm}}",
+    "allDay": false
+  {%- else %}
     "start": "{{event.event_date}}",
+    {%- if event.event_date_end %}
     "end": "{{event.event_date_end}}",
-    "allDay": true,
+    {%- endif %}
+    "allDay": true
+  {%- endif -%}
+  {%- if event.url_post %},
     "url": "{{event.url_post}}"
+  {%- endif %}
   }{%unless forloop.last %},{%endunless%}
 {%- endfor %}
 ]

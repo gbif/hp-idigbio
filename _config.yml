@@ -106,6 +106,10 @@ exclude:
 
 permalink: pretty # will strip extensions like .html from urls
 
+# Sets timezone for some generated time strings within this website.
+# As of 2026-03-13, mainly for U.S. daylight saving time logic for determining calendar event timezone offsets.
+timezone: America/New_York
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project

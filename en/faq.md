@@ -36,7 +36,7 @@ Yes. iDigBio offers workshops, webinars, documentation, and community resources 
 Yes. iDigBio provides training materials, guides, and learning resources related to biodiversity data, digitization workflows, and informatics tools.
 
 ## Have questions?
-Reach to us on [Slack](https://join.slack.com/t/idigbiocommunity/shared_invite/zt-1dqdkhcfb-kE8ELmB8HXH_6Kd3hL48VQ)!
+Reach out to us on [Slack](https://join.slack.com/t/idigbiocommunity/shared_invite/zt-1dqdkhcfb-kE8ELmB8HXH_6Kd3hL48VQ)!
 
 
 # Technical Questions

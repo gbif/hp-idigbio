@@ -51,6 +51,6 @@ explorer:
   - text: Datasets
     href: /dataset/search
   - text: Institutions
-    href: /institutions/search
+    href: /institution/search
 #  - text: Litrerature
 #    href: /literature/search

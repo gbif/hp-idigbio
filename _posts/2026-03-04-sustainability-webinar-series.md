@@ -10,7 +10,7 @@ imageLicense: "{{ site.data.images.DNATissueVials.caption }}"
 ---
 As iDigBio approaches the conclusion of 15 years of NSF support, this webinar series spotlights the future of biodiversity specimen digitization. Join us as we explore how the collections community can build upon the progress made through the ADBC, CSBR, and Sustaining Infrastructure for Biological Research programs. With nearly 150 million specimen records and 65 million media files now accessible through the iDigBio portal -- contributed by over 1,000 U.S. institutions -- our shared data resources have become vital to research, education, and outreach.
 
-This ebinar series will highlight innovations, workflows, and institutional strategies aimed at ensuring the long-term sustainability of digitization and data mobilization efforts. Whether you're a collections professional, data manager, or researcher, we invite you to take part in these forward-looking conversations about sustaining momentum beyond NSF funding.
+This webinar series will highlight innovations, workflows, and institutional strategies aimed at ensuring the long-term sustainability of digitization and data mobilization efforts. Whether you're a collections professional, data manager, or researcher, we invite you to take part in these forward-looking conversations about sustaining momentum beyond NSF funding.
 
 **For additional information:**
 - Look for upcoming webinars are available on the [iDigBio Events Hub](https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg).

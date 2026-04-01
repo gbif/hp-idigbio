@@ -134,11 +134,41 @@ WaybackMachine:
 #############
 ##  ICONS  ##
 #############
+ArchivesIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Noun_project_archives_icon_171323_cc.svg/1280px-Noun_project_archives_icon_171323_cc.svg.png
+  src: /assets/images/icons/Noun_project_archives_icon_171323.png
+  alt: "Noun Project archives icon"
+  caption: "[Noun Project archives icon](https://commons.wikimedia.org/wiki/File:Noun_project_archives_icon_171323_cc.svg) by [Yaroslav Samoylov](https://thenounproject.com/goldenroof) (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+
 BiologyIcon:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Biology_-_The_Noun_Project.svg/960px-Biology_-_The_Noun_Project.svg.png
   src: /assets/images/icons/Noun_Project_biology_icon.png
   alt: "Noun Project biology icon"
   caption: "[Noun Project biology icon](https://commons.wikimedia.org/wiki/File:Biology_-_The_Noun_Project.svg) by [Modik](https://thenounproject.com/modik) (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
+
+CalendarIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Calendar_%2889059%29_-_The_Noun_Project.svg/1280px-Calendar_%2889059%29_-_The_Noun_Project.svg.png
+  src: /assets/images/icons/Noun_Project_Calendar_icon_89059.png
+  alt: "Noun Project calendar icon"
+  caption: "[Noun Project calendar icon](https://commons.wikimedia.org/wiki/File:Calendar_(89059)_-_The_Noun_Project.svg) by [Nice and Serious](https://thenounproject.com/niceandserious) (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
+
+DatabaseIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Noun_project_database_1276526_cc.svg/960px-Noun_project_database_1276526_cc.svg.png
+  src: /assets/images/icons/Noun_project_database_1276526.png
+  alt: "Noun Project database icon"
+  caption: "[Noun Project database icon](https://commons.wikimedia.org/wiki/File:Noun_project_database_1276526_cc.svg) by Aybige (licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/))."
+
+FeedIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Feed_Noun_project_104.svg/1280px-Feed_Noun_project_104.svg.png
+  src: /assets/images/icons/Noun_project_Feed_icon_104.png
+  alt: "Noun Project feed icon"
+  caption: "[Noun Project feed icon](https://commons.wikimedia.org/wiki/File:Feed_Noun_project_104.svg) by Unknown Author (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
+
+GeographyIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Geography_icon.svg/1280px-Geography_icon.svg.png
+  src: /assets/images/icons/Noun_Project_Geography_icon.png
+  alt: "Noun Project geography icon"
+  caption: "[Noun Project geography icon](https://commons.wikimedia.org/wiki/File:Geography_icon.svg) by Erin Standley (licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/))."
 
 JigsawIcon:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Noun_Project_Jigsaw_icon_1415396.svg/960px-Noun_Project_Jigsaw_icon_1415396.svg.png
@@ -151,6 +181,12 @@ LocationIcon:
   src: /assets/images/icons/Noun_Project_location_icon_1318441.png
   alt: "Noun Project location icon"
   caption: "[Noun Project location icon](https://commons.wikimedia.org/wiki/File:Noun_Project_location_icon_1318441_cc.svg) by [Noah](https://thenounproject.com/sitarama295) (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+
+MicroscopeIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Microscope_-_The_Noun_Project.svg/1280px-Microscope_-_The_Noun_Project.svg.png
+  src: /assets/images/icons/Noun_Project_microscope_icon.png
+  alt: "Noun Project microscope icon"
+  caption: "[Noun Project microscope icon](https://commons.wikimedia.org/wiki/File:Microscope_-_The_Noun_Project.svg) by [Timothy Dilich](https://thenounproject.com/mosaic7) (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
 
 MultipleIcon:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Noun_Project_multiple_icon_2584614.svg/960px-Noun_Project_multiple_icon_2584614.svg.png
@@ -169,6 +205,12 @@ NetworkIcon:
   src: /assets/images/icons/Noun_project_network_icon_1365244.png
   alt: "Noun Project network icon"
   caption: "[Noun Project network icon](https://commons.wikimedia.org/wiki/File:Noun_project_network_icon_1365244_cc.svg) by Popular (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+
+SpreadsheetIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Noun_Project_spreadsheet_icon_773827.svg/960px-Noun_Project_spreadsheet_icon_773827.svg.png
+  src: /assets/images/icons/Noun_Project_spreadsheet_icon_773827.png
+  alt: "Noun Project spreadsheet icon"
+  caption: "[Noun Project spreadsheet icon](https://commons.wikimedia.org/wiki/File:Noun_Project_spreadsheet_icon_773827.svg) by [Iconsparty](https://thenounproject.com/iconsparty8889) (licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))."
 
 
 #####################

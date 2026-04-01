@@ -32,6 +32,8 @@
     href: http://web.archive.org/web/idigbio.org
 - text: News and Events
   menu:
+  - text: Calendar
+    href: /calendar
   - text: iDigBio Events Hub
     href: https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg
   - text: iDigBio News

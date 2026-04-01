@@ -1,5 +1,11 @@
 stats:
   features:
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
+      description: Datasets
+      href: /occurrence/search?view=DATASETS
+      background: "{{ site.data.images.DatabaseIcon.src }}"
+      alt: "{{ site.data.images.DatabaseIcon.alt }}"
+      imageLicense: "{{ site.data.images.DatabaseIcon.caption }}"
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
       description: Occurrences
       href: /occurrence/search
@@ -12,12 +18,6 @@ stats:
       background: "{{ site.data.images.ImageIcon.src }}"
       alt: "{{ site.data.images.ImageIcon.alt }}"
       imageLicense: "{{ site.data.images.ImageIcon.caption }}"
-    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
-      description: Datasets
-      href: /occurrence/search?view=DATASETS
-      background: "{{ site.data.images.DatabaseIcon.src }}"
-      alt: "{{ site.data.images.DatabaseIcon.alt }}"
-      imageLicense: "{{ site.data.images.DatabaseIcon.caption }}"
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
       description: Publishers
       href: /publisher/search

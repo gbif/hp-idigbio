@@ -170,6 +170,12 @@ GeographyIcon:
   alt: "Noun Project geography icon"
   caption: "[Noun Project geography icon](https://commons.wikimedia.org/wiki/File:Geography_icon.svg) by Erin Standley (licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/))."
 
+ImageIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Noun_Project_image_icon_212472_cc.svg/1280px-Noun_Project_image_icon_212472_cc.svg.png
+  src: /assets/images/icons/Noun_Project_image_icon_212472.png
+  alt: "Noun Project image icon"
+  caption: "[Noun Project image icon](https://commons.wikimedia.org/wiki/File:Noun_Project_image_icon_212472_cc.svg) by [Yaroslav Samoylov, RU](https://thenounproject.com/lionlionleo) (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
+
 JigsawIcon:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Noun_Project_Jigsaw_icon_1415396.svg/960px-Noun_Project_Jigsaw_icon_1415396.svg.png
   src: /assets/images/icons/Noun_Project_Jigsaw_icon_1415396.png

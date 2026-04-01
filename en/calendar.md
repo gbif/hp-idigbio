@@ -19,4 +19,4 @@ $(document).ready(function() {
 });
 </script>
 <div id="calendar"></div>
-<br><img src="{{ site.data.images.FeedIcon.src }}" alt="{{ site.data.images.FeedIcon.alt }}" title="{{ site.data.images.FeedIcon.caption }}" style="float: left; width: 24px; height: 24px;"> <span style="font-size: smaller; color: #555;">[Click here](/calendar/export.ics) to download and iCalendar feed of iDigBio's calendar.</span>
+<br><img src="{{ site.data.images.FeedIcon.src }}" alt="{{ site.data.images.FeedIcon.alt }}" title="{{ site.data.images.FeedIcon.caption }}" style="float: left; margin-right: 1em; width: 24px; height: 24px;"> <span style="font-size: smaller; color: #555;">[Click here](/calendar/export.ics) to download and iCalendar feed of iDigBio's calendar.</span>

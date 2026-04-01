@@ -18,13 +18,13 @@ stats:
       background: "{{ site.data.images.DatabaseIcon.src }}"
       alt: "{{ site.data.images.DatabaseIcon.alt }}"
       imageLicense: "{{ site.data.images.DatabaseIcon.caption }}"
-    - title: <span data-ajax-url="https://api.gbif.org/v1/collection/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
       description: Collections
       href: /collection/search
       background: "{{ site.data.images.MultipleIcon.src }}"
       alt: "{{ site.data.images.MultipleIcon.alt }}"
       imageLicense: "{{ site.data.images.MultipleIcon.caption }}"
-    - title: <span data-ajax-url="https://api.gbif.org/v1/institution/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
       description: Institutions
       href: /institution/search
       background: "{{ site.data.images.MuseumIcon.src }}"

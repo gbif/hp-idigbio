@@ -12,30 +12,30 @@ stats:
       background: "{{ site.data.images.LocationIcon.src }}"
       alt: "{{ site.data.images.LocationIcon.alt }}"
       imageLicense: "{{ site.data.images.LocationIcon.caption }}"
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search??networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973&mediaType=StillImage"></span>
-      description: Images
-      href: /occurrence/search?view=GALLERY
-      background: "{{ site.data.images.ImageIcon.src }}"
-      alt: "{{ site.data.images.ImageIcon.alt }}"
-      imageLicense: "{{ site.data.images.ImageIcon.caption }}"
+#    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search??networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973&mediaType=StillImage"></span>
+#      description: Images
+#      href: /occurrence/search?view=GALLERY
+#      background: "{{ site.data.images.ImageIcon.src }}"
+#      alt: "{{ site.data.images.ImageIcon.alt }}"
+#      imageLicense: "{{ site.data.images.ImageIcon.caption }}"
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
       description: Publishers
       href: /publisher/search
       background: "{{ site.data.images.NetworkIcon.src }}"
       alt: "{{ site.data.images.NetworkIcon.alt }}"
       imageLicense: "{{ site.data.images.NetworkIcon.caption }}"
-#    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
-#      description: Collections
-#      href: /collection/search
-#      background: "{{ site.data.images.MultipleIcon.src }}"
-#      alt: "{{ site.data.images.MultipleIcon.alt }}"
-#      imageLicense: "{{ site.data.images.MultipleIcon.caption }}"
-#    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution/search?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
-#      description: Institutions
-#      href: /institution/search
-#      background: "{{ site.data.images.MuseumIcon.src }}"
-#      alt: "{{ site.data.images.MuseumIcon.alt }}"
-#      imageLicense: "{{ site.data.images.MuseumIcon.caption }}"
+    - title: <span data-ajax-url="http://api.gbif.org/v1/grscicoll/collection?machineTagNamespace=iDigBio.org"></span>
+      description: Collections
+      href: /collection/search
+      background: "{{ site.data.images.MultipleIcon.src }}"
+      alt: "{{ site.data.images.MultipleIcon.alt }}"
+      imageLicense: "{{ site.data.images.MultipleIcon.caption }}"
+    - title: <span data-ajax-url="http://api.gbif.org/v1/grscicoll/institution?machineTagNamespace=iDigBio.org"></span>
+      description: Institutions
+      href: /institution/search
+      background: "{{ site.data.images.MuseumIcon.src }}"
+      alt: "{{ site.data.images.MuseumIcon.alt }}"
+      imageLicense: "{{ site.data.images.MuseumIcon.caption }}"
 
 about:
   klass: aboutSplit

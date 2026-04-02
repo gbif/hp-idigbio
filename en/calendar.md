@@ -19,7 +19,7 @@ $(document).ready(function() {
 });
 </script>
 <div id="calendar"></div>
-<br><img src="{{ site.data.images.FeedIcon.src }}" alt="{{ site.data.images.FeedIcon.alt }}" title="{{ site.data.images.FeedIcon.caption }}" style="float: left; margin-right: 1em; width: 24px; height: 24px;">
-<span style="font-size: smaller; color: #555;">
-  <a href="{{ '/calendar/export.ics' | absolute_url | replace: 'http://', 'webcal://' | replace: 'https://', 'webcal://' }}">Subscribe to this calendar</a>
+<br>
+<span style="font-size: smaller; text-align: center;">
+  <img src="{{ site.data.images.FeedIcon.src }}" alt="{{ site.data.images.FeedIcon.alt }}" title="{{ site.data.images.FeedIcon.caption }}" style="margin-right: 1em; width: 24px; height: 24px;"><a href="{{ '/calendar/export.ics' | absolute_url | replace: 'http://', 'webcal://' | replace: 'https://', 'webcal://' }}">Subscribe to this calendar</a>
 </span>

@@ -19,6 +19,7 @@ $(document).ready(function() {
 });
 </script>
 <div id="calendar"></div>
+<p style="font-size: smaller; text-align: center;">All times are shown for the Eastern Time Zone (America/New_York)</p>
 <p style="font-size: smaller; text-align: center;">
   <img src="{{ site.data.images.FeedIcon.src }}" alt="{{ site.data.images.FeedIcon.alt }}" title="{{ site.data.images.FeedIcon.caption }}" style="margin-right: 1em; width: 24px; height: 24px;"><a href="{{ '/calendar/export.ics' | absolute_url | replace: 'http://', 'webcal://' | replace: 'https://', 'webcal://' }}">Subscribe to this calendar</a>
 </p>

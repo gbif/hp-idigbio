@@ -17,7 +17,8 @@ event_time: '14:00'
 event_time_end: '16:00'
 
 # Optional. Where people can read more information about the event.
-url_post: https://events.zoom.us/ev/AqCmhg9AGklaEwoHnktF9h4VlygFL7KWSnmi2epu6TyfS1Ak-_9f~AuVpYD1w8bCwlg6OovWQnwXKlnk2uY4GpDYX7Cbecc4gxG0aS6TszgiVgg
+#url_post: /post/2026/website-transition
+url_post: https://events.zoom.us/ev/AqCmhg9AGklaEwoHnktF9h4VlygFL7KWSnmi2epu6TyfS1Ak-_9f~AuVpYD1w8bCwlg6OovWQnwXKlnk2uY4GpDYX7Cbecc4gxG0aS6TszgiVgg # full absolute URLs also valid
 
 summary: Imaging the Florida Museum's Natural History Collections - Workflows, Innovation, and the Future of 3D Digitization # Please keep this summary one line.
 location: https://events.zoom.us/e/view/cN1gm2fFS0qa4uSXw04R8Q/purchase

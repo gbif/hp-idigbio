@@ -17,7 +17,8 @@ event_time: '15:00'
 event_time_end: '16:00'
 
 # Optional. Where people can read more information about the event.
-url_post: https://events.zoom.us/ev/AiAyp59rpJ2G6QjLawgSGrF0oTO2ndrF8luFnm6EGG4WmbzE9b3j~AqjxFA97adrccxqkMUeOenzOBolr5uSvD52aul7vodi1E9H7zajuYxM9IA
+#url_post: /post/2026/website-transition
+url_post: https://events.zoom.us/ev/AiAyp59rpJ2G6QjLawgSGrF0oTO2ndrF8luFnm6EGG4WmbzE9b3j~AqjxFA97adrccxqkMUeOenzOBolr5uSvD52aul7vodi1E9H7zajuYxM9IA # full absolute URLs also valid
 
 summary: Biodiversity Media Collections in the Age of Digitization and AI # Please keep this summary one line.
 location: https://events.zoom.us/e/view/W4pjhdMcSHqzh6BzfnI9aQ/purchase

@@ -18,7 +18,7 @@ event_time_end:
 
 # Optional. Where people can read more information about the event.
 #url_post: /post/2026/website-transition
-#url_post: https://idigbio.example/ # full absolute URLs also valid
+url_post: https://hr.ufl.edu/leave/public-holidays/ # full absolute URLs also valid
 
 summary: iDigBio will be closed for business on all University of Florida holidays and personal leave days. # Please keep this summary one line.
 location: 

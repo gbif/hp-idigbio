@@ -14,6 +14,15 @@ permalink: /calendar/
 <script>
 $(document).ready(function() {
   $('#calendar').fullCalendar({
+    eventRender: function(eventObj, $el) {
+      $el.popover({
+        title: eventObj.title,
+        content: eventObj.description,
+        trigger: 'hover',
+        placement: 'top',
+        container: 'body'
+      });
+    },
     events:'/calendar/data.json'
   })
 });

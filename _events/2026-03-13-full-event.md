@@ -17,7 +17,7 @@ event_time: '08:00'
 event_time_end: '17:00'
 
 # Optional. Where people can read more information about the event.
-url_post: /post/2026/website-transition
+#url_post: /post/2026/website-transition
 #url_post: https://idigbio.example/ # full absolute URLs also valid
 
 summary: This example event demonstrates all implemented tags for the .ics iCalendar and the calendar page. # Please keep this summary one line.

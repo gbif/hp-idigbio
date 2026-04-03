@@ -10,14 +10,8 @@ alt: "{{ site.data.images.CaliforniaPoppy.alt }}"
 height: 70vh
 ---
 ## Overview
-<!-- <figure style="float: right; width: 25%; margin: 1em 1em 1em 1em; text-align: right;">
-  <img src="{{ site.data.images.iDigBioStackedLogoCMYK.src }}" alt="{{ site.data.images.iDigBioStackedLogoCMYK.alt }}" style="width: 100%; height: auto;">
-  <figcaption style="font-size: smaller; color: #555;">
-    {{ site.data.images.iDigBioStackedLogoCMYK.caption | markdownify }}
-  </figcaption>
-</figure> -->
 iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network). Our focus is on specimen-based biodiversity collections from U.S. institutions. As a GBIF Node, iDigBio provides:
-<img src="{{ site.data.images.iDigBioStackedLogoCMYK.src }}" alt="{{ site.data.images.iDigBioStackedLogoCMYK.alt }}" title="{{ site.data.images.iDigBioStackedLogoCMYK.caption }}" style="margin: 1em 1em 1em 1em; float: right; width: 120px;">
+<img src="{{ site.data.images.iDigBioStackedLogoCMYK.src }}" alt="{{ site.data.images.iDigBioStackedLogoCMYK.alt }}" title="{{ site.data.images.iDigBioStackedLogoCMYK.caption }}" style="margin: 1em 1em 1em 1em; float: right; width: 150px;">
 - Support for science and research
 - Support for policy and decisions
 - Community engagement and capacity building

@@ -12,8 +12,8 @@
     href: /collection/search
   - text: Institutions
     href: /institution/search
-#  - text: Literature
-#    href: /literature/search
+  - text: Literature
+    href: /literature/search
   - text: "---"
   - text: Legacy iDigBio Portal
     href: https://portal.idigbio.org/

@@ -23,6 +23,9 @@ var siteConfig = {
     },
     {
       "id": "collectionSearch"
+    },
+    {
+      "id": "literatureSearch"
     }
   ],
   "disableInlineTableFilterButtons": false,

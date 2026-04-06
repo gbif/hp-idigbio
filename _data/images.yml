@@ -212,6 +212,12 @@ NetworkIcon:
   alt: "Noun Project network icon"
   caption: "[Noun Project network icon](https://commons.wikimedia.org/wiki/File:Noun_project_network_icon_1365244_cc.svg) by Popular (licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))."
 
+PageIcon:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Noun_Project_page_icon_2361056.svg/1280px-Noun_Project_page_icon_2361056.svg.png
+  src: /assets/images/icons/Noun_Project_page_icon_2361056.png
+  alt: "Noun Project page icon"
+  caption: "[Noun Project page icon](https://commons.wikimedia.org/wiki/File:Noun_Project_page_icon_2361056.svg) by Flatart, PK (licensed under [CC BYA 3.0](https://creativecommons.org/licenses/by/3.0/))."
+
 SpreadsheetIcon:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Noun_Project_spreadsheet_icon_773827.svg/960px-Noun_Project_spreadsheet_icon_773827.svg.png
   src: /assets/images/icons/Noun_Project_spreadsheet_icon_773827.png

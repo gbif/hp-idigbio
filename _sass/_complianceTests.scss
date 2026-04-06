@@ -1,0 +1,32 @@
+// Record of findings for failures of WCAG 2.1 success criteria.
+// These should already be remediated, but are here to prevent accidentally
+// causing ADA violations by changing a colour in the future.
+
+@function testContrastRatio($target, $color1, $color2) {
+  // function 'colorLuminance' defined in css framework 'bulma' used by base theme
+  $clu1: colorLuminance($color1);
+  $clu2: colorLuminance($color2);
+  $is-contrast-bad: null;
+  @if $clu2 > $clu1 {
+    $is-contrast-bad: $clu2 / $clu1 < $target;
+  } @else {
+    $is-contrast-bad: $clu1 / $clu2 < $target;
+  }
+  @if $is-contrast-bad {
+    $errmsg: "failed conformance test: bad contrast ratio";
+    @if true { //TODO// Elevate to error if performing a production build
+      @warn $errmsg;
+    } @else {
+      @error $errmsg;
+    }
+    @return false;
+  }
+  @return true;
+}
+
+
+$_: testContrastRatio(3.0, $link, $body-color);
+$_: testContrastRatio(4.5, $body-color, $footer-background-color);
+$_: testContrastRatio(4.5, $menu-label-color, $footer-background-color);
+//should fail, comment following line after failed GBIF CI build:
+$_: testContrastRatio(4.5, #FFF, $footer-background-color);

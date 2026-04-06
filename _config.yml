@@ -61,8 +61,14 @@ algae:
   style:
     square: false               # Should corners be square or rounded
     colors:
-      primary: "#6AA850"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      links: "#618CB8"            # What color should links have. Use a HEX code. Default is primary color. 
+      # Darker shades of iDigBio Green (primary) and Blue (links) used for
+      # ADA WCAG 2.1 Level AA conformance
+      primary: "#51813D"          # Primary color of your brand. Use HEX code. Used for buttons and links
+      #   vs. #FFF white:  4.6:1 > 4.5 contrast
+      links: "#51759A"            # What color should links have. Use a HEX code. Default is primary color.
+      #   vs. #FCFCFC white-ish background:  4.69:1 > 4.5 contrast [ref: WCAG 2.1 SC 1.4.3]
+      #   vs. #292929 black-ish surrounding text:  3.02:1 > 3.0 contrast [ref: WCAG 2.1 SC 1.4.1]
+      
       #IDIGBIO LOGO COLORS:
       # blue:    618CB8
       # green:   6AA850

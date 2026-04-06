@@ -1,5 +1,14 @@
-// $navbar-dropdown-arrow: #f00;
+// Lighter lights, darker darks
+// to more easily meet ADA WCAG 2.1 Level AA conformance requirements
+$wcag-base-whiteish: #fcfcfc;
+$wcag-base-blackish: #292929;
+$text: scale-color($wcag-base-blackish, $lightness: -40%); //originally #4a4a4a
+$menu-label-color: scale-color($wcag-base-blackish, $lightness: -0%); //originally #7a7a7a
+$footer-background-color: $wcag-base-whiteish; //originally #fafafa
+
 @import "theme/_main";
 
 // You can add additional styling here
 @import "_example"; // either as inline css or as a separate file as in this case
+
+@import "_complianceTests";

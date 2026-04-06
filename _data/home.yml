@@ -71,5 +71,5 @@ explorer:
     href: /collection/search
   - text: Institutions
     href: /institution/search
-#  - text: Litrerature
-#    href: /literature/search
+  - text: Litrerature
+    href: /literature/search

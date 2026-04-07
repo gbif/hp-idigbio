@@ -1,7 +1,7 @@
 ---
 layout: heroImage
 title: Code of Conduct
-description: 
+description: iDigBio values diversity in views, expertise, opinions, backgrounds, and experiences and is committed to providing a safe, productive, and welcoming environment for all participants.
 lang: en
 lang-ref: conduct
 background: "{{site.data.images.AtlanticDolphin.src}}"

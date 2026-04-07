@@ -5,7 +5,7 @@ title: UF Personal Leave Days
 # just bear in mind that your notes will be visible to the public (who looks at GBIF Hosted Portal source code)
 
 event_date: 2026-12-28
-event_date_end: 2026-12-31
+event_date_end: 2027-01-01
 #   If 'event_date_end' omitted, assumed to end same day
 
 # Specifying time range is optional: if omitted, event_date(_end) timespan is assumed to be all day.

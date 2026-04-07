@@ -18,7 +18,7 @@ event_time_end: '15:00'
 
 # Optional. Where people can read more information about the event.
 #url_post: /post/2026/website-transition
-url_post: https://www.idigbio.org/wiki/index.php/Sustaining_Collections_Digitization_Beyond_NSF_Funding:_A_Webinar_Series#April_9,_2026:_Planning_for_the_future_of_Biodiversity_Digitization_and_Data_Mobilization_at_the_Museum_of_Comparative_Zoology_(2:00-3:00pm_ET) # full absolute URLs also valid
+url_post: https://ufl.zoom.us/webinar/register/WN_TzO-KJ_HQnCUsS9D-fHIRQ # full absolute URLs also valid
 
 summary: Planning for the future of Biodiversity Digitization and Data Mobilization at the Museum of Comparative Zoology # Please keep this summary one line.
 location: https://ufl.zoom.us/webinar/register/WN_TzO-KJ_HQnCUsS9D-fHIRQ

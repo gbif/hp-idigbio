@@ -63,6 +63,12 @@ CaliforniaPoppy:
   alt: "Eschscholzia californica Cham. media from GBIF occurence 4121349597"
   caption: "[*Eschscholzia californica* Cham.](https://www.gbif.org/occurrence/4121349597) Observed in United States of America by Wildrose (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
+CitronellaAnt:
+  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/10455094/original.jpeg
+  src: /assets/images/CitronellaAnt4974197818.jpeg
+  alt: "Lasius claviger media from GBIF occurence 4974197818"
+  caption: "[*Lasius claviger*](https://www.gbif.org/occurrence/4974197818) Observed in United States of America by grogbor (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
 DigitalArt:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/8K_Futuristic_Digital_Art_Wallpaper.jpg/1280px-8K_Futuristic_Digital_Art_Wallpaper.jpg
   src: /assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg

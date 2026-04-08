@@ -7,7 +7,7 @@
   - text: Occurrences
     href: /occurrence/search
   - text: Datasets
-    href: /dataset/search
+    href: /occurrence/search?view=DATASETS
   - text: Collections
     href: /collection/search
   - text: Institutions

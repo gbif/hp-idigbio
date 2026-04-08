@@ -69,6 +69,8 @@ explorer:
     href: /occurrence/search?view=DATASETS
   - text: Collections
     href: /collection/search
+  - test: Publishers
+    href: /publisher/search
   - text: Institutions
     href: /institution/search
   - text: Literature

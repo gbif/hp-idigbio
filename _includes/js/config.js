@@ -26,6 +26,9 @@ var siteConfig = {
     },
     {
       "id": "literatureSearch"
+    },
+    {
+      "id": "publisherSearch"
     }
   ],
   "disableInlineTableFilterButtons": false,
@@ -33,7 +36,8 @@ var siteConfig = {
     "OCCURRENCE",
     "INSTITUTION",
     "COLLECTION",
-    "LITERATURE"
+    "LITERATURE",
+    "PUBLISHER"
   ],
   "dataHeader": {
     "enableApiPopup": false,
@@ -156,7 +160,13 @@ var siteConfig = {
     ]
   },
   "datasetSearch": {},
-  "publisherSearch": {},
+  "publisherSearch": {
+        "scope": {
+      "type": "equals",
+      "key": "gbifNetworkKey",
+      "value": iDigBioNetworkKey
+    }
+  },
   "literatureSearch": {
     "scope": {
       "type": "equals",

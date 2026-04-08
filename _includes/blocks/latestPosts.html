@@ -1,0 +1,44 @@
+{% comment %}
+- added liquid variable 'hrefAriaLabel'
+{% endcomment -%}
+{% assign posts = site.posts %}
+{% assign sizes = "(max-width: 500px) 100vw, 360px" %}
+{% if page.lang %}
+  {% assign posts = posts | where: "lang", page.lang %}
+{% endif %}
+{% assign klass = include.klass | default: include.content.klass %}
+
+{% unless site.algae.latestPostLimit or jekyll.environment == "production" %}
+<script>
+themeFeedback.push({title: "Number of latest posts", description: "You haven't configured how many posts should show. To do so add <code>algae.latestPostLimit: 3</code> to <code>_config.yml</code>."})
+</script>
+{% endunless %}
+
+{% assign postLimit = site.algae.latestPostLimit | default: 3 %}
+
+{%- if postLimit > 0 and posts.size > 0 -%}
+<section {% if include.content.id %} id="{{ include.content.id }}" {% endif %} class="features {% if klass %} {{ klass }} {% endif %}">
+  {% if include.content.title or include.content.description %}
+  <div class="features-intro">
+    {% include blocks/parts/feature.html content=include.content %}
+  </div>
+  {% endif %}
+  {% if posts.size < postLimit %}
+    {% assign visiblePosts = posts.size %}
+  {% else %}
+    {% assign visiblePosts = postLimit %}
+  {% endif %}
+  <div class="feature-cards has-{{ visiblePosts }}-elements">
+    {% for post in posts limit: postLimit %}
+      <article class="feature" data-categories="{% for category in post.categories %}{{ category | strip }}|{% endfor %}">
+        {% assign description = post.excerpt | strip_html | truncatewords: 20  %}
+        {% assign background = post.thumbnail | default: post.background %}
+        {% assign preTitle = post.preTitle | strip_html | truncatewords: 10  %}
+        {% assign url = post.url | relative_url  %}
+        {% assign hrefAriaLabel = post.title | append: "" %}
+        {% include blocks/parts/feature.html content=post description=description preTitle=preTitle href=url hrefAriaLabel=hrefAriaLabel sizes=sizes imageLicense=false background=background %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{%- endif -%}

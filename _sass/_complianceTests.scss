@@ -29,4 +29,4 @@ $_: testContrastRatio(3.0, $link, $body-color);
 $_: testContrastRatio(4.5, $body-color, $footer-background-color);
 $_: testContrastRatio(4.5, $menu-label-color, $footer-background-color);
 //should fail, comment following line after failed GBIF CI build:
-$_: testContrastRatio(4.5, #FFF, $footer-background-color);
+//$_: testContrastRatio(4.5, #FFF, $footer-background-color);

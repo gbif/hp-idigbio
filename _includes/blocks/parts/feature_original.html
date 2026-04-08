@@ -1,0 +1,34 @@
+{% comment %}
+source-url: https://github.com/gbif/jekyll-hp-base-theme/blob/92e28fbdc601edea6d59154cba75a28cdeb16f62/_includes/blocks/parts/feature.html
+retrieved-at: 2026-04-08 00:50Z
+{% endcomment -%}
+{% assign preTitle = include.preTitle | default: include.content.preTitle %}
+{% assign title = include.title | default: include.content.title %}
+{% assign description = include.description | default: include.content.description %}
+{% assign background = include.background | default: include.content.background %}
+{% assign imageAlt = include.imageAlt | default: include.content.imageAlt %}
+{% assign cta = include.cta | default: include.content.cta %}
+{% assign center = include.center | default: include.content.center %}
+{% assign categories = include.categories | default: include.content.categories %}
+{% assign href = include.href | default: include.content.href %}
+{% assign blankTarget = include.blankTarget | default: include.content.blankTarget | default: false %}
+{% assign ratio = include.ratio %}
+{% assign useBackgroundImage = include.useBackgroundImage | default: false %}
+{% assign ignoreThumbor = include.ignoreThumbor | | default: include.content.ignoreThumbor | default: false %}
+
+{% assign imageLicense = include.imageLicense | default: include.content.imageLicense %}
+{% if include.imageLicense == false %}
+  {% assign imageLicense = include.imageLicense %}
+{% endif %}
+
+{% include blocks/parts/featureImage.html background=background imageAlt=imageAlt href=href blankTarget=blankTarget imageLicense=imageLicense ratio=ratio useBackgroundImage=useBackgroundImage sizes=include.sizes ignoreThumbor=ignoreThumbor %}
+{% include blocks/parts/featureContent.html 
+  preTitle=preTitle 
+  href=href 
+  blankTarget=blankTarget 
+  title=title
+  description=description 
+  cta=cta
+  center=center
+  categories=categories
+  %}

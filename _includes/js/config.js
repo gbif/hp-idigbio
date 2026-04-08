@@ -163,7 +163,7 @@ var siteConfig = {
   "publisherSearch": {
         "scope": {
       "type": "equals",
-      "key": "gbifNetworkKey",
+      "key": "networkKey",
       "value": iDigBioNetworkKey
     }
   },

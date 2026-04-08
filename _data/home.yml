@@ -65,6 +65,8 @@ explorer:
   - text: Occurrences
     href: /occurrence/search
     isPrimary: true
+  - text: Images
+    href: /occurrence/search?view=GALLERY
   - text: Datasets
     href: /occurrence/search?view=DATASETS
   - text: Collections

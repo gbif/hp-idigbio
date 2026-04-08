@@ -6,6 +6,8 @@
   menu: 
   - text: Occurrences
     href: /occurrence/search
+  - text: Images
+    href: /occurrence/search?view=GALLERY
   - text: Datasets
     href: /occurrence/search?view=DATASETS
   - text: Publishers

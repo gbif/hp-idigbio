@@ -161,10 +161,8 @@ var siteConfig = {
   },
   "datasetSearch": {},
   "publisherSearch": {
-        "scope": {
-      "type": "equals",
-      "key": "networkKey",
-      "value": iDigBioNetworkKey
+        scope: {
+     networkKey: iDigBioNetworkKey
     }
   },
   "literatureSearch": {

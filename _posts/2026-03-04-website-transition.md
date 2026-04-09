@@ -8,7 +8,7 @@ background: "{{ site.data.images.DigitalArt.src }}"
 alt: "{{ site.data.images.DigitalArt.alt }}"
 imageLicense: "{{ site.data.images.DigitalArt.caption }}"
 ---
-As you are likely aware, iDigBio is currently pursuing its final year of NSF funding with a scheduled termination of 31 August 2026. However, we have been approved for aF no-cost-extension, which will allow us to continue into 2027.
+As you are likely aware, iDigBio is currently pursuing its final year of NSF funding with a scheduled termination of 31 August 2026. However, we have been approved for a no-cost-extension, which will allow us to continue into 2027.
 
 We wanted to alert you that we are in the process of transitioning iDigBio's current [website](https://www.idigbio.org) and [wiki](https://www.idigbio.org/wiki/index.php/Main_Page). However, there will be no impact to access of [iDigBio's data portal](https://portal.idigbio.org/) or the several hundred [portals of the Symbiota network](https://symbiota.org/symbiota-portals/).
 

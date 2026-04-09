@@ -20,7 +20,7 @@ event_time_end: '15:00'
 #url_post: /post/2026/website-transition
 url_post: https://ufl.zoom.us/webinar/register/WN_TzO-KJ_HQnCUsS9D-fHIRQ # full absolute URLs also valid
 
-summary: Planning for the future of Biodiversity Digitization and Data Mobilization at the Museum of Comparative Zoology # Please keep this summary one line.
+summary: In this talk, we will provide a history of digitization at the MCZ and examine both some of the successes and challenges of the past, using them as a lens through which to survey the foreseeable (and unforeseeable) future. # Please keep this summary one line.
 location: https://ufl.zoom.us/webinar/register/WN_TzO-KJ_HQnCUsS9D-fHIRQ
 description: |
   The Museum of Comparative Zoology at Harvard University houses approximately 21 million animal specimens across ten departments, each with its own discipline-specific practices and priorities. As a result, collection digitization at the museum over the last 40 years has proceeded in a decentralized and often piecemeal fashion. In this talk, we will provide a history of digitization at the MCZ and examine both some of the successes and challenges of the past, using them as a lens through which to survey the foreseeable (and unforeseeable) future. We highlight how institutional priorities and community support have contributed to important advances in centralization and standardization and have kept digitization moving forward. We will focus particularly on a new high-throughput digitization system that we are developing, incorporating recent advances in 3D imaging and machine learning to dramatically improve the speed of specimen imaging and cataloging in collections for which conventional digitization is simply too extensive of a task.

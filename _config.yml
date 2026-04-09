@@ -107,6 +107,7 @@ exclude:
   - .netlify.toml
   - serve.json
   - en/data/disabled/
+  - _events/example/
   - README.md
   - /**/README.md  # exclude all README.md files in any folder
 

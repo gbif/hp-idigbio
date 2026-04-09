@@ -110,6 +110,7 @@ exclude:
   - _events/example/
   - README.md
   - /**/README.md  # exclude all README.md files in any folder
+  - /**/*_disabled.*
 
 permalink: pretty # will strip extensions like .html from urls
 

@@ -30,10 +30,10 @@ Biodiversity digitization is the process of converting physical specimen informa
 Natural history collections preserve specimens that document life on Earth across time and geography. These collections support research in fields such as ecology, evolution, genomics, climate science, agriculture, and public health.
 
 ## Does iDigBio provide training or support?
-Yes. iDigBio offers workshops, webinars, documentation, and community resources to help institutions digitize collections and manage biodiversity data effectively.
+Yes! iDigBio offers workshops, webinars, courses, and connections to community resources to help institutions digitize collections and manage biodiversity data effectively. Some examples or places to get training are: [iDigBio's Digitization Academy](https://digitizationacademy.org/), [iDigBio's Events Hub](https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg), and [GBIF's Training and Learning Center](https://www.gbif.org/training).
 
 ## Are there educational materials available?
-Yes. iDigBio provides training materials, guides, and learning resources related to biodiversity data, digitization workflows, and informatics tools.
+Yes! iDigBio has collected training materials, guides, and learning resources related to biodiversity data, digitization workflows, and informatics tools. You may explore these through our [Digitization Knowledgebase](https://digitizationknowledge.org/).
 
 
 # Technical Questions
@@ -47,7 +47,7 @@ iDigBio aggregates a variety of specimen-related data, including:
 - Institutional collection metadata
 
 ## Can developers access the data programmatically?
-Yes. GBIF provides APIs and other technical resources that allow developers and researchers to access specimen data programmatically for analysis and application development. [Learn More](https://techdocs.gbif.org/en/openapi/).
+Yes! GBIF provides APIs and other technical resources that allow developers and researchers to access specimen data programmatically for analysis and application development. [Learn More](https://techdocs.gbif.org/en/openapi/).
 
 ## Where does the data come from?
 Data are provided by partner institutions such as natural history museums, herbaria, universities, and research collections. These institutions digitize their specimens and share the data through GBIF's infrastructure.
@@ -59,7 +59,7 @@ You can explore specimen data through the portal, which allows users to search, 
 Datasets are regularly updated as partner institutions add new digitized specimens or improve existing records.
 
 ## Can I download large datasets for analysis?
-Yes. The GBIF portal supports bulk downloads of specimen data for research and analysis.
+Yes! The GBIF portal supports bulk downloads of specimen data for research and analysis.
  
 ## What are the standards used for biodiversity data?
 iDigBio and GBIF support widely-used biodiversity informatics standards such as Darwin Core, which enables consistent sharing and interoperability of specimen data.

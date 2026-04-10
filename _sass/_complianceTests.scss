@@ -4,16 +4,17 @@
 
 @function testContrastRatio($target, $color1, $color2) {
   // function 'colorLuminance' defined in css framework 'bulma' used by base theme
-  $clu1: colorLuminance($color1);
-  $clu2: colorLuminance($color2);
-  $is-contrast-bad: null;
+  $clu1: colorLuminance($color1) + 0.05;
+  $clu2: colorLuminance($color2) + 0.05;
+  $r: 0.0;
   @if $clu2 > $clu1 {
-    $is-contrast-bad: $clu2 / $clu1 < $target;
+    $r: $clu2 / $clu1;
   } @else {
-    $is-contrast-bad: $clu1 / $clu2 < $target;
+    $r: $clu1 / $clu2;
   }
-  @if $is-contrast-bad {
-    $errmsg: "failed conformance test: bad contrast ratio";
+  //@debug "#{$color1}/#{$color2} = #{$r} (target #{$target})";
+  @if $r < $target {
+    $errmsg: "failed conformance test: bad contrast ratio: #{$r} < #{$target}";
     @if true { //TODO// Elevate to error if performing a production build
       @warn $errmsg;
     } @else {
@@ -26,7 +27,9 @@
 
 
 $_: testContrastRatio(3.0, $link, $body-color);
+$_: testContrastRatio(4.5, $link, $theme-features-background-color);
 $_: testContrastRatio(4.5, $body-color, $footer-background-color);
 $_: testContrastRatio(4.5, $menu-label-color, $footer-background-color);
+$_: testContrastRatio(4.5, $input-placeholder-color, $input-background-color);
 //should fail, comment following line after failed GBIF CI build:
 //$_: testContrastRatio(4.5, #FFF, $footer-background-color);

@@ -8,7 +8,7 @@ description: |
     <div class="mt-6">
       <form action="/occurrence/search" type="get">
         <div class="field" style="display: flex;">
-          <input type="text" placeholder="Full text search of occurrence records" name="q" class="input" />
+          <input type="text" aria-label="Full text search of occurrence records" placeholder="Full text search of occurrence records" name="q" class="input" />
           <button type="submit" class="button is-primary ml-4">Search</button>
         </div>
       </form>
@@ -43,7 +43,7 @@ composition:
 <!-- initial markdown home page structure
 <figure style="float: right; width: 35%; margin: 1em 1em 1em 1em; text-align: right;">
   <img src="{{ site.data.images.FishImaging.src }}" alt="{{ site.data.images.FishImaging.alt }}" style="width: 100%; height: auto;">
-  <figcaption style="font-size: smaller; color: #555;">
+  <figcaption>
     {{ site.data.images.FishImaging.caption }}
   </figcaption>
 </figure>

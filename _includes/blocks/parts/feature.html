@@ -10,7 +10,7 @@
 {% assign center = include.center | default: include.content.center %}
 {% assign categories = include.categories | default: include.content.categories %}
 {% assign href = include.href | default: include.content.href %}
-{% assign hrefAriaLabel = include.hrefAriaLabel | default: include.content.hrefAriaLabel }
+{% assign hrefAriaLabel = include.hrefAriaLabel | default: include.content.hrefAriaLabel | default: title }
 {% assign blankTarget = include.blankTarget | default: include.content.blankTarget | default: false %}
 {% assign ratio = include.ratio %}
 {% assign useBackgroundImage = include.useBackgroundImage | default: false %}

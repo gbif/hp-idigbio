@@ -1,14 +1,28 @@
+//NOTE// Some pages may supercede this style due to page-specific dependencies.
+// - /calendar/ (source: /en/calendar.md):
+//   Uses bootstrap as a popover dependency
+
 // Lighter lights, darker darks
 // to more easily meet ADA WCAG 2.1 Level AA conformance requirements
 $wcag-base-whiteish: #fcfcfc;
 $wcag-base-blackish: #292929;
 $text: scale-color($wcag-base-blackish, $lightness: -40%); //originally #4a4a4a
 $menu-label-color: scale-color($wcag-base-blackish, $lightness: -0%); //originally #7a7a7a
+$input-placeholder-color: #707070; //originally bulmaRgba($input-color = $text-strong = $grey-darker = hsl(0, 0%, 21%), 0.3)
 $footer-background-color: $wcag-base-whiteish; //originally #fafafa
 
 @import "theme/_main";
 
+$theme-features-background-color: #f5fbfb;
+.features {
+  background: $theme-features-background-color;
+}
+
 // You can add additional styling here
+.content figure figcaption {
+  font-size: smaller;
+}
+
 @import "_example"; // either as inline css or as a separate file as in this case
 
 @import "_complianceTests";

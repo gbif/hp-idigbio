@@ -3,7 +3,7 @@ layout: heroImage
 title: iDigBio Event Statistics
 description: 
 lang: en
-lang-ref: about
+lang-ref: event-stats
 background: "{{ site.data.images.VividDancer.src }}"
 imageLicense: "{{ site.data.images.VividDancer.caption }}"
 alt: "{{ site.data.images.VividDancer.alt }}"

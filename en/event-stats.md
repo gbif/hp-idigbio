@@ -7,12 +7,10 @@ lang-ref: event-stats
 background: "{{ site.data.images.VividDancer.src }}"
 imageLicense: "{{ site.data.images.VividDancer.caption }}"
 alt: "{{ site.data.images.VividDancer.alt }}"
-height: 50vh
+height: 70vh
 ---
-<hr />
-<p>iDigBio hosts or co-hosts a variety of training workshops, webinars, symposia, conferences, and other events throughout the year covering a wide range of digitization- and data-related topics. The graphs below present statistics about iDigBio's workshops, webinars, symposia, conferences, and other events conducted to date since the beginning of iDigBio in July 2011.</p>
+<p>iDigBio hosts or co-hosts a variety of training workshops, webinars, symposia, conferences, and other events throughout the year that cover a wide range of digitization- and data-related topics. The graphs below present statistics about iDigBio's events since its beginning in July 2011.</p>
 
-<hr />
 <p><!-- Cumulative Number of iDigBio Events --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=640621677&amp;format=interactive" width="600"></iframe></p>
 
 <p><!-- Cumulative Number of Contributors in iDigBio Events --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=609570305&amp;format=interactive" width="600"></iframe></p>
@@ -30,6 +28,4 @@ height: 50vh
 <p><!-- Map of iDigBio Events by Location --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=891704104&amp;format=interactive" width="600"></iframe><br />
 <!-- iDigBio Events by Award Year and Location --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1802346908&amp;format=interactive" width="600"></iframe></p>
 
-
 <p><!-- Contributors in iDigBio Events by Award Year and Location --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1851722640&amp;format=interactive" width="600"></iframe></p>
-<hr />

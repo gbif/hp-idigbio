@@ -48,6 +48,9 @@
   - text: "---"
   - text: GBIF Events and News
     href: /en/stories
+  - text: "---"
+  - text: iDigBio Event Statistics
+    href: /en/event-stats
 - text: FAQ
   href: /en/faq
     

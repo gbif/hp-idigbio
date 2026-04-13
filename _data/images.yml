@@ -31,6 +31,12 @@ ADBCCollaborators:
   alt: "Map of institutions collaborating in NSF's ADBC program"
   caption: "Map of institutions collaborating in NSF's ADBC program by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
+AmericanJackal:
+  # src: https://observation.org/photos/4304296.jpg
+  src: /assets/images/AmericanJackal2832356351.jpg
+  alt: "Canis latrans media from GBIF occurence 2832356351"
+  caption: "[*Canis latrans* Say, 1823](https://www.gbif.org/occurrence/2832356351) Observed in United States of America by Chris Rosmalen (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
 AtlanticDolphin:
   # src: https://inaturalist-open-data.s3.amazonaws.com/photos/573630943/original.jpg
   src: /assets/images/AtlanticDolphin5838037485.jpg
@@ -112,14 +118,26 @@ HerbariumSheets:
   caption: "Herbarium sheets from UC Berkeley's Jepson Herbarium by Joanna McCaffrey (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 ImagingStation:
-  src: /assets/images/Permanent_imaging_station_iDB.jpg
+  src: /assets/images/Permanent_imaging_station_AM.jpg
   alt: "Permanent imaging station in a museum collection"
   caption: "Permanent imaging station in a museum collection by Austin Mast (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+PrairieDog:
+  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/509918801/original.jpg
+  src: /assets/images/PrairieDog5167579025.jpg
+  alt: "Cynomys ludovicianus media from GBIF occurence 5167579025"
+  caption: "[*Cynomys ludovicianus* (Ord, 1815)](https://www.gbif.org/occurrence/5167579025) Observed in United States of America by Brady Baxter (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 SpidersDrawer:
   src: /assets/images/NMNH_drawer_eggs_JG.JPEG
   alt: "Drawer of spiders from the National Museum of Natural History's collections"
   caption: "Drawer of spiders from the National Museum of Natural History's collections by Jessica Grosso (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+VividDancer:
+  # src: https://inaturalist-open-data.s3.amazonaws.com/photos/9931292/original.jpg
+  src: /assets/images/VividDancer1621793994.jpg
+  alt: "Argia vivida media from GBIF occurence 1621793994"
+  caption: "[*Argia vivida* Hagen, 1865](https://www.gbif.org/occurrence/1621793994) Observed in United States of America by Merav Vonshak (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 
 ##################################

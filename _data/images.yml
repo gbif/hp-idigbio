@@ -114,7 +114,7 @@ HerbariumSheets:
 ImagingStation:
   src: /assets/images/Permanent_imaging_station_iDB.jpg
   alt: "Permanent imaging station in a museum collection"
-  caption: "Permanent imaging station in a museum collection by iDigBio Staff (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+  caption: "Permanent imaging station in a museum collection by Austin Mast (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 SpidersDrawer:
   src: /assets/images/NMNH_drawer_eggs_JG.JPEG

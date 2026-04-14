@@ -11,22 +11,46 @@ height: 70vh
 ---
 <p>iDigBio continues to host or co-host a variety of training workshops, webinars, symposia, conferences, and other events throughout the year that cover a wide range of digitization- and data-related topics. The charts below present statistics about iDigBio's events since its beginning in July 2011.</p>
 
-<p><!-- Cumulative Number of iDigBio Events --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=640621677&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">Cumulative Number of iDigBio Events</h3>
+<figure role="group">
+  <img height="371" width="600"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=640621677&amp;format=image"
+    alt="Cumulative chart" />
+  <figcaption>From beginning of 2012 to March 2026, iDigBio has hosted 721 events.</figcaption>
+</figure>
 
-<p><!-- Cumulative Number of Contributors in iDigBio Events --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=609570305&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">Cumulative Number of Contributors in iDigBio Events</h3>
+<figure role="group">
+  <img height="371" width="600"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=609570305&amp;format=image"
+    alt="Cumulative chart" />
+  <figcaption>From beginning of 2012 to March 2026, there have been 31,744 contributors.</figcaption>
+</figure>
 
-<p><!-- iDigBio Events by Type --><iframe frameborder="0" height="400" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1112174952&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">iDigBio Events by Type</h3>
+<p><img height="400" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1112174952&amp;format=image" /></p>
 
-<p><!-- iDigBio Events by Theme --><iframe frameborder="0" height="400" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1245121095&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">iDigBio Events by Theme</h3>
+<p><img height="400" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1245121095&amp;format=image" /></p>
 
-<p><!-- Time Series of iDigBio Events by Type --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1463183560&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">Time Series of iDigBio Events by Type</h3>
+<p><img height="371" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1463183560&amp;format=image" /></p>
 
-<p><!-- Time Series of iDigBio Events by Theme --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1000492528&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">Time Series of iDigBio Events by Theme</h3>
+<p><img height="371" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1000492528&amp;format=image" /></p>
 
-<!-- iDigBio Events by Location -->
 <h3 style="color: darkgray;">iDigBio Events by Location</h3>
-<p><!-- Map of iDigBio Events by Location --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=891704104&amp;format=interactive" width="600"></iframe></p>
+<p><img height="371" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=891704104&amp;format=image" /></p>
 
-<p><!-- iDigBio Events by Award Year and Location --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1802346908&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">iDigBio Events by Award Year and Location</h3>
+<p><img height="371" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1802346908&amp;format=image" /></p>
 
-<p><!-- Contributors in iDigBio Events by Award Year and Location --><iframe frameborder="0" height="371" scrolling="no" seamless="" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1851722640&amp;format=interactive" width="600"></iframe></p>
+<h3 class="is-sr-only">Contributors in iDigBio Events by Award Year and Location</h3>
+<p><img height="371" width="600"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSLsLYf_saB1BifwBRvb0X1ZlDral0U_bu-bsHkA2MFS1zQe7C8K9M5mqkQkHAR3m3DA_su4opbPmbk/pubchart?oid=1851722640&amp;format=image" /></p>

@@ -36,20 +36,19 @@
     href: https://web.archive.org/web/20260423/idigbio.org
 - text: News and Events
   menu:
-  - text: Calendar
+  - text: Events Calendar
     href: /calendar
-  - text: iDigBio Events Hub
+  - text: Events Hub
     href: https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg
   - text: iDigBio News
     href: /news
   - text: "---"
-  - text: Code of Conduct
-    href: https://www.gbif.org/code-of-conduct  
-  - text: "---"
-  - text: GBIF Events and News
+  - text: GBIF News and Events
     href: /en/stories
   - text: "---"
-  - text: iDigBio Event Statistics
+  - text: Code of Conduct
+    href: https://www.gbif.org/code-of-conduct  
+  - text: Event Statistics
     href: /en/event-stats
 - text: FAQ
   href: /en/faq

@@ -1,0 +1,38 @@
+---
+#source-url: https://github.com/gbif/jekyll-hp-base-theme/blob/c91cd83e389a181b67cb01d01e313618262858dd/_layouts/occurrence.html
+#retrieved-at: 2026-04-14 19:06Z
+#change-description: added accessibility injection script after liquid `include appWidget.html`
+layout: gbifData
+description: Default template for occurrence search
+---
+{% assign languageCode = site.data.languages[page.lang].widgetLocale | default: site.data.languages[page.lang].languageCode | default: page.lang | default: site.algae.rootLang | default: 'en' %}
+
+{{ content }}
+
+{% include appWidget.html %}
+
+<script>
+(function () {
+// If something is already accessible (such as if GBIF patches this upstream)
+// we do not want to overwrite them, so try only target problem elements not already processed.
+
+hasAccessibleName = (elem) => (
+  elem.getAttribute('aria-label') ||
+  elem.getAttribute('aria-labelledby') ||
+  elem.getAttribute('title') ||
+  elem.textContent.trim().length > 0
+);
+
+function scana11y(htmltree) {
+  console.error('TODO:UNIMPLEMENTED');
+}
+
+const rootNode = document.querySelector('div#root.gbif');
+if (!rootNode) {
+  console.error('idb-a11y-patch: cannot find root node (did GBIF rename it?)');
+  return;
+} else {
+  console.debug('This is a script injection test for future a11y work', rootNode);
+}
+})();
+</script>

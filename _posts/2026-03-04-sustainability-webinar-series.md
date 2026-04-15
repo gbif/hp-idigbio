@@ -14,7 +14,6 @@ This webinar series will highlight innovations, workflows, and institutional str
 
 ## Upcoming Webinars
 Please join us for the following upcoming webinars in this series:
-- **April 14, 2026 (3:00-5:00 PM ET) [>>Register Here<<](https://ufl.zoom.us/webinar/register/WN_Q2UGUYDPRYeEODd4jCB8Nw)** -- New advances and opportunities in 3D Digitization in the field and in the collection
 - **April 21, 2026 (2:00-4:00 PM ET) [>>Register Here<<](https://ufl.zoom.us/webinar/register/WN_96hPhdwwShy52-e3j2V8bw)** -- Planning for the future of Biodiversity Digitization and Data Mobilization at the Carnegie Museum of Natural History
 - **April 30, 2026 (2:00-4:00 PM ET) [>>Register Here<<](https://ufl.zoom.us/webinar/register/WN_ypgFwv6VQm61VEIY0Q5FqA)** -- Current State of Digitization in Mammalogy and Future Directions
 - **May 5, 2026 (2:00-4:00 PM ET) [>>Register Here<<](https://events.zoom.us/ev/AqCmhg9AGklaEwoHnktF9h4VlygFL7KWSnmi2epu6TyfS1Ak-_9f~AuVpYD1w8bCwlg6OovWQnwXKlnk2uY4GpDYX7Cbecc4gxG0aS6TszgiVgg)** -- Imaging the Florida Museum's Natural History Collections: Workflows, Innovation, and the Future of 3D Digitization
@@ -30,7 +29,7 @@ We are collecting the recordings from the previous webinars in this series in a 
 - **November 6, 2025 (2:00-4:00 PM ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=N_UWI4LizBA&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=8&pp=iAQB)** -- Florida Museum Undergraduate Internship Program: A Model for Supporting Museum Interns
 - **November 18, 2025 (2:00-3:00 PM ET)  [>>Watch Recording Here<<](https://www.youtube.com/watch?v=X_46EkgYuig&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=7&pp=iAQB)** -- Ensuring Long-Term Access to Biodiversity Data: iDigBio, GBIF, and Beyond
 - **December 2, 2025 (2:00-3:00 PM ET)  [>>Watch Recording Here<<](https://www.youtube.com/watch?v=iptfYPnU_WM&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=6&pp=iAQB)** -- AI and Natural History Collections: Promise, Pitfalls, and Perspectives
-- ~~December 11, 2025 (2:00-3:00 PM ET) >>>>CANCELED<<<< -- Digital Data in Systematics and Biogeographic Research (using fishes as examples)~~
+- ~~December 11, 2025 (2:00-3:00 PM ET) >>CANCELED<< -- Digital Data in Systematics and Biogeographic Research (using fishes as examples)~~
 - **December 16, 2025 (2:00-4:00 PM ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=Zowr4Ylk21o&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=5&pp=iAQB)** -- Preparing for the Future of Biodiversity Digitization & Data Access Using Symbiota
 - **January 20, 2026 (2:00-3:00 PM ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=YekeMw6qQjo&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=4&pp=iAQB)** -- Sustaining Digitization through Collaboration and Innovation at the Yale Peabody Museum
 - **January 27, 2026 (2:00-3:00 PM ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=DzhtybGuhrM&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=3&pp=iAQB)** -- Streamlining Data Management with Specify Software
@@ -41,3 +40,4 @@ We are collecting the recordings from the previous webinars in this series in a 
 - **March 17, 2026 (2:00-4:00 pm ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=HXnwrozRKuU&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=3&pp=iAQB)** -- Imaging 101: General Principles of Photography & Best Practices
 - **March 24, 2026 (2:00-3:00 PM ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=FvaSVj0dNEw&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=2&pp=iAQB)** -- The Digitization Academy: Staying Up-to-Date with Best Practices for Specimen Digitization
 - **April 9, 2026 (2:00-3:00 PM ET) [>>Watch Recording Here<<](https://www.youtube.com/watch?v=CfP06qyFheU&list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV&index=1&pp=iAQB)** -- Planning for the future of Biodiversity Digitization and Data Mobilization at the Museum of Comparative Zoology
+- **April 14, 2026 (3:00-5:00 PM ET) [>>Watch Recording Here<<](https://ufl.zoom.us/rec/share/OpS3gLiZ9TwSTOR_rRCtQuviHpaauhEKZLsg22CQeYoA9msaHntcm6miCUNXvs5C.gcAVC4c0yxeAZK1W?startTime=1776193205000)** -- New advances and opportunities in 3D Digitization in the field and in the collection

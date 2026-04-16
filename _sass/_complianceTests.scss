@@ -2,6 +2,41 @@
 // These should already be remediated, but are here to prevent accidentally
 // causing ADA violations by changing a colour in the future.
 
+//@warn 'contrast ratio conformance testing is inaccurate.'
+// see https://sass-lang.com/documentation/modules/math/
+//@use 'sass:math';
+//math.pow() not available in Jekyll's SCSS Ruby package dependency.
+// function 'colorLuminance', defined in css framework 'bulma' used by base theme,
+// emulates pow by iterative multiplication; it does not handle non-integer exponents.
+// When calculating relative luminance for the sRGB colourspace,
+// which involves red, green, or blue colour components `C`,
+// a component is calculated as:
+// if C <= 0.04045
+//   then C/12.92
+//   else ((C+0.055)/1.055) ^ 2.4
+//                            ~~~ <- this exponent cannot be accurately calculated
+
+//// ported from https://github.com/gbif/jekyll-hp-base-theme/blob/c91cd83e389a181b67cb01d01e313618262858dd/_sass/bulma/sass/utilities/functions.sass#L64
+//@function colorLuminanceCompliant($color) {
+//  @if type-of($color) != 'color' {
+//    @return 0.55;
+//  }
+//  $color-rgb: ('red': red($color),'green': green($color),'blue': blue($color));
+//  @each $name, $value in $color-rgb {
+//    $adjusted: 0;
+//    $value: $value / 255;
+//    @if $value < 0.03928 {
+//      $value: $value / 12.92;
+//    } @else {
+//      $value: ($value + .055) / 1.055;
+//      $value: math.pow($value, 2.4);
+//      //      ~~~~~~~~ <- causes compile error with jekyll-4.1.1
+//    }
+//    $color-rgb: map-merge($color-rgb, ($name: $value));
+//  }
+//  @return (map-get($color-rgb, 'red') * .2126) + (map-get($color-rgb, 'green') * .7152) + (map-get($color-rgb, 'blue') * .0722);
+//}
+
 @function testContrastRatio($target, $color1, $color2) {
   // function 'colorLuminance' defined in css framework 'bulma' used by base theme
   $clu1: colorLuminance($color1) + 0.05;

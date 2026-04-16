@@ -16,6 +16,9 @@ description: Default template for occurrence search
 // If something is already accessible (such as if GBIF patches this upstream)
 // we do not want to overwrite them, so try only target problem elements not already processed.
 
+// aaah why aren't any of these elements named
+// we have to use ~~heuristics~~ and guess what button I'm processing
+
 hasAccessibleName = (elem) => (
   elem.getAttribute('aria-label') ||
   elem.getAttribute('aria-labelledby') ||
@@ -23,16 +26,123 @@ hasAccessibleName = (elem) => (
   elem.textContent.trim().length > 0
 );
 
-function scana11y(htmltree) {
-  console.error('TODO:UNIMPLEMENTED');
+function scana11yFilterSection(sectree) {
+  // What is the other hidden button? When does that appear?
+
+  //target: 'Rubbish bin' button with hover text 'Clear' flush to right side of the presented filters above the table
+  sectree.querySelectorAll('div.g-justify-end > button').forEach((btnelem) => {
+    if (!hasAccessibleName(btnelem)) {
+      //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+      //reason: Button needs text alternative
+      btnelem.ariaLabel = 'Clear filter';
+    }
+  })
+}
+
+function scana11yDiv(divtree) {
+  thdelem = divtree.querySelector('thead');
+  if (!thdelem)
+    return;
+  thdelem.querySelectorAll('th').forEach((thelem) => {
+    columnstr = thelem.innerText;
+    btns = thelem.querySelectorAll('button');
+    if (btns.length === 1) {
+      //target: Any table heading containing a 'sliders' button on the right side of the cell
+      if (!hasAccessibleName(btns[0])) {
+        //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+        //reason: Button needs text alternative
+        btns[0].ariaLabel = `Filter ${columnstr.toLowerCase()}`;
+      }
+    } else if (btns.length === 3) {
+      //target: 'Scientific name' table heading
+      // The user cannot hide it and seems to be the only heading with more than one button
+
+      //For all three buttons below:
+      //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+      //reason: Button needs text alternative
+
+      //target: 'Three dots' button to the left of heading text
+      if (!hasAccessibleName(btns[0]))
+        btns[0].ariaLabel = 'Toggle columns';
+      //target: 'Sliders' button to the right of heading text, next to last button
+      if (!hasAccessibleName(btns[1]))
+        btns[1].ariaLabel = `Filter ${columnstr.toLowerCase()}`;
+      //target: 'Gear' button to the right of heading text, right-most button in heading cell
+      if (!hasAccessibleName(btns[2]))
+        btns[2].ariaLabel = `${columnstr} settings`;
+    }
+  });
+}
+
+function scana11yResultTableRow(trtree) {
+  // Not sure how to distinctly/meaningfully refer to each record,
+  // since many occurrences might have the same scientific name, or none.
+  const ARIA_LABEL_STR__VIEW_SPECIMEN_DETAILS = 'View specimen details';
+
+  //target: Linked 'sidebar' icon to the left of text in 'Scientific name' cells
+  // (always first column?)
+  // The table body appears to only contain one button per row, so we can just call .querySelector()?
+  btnelem = trtree.querySelector('button');
+  if (btnelem && !hasAccessibleName(btnelem)) {
+    //ADA//WCAG 2.1/A/SC 2.4.4 Link Purpose (In Context)
+    btnelem.ariaLabel = ARIA_LABEL_STR__VIEW_SPECIMEN_DETAILS;
+  }
+
+  trtree.querySelectorAll('a').forEach((aelem) => {
+    if (hasAccessibleName(aelem))
+      return;
+
+    //target: Empty <a></a> links that expand as a cell overlay
+    if (aelem.innerHTML.length <= 0) {
+      //ADA//WCAG 2.1/A/SC 2.4.4 Link Purpose (In Context)
+      aelem.ariaLabel = ARIA_LABEL_STR__VIEW_SPECIMEN_DETAILS;
+      return;
+    }
+
+    //target: Linked 'link' icon to the left of text in cells of an institution, collection, ...
+    if (!aelem.querySelector('svg'))
+      return;
+
+    //ADA//WCAG 2.1/A/SC 2.4.4 Link Purpose (In Context)
+    // Unlike the rest of the table row, we might be able to distinctly label these via surrounding context
+    let linktypestr = '';
+    if (aelem.href.match(/\/institution\/[0-9a-f-]{36}/))
+      linktypestr = ' institution';
+    else if (aelem.href.match(/\/collection\/[0-9a-f-]{36}/))
+      linktypestr = ' collection';
+    else
+      console.warn('idb-a11y-patch: unhandled detail link type --', aelem.href);
+    let subjectstr = aelem.parentNode.querySelector('span[role=button]')?.innerText ?? '';
+    if (subjectstr)
+      subjectstr = ' of ' + subjectstr;
+    aelem.ariaLabel = `View${linktypestr} details${subjectstr}`;
+  });
 }
 
 const rootNode = document.querySelector('div#root.gbif');
 if (!rootNode) {
   console.error('idb-a11y-patch: cannot find root node (did GBIF rename it?)');
   return;
-} else {
-  console.debug('This is a script injection test for future a11y work', rootNode);
 }
+
+// Have to wait for ReactJS render, so watch for tree modifications
+const mo = new MutationObserver((muts, obs) => {
+  var g_idba11y_activeObserver = obs;
+  for (const mut of muts) {
+    mut.addedNodes.forEach((node) => {
+      //console.debug(node.nodeType, node.nodeName, node);
+      if (node.nodeType !== Node.ELEMENT_NODE)
+        return;
+
+      if (node.nodeName === 'TR')
+        scana11yResultTableRow(node);
+      else if (node.nodeName === 'DIV')
+        scana11yDiv(node);
+      else if (node.nodeName === 'SECTION')
+        scana11yFilterSection(node);
+    });
+  }
+});
+mo.observe(rootNode, /*options*/ { childList: true, subtree: true });
 })();
 </script>

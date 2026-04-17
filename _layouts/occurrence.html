@@ -12,6 +12,9 @@ description: Default template for occurrence search
 {% include appWidget.html %}
 
 <script>
+var g_idba11y_activeObserver;
+var gf_idba11y_enableTraceLogging = !window.location.hostname.match('idigbio.gbif.us');
+
 (function () {
 // If something is already accessible (such as if GBIF patches this upstream)
 // we do not want to overwrite them, so try only target problem elements not already processed.
@@ -19,24 +22,61 @@ description: Default template for occurrence search
 // aaah why aren't any of these elements named
 // we have to use ~~heuristics~~ and guess what button I'm processing
 
-hasAccessibleName = (elem) => (
-  elem.getAttribute('aria-label') ||
-  elem.getAttribute('aria-labelledby') ||
-  elem.getAttribute('title') ||
-  elem.textContent.trim().length > 0
+/**
+ * @param {string[]} excludes - Array of tests to not evaluate
+ */
+hasAccessibleName = (elem, excludes = []) => (
+  (!excludes.includes('aria-label') && elem.getAttribute('aria-label')) ||
+  (!excludes.includes('aria-labelledby') && elem.getAttribute('aria-labelledby')) ||
+  (!excludes.includes('title') && elem.getAttribute('title')) ||
+  (!excludes.includes('textContent') && elem.textContent.trim().length > 0)
 );
 
+//src?:
+// - section: https://github.com/gbif/gbif-web/blob/5414cc0f4dbcc4decd1fcc5356b4fe50cdf2a9b9/packages/gbif-org/src/components/filters/filterTools.tsx#L1079
+// - buttons: https://github.com/gbif/gbif-web/blob/5414cc0f4dbcc4decd1fcc5356b4fe50cdf2a9b9/packages/gbif-org/src/components/filters/filterTools.tsx#L1028
 function scana11yFilterSection(sectree) {
-  // What is the other hidden button? When does that appear?
-
+  let qs = null;
   //target: 'Rubbish bin' button with hover text 'Clear' flush to right side of the presented filters above the table
-  sectree.querySelectorAll('div.g-justify-end > button').forEach((btnelem) => {
-    if (!hasAccessibleName(btnelem)) {
+  if (qs = sectree.querySelector('div.g-justify-end > button')) {
+    if (!hasAccessibleName(qs)) {
       //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
       //reason: Button needs text alternative
-      btnelem.ariaLabel = 'Clear filter';
+      qs.ariaLabel = 'Clear filter';
     }
-  })
+  } else console.error('idb-a11y-patch:scana11yFilterSection: rubbish not found');
+
+  //target: Hidden filter button. (It's hidden to a sighted viewer, but not to accessibility tools.)
+  // What triggers this to appear?
+  if (qs = sectree.querySelector('div.g-justify-end > div > button')) {
+    if (!hasAccessibleName(qs)) {
+      //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+      //reason: Button needs text alternative.. even if invisible.
+      qs.ariaLabel = 'Open filter selection dialog';
+    }
+  } else console.error('idb-a11y-patch:scana11yFilterSection: filter button not found');
+
+  //target: Visible filter buttons in this section
+  // For all remaining targets:
+  //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+  //reason: Form field missing label
+  // Although these are buttons, GBIF coded them as role=combobox.
+  // Per WAI-ARIA 1.1, this changes accessible name calculation:
+  // combobox is calculated from author rather than contents [WAI-ARIA 1.1 sect. 5.4];
+  // see WAI-ARIA 1.1 sect. 5.2.7.
+  sectree.querySelectorAll('button[aria-haspopup=dialog]').forEach((btnelem) => {
+    // exclude other buttons we (or GBIF) have already processed
+    if (hasAccessibleName(btnelem, /*excludes*/ ['textContent']))
+      return;
+
+    //target: [slider icon] more
+    if (btnelem.querySelector('span > svg')) {
+      btnelem.ariaLabel = 'Open filter selection dialog';
+      return;
+    }
+
+    btnelem.ariaLabel = btnelem.innerText.trim();
+  });
 }
 
 function scana11yDiv(divtree) {
@@ -44,7 +84,7 @@ function scana11yDiv(divtree) {
   if (!thdelem)
     return;
   thdelem.querySelectorAll('th').forEach((thelem) => {
-    columnstr = thelem.innerText;
+    columnstr = thelem.innerText.trim();
     btns = thelem.querySelectorAll('button');
     if (btns.length === 1) {
       //target: Any table heading containing a 'sliders' button on the right side of the cell
@@ -67,7 +107,7 @@ function scana11yDiv(divtree) {
       //target: 'Sliders' button to the right of heading text, next to last button
       if (!hasAccessibleName(btns[1]))
         btns[1].ariaLabel = `Filter ${columnstr.toLowerCase()}`;
-      //target: 'Gear' button to the right of heading text, right-most button in heading cell
+      //target: 'Gear' button to the right of heading text, right-most 
       if (!hasAccessibleName(btns[2]))
         btns[2].ariaLabel = `${columnstr} settings`;
     }
@@ -105,6 +145,8 @@ function scana11yResultTableRow(trtree) {
 
     //ADA//WCAG 2.1/A/SC 2.4.4 Link Purpose (In Context)
     // Unlike the rest of the table row, we might be able to distinctly label these via surrounding context
+    if (hasAccessibleName(aelem))
+      return;
     let linktypestr = '';
     if (aelem.href.match(/\/institution\/[0-9a-f-]{36}/))
       linktypestr = ' institution';
@@ -112,11 +154,59 @@ function scana11yResultTableRow(trtree) {
       linktypestr = ' collection';
     else
       console.warn('idb-a11y-patch: unhandled detail link type --', aelem.href);
-    let subjectstr = aelem.parentNode.querySelector('span[role=button]')?.innerText ?? '';
+    let subjectstr = aelem.parentNode.querySelector('span[role=button]')?.innerText.trim() ?? '';
     if (subjectstr)
       subjectstr = ' of ' + subjectstr;
     aelem.ariaLabel = `View${linktypestr} details${subjectstr}`;
   });
+
+  //target: All clickable cell text
+  //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+  //reason: Default accessible name is target.innerText; not apparent
+  trtree.querySelectorAll('span[role=button]').forEach((spanelem) => {
+    if (hasAccessibleName(spanelem, /*excludes*/ ['textContent']))
+      return;
+    spanelem.ariaLabel = 'Set filter for: ' + spanelem.innerText.trim();
+  });
+}
+
+//target: bottom pager buttons, the only(?) top-element buttons
+function scana11yPagerButtons(btntree) {
+  if (hasAccessibleName(btntree))
+    return;
+
+  let pelem = btntree.parentElement;
+  if (!pelem) {
+    console.error('idb-a11y-patch:scana11yPagerButtons: patcher init fail: cannot fetch parent node');
+    return;
+  }
+  let ppelem = pelem.parentElement;
+  cpchild = ppelem.childElementCount;
+  if (cpchild !== 3 || !ppelem.childNodes[1].innerText.trim().startsWith('Page')) { // expecting: Page X of Y
+    console.error('idb-a11y-patch:scana11yPagerButtons: patcher init fail: failed context assertion')
+    return;
+  }
+  // At this point, I think I *am* working with the bottom table pager
+
+  //For all three buttons below:
+  //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+  //reason: Button needs text alternative
+
+  if (pelem.classList.contains('g-justify-end')) {
+    //target: right-most button
+    btntree.ariaLabel = 'Next page';
+    return;
+  }
+
+  btns = pelem.querySelectorAll('button');
+  if (pelem.childNodes.length !== 2) {
+    console.error('idb-a11y-patch:scana11yPagerButtons: unexpected left side structure');
+    return;
+  }
+  //target: left-most button
+  btns[0].ariaLabel = 'First page';
+  //target: next button to the right
+  btns[1].ariaLabel = 'Previous page';
 }
 
 const rootNode = document.querySelector('div#root.gbif');
@@ -127,10 +217,12 @@ if (!rootNode) {
 
 // Have to wait for ReactJS render, so watch for tree modifications
 const mo = new MutationObserver((muts, obs) => {
-  var g_idba11y_activeObserver = obs;
+  g_idba11y_activeObserver = obs;
   for (const mut of muts) {
     mut.addedNodes.forEach((node) => {
-      //console.debug(node.nodeType, node.nodeName, node);
+      if (gf_idba11y_enableTraceLogging)
+        console.debug('idb-a11y-patch: node mutated', node.nodeType, node.nodeName, node);
+
       if (node.nodeType !== Node.ELEMENT_NODE)
         return;
 
@@ -138,6 +230,8 @@ const mo = new MutationObserver((muts, obs) => {
         scana11yResultTableRow(node);
       else if (node.nodeName === 'DIV')
         scana11yDiv(node);
+      else if (node.nodeName === 'BUTTON')
+        scana11yPagerButtons(node);
       else if (node.nodeName === 'SECTION')
         scana11yFilterSection(node);
     });

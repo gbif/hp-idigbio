@@ -37,59 +37,6 @@ columns:
       [View our Node Staff Directory](https://www.gbif.org/participant/375)
     connectIcons: true
 
-#  - name: About iDigBio
-#    links:
-#    - text: Vision
-#      href: https://www.idigbio.org/about/vision
-#    - text: Mission
-#      href: https://www.idigbio.org/about/mission
-#    - text: Upcoming Events
-#      href: https://www.idigbio.org/calendar
-#    - text: News
-#      href: https://www.idigbio.org/news
-#    - text: Contact
-#      href: https://www.idigbio.org/contact
-#
-#  - name: Research
-#    links:
-#    - text: Portal Home
-#      href: /
-#    - text: Search Records
-#      href: /occurrence/search
-#    - text: Learning Center
-#      href: https://www.idigbio.org/portal/learning-center
-#    - text: iDigBio API
-#      href: https://www.idigbio.org/portal/developers
-#    - text: Portal Feedback
-#      href: https://www.idigbio.org/contact
-#
-#  - name: Technical Info
-#    links:
-#    - text: Working Groups
-#      href: https://www.idigbio.org/wiki/index.php/Working_Groups
-#    - text: Workshops
-#      href: https://www.idigbio.org/wiki/index.php/Workshops
-#    - text: Digitization
-#      href: https://www.idigbio.org/wiki/index.php/Digitization
-#    - text: Wiki
-#      href: https://www.idigbio.org/wiki/
-#
-#  - name: Education
-#    links:
-#    - text: Outreach
-#      href: https://www.idigbio.org/outreach
-#    - text: K-12 Resources
-#      href: https://www.idigbio.org/resources/education/k12
-#    - text: Undergrad Resources
-#      href: https://www.idigbio.org/resources/education/undergraduate
-#    - text: Citizen Scientist
-#      href: https://www.idigbio.org/resources/citizen-scientists
-#
-#  - name: Connect
-#    description: |
-#      Social icons configured in `_config.yml`.
-#    connectIcons: true
-
 
   # EXAMPLE - just leave this commented out at the bottom of the file for future reference
   # You can add as many columns as you want

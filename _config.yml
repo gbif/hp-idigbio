@@ -111,6 +111,7 @@ exclude:
   - README.md
   - /**/README.md  # exclude all README.md files in any folder
   - /**/*_disabled.*
+  - /**/*_staging-only.*
 
 permalink: pretty # will strip extensions like .html from urls
 

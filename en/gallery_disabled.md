@@ -1,5 +1,4 @@
 ---
-published: false
 layout: default
 title: Image Gallery
 description: The following images are available for use in pages and posts on this site.

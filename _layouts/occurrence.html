@@ -16,6 +16,10 @@ var g_idba11y_activeObserver;
 var gf_idba11y_enableTraceLogging = !window.location.hostname.match('idigbio.gbif.us');
 
 (function () {
+//NOTE// A lot of this code is duplicated with <script>s in other GBIF layouts
+// for expediency. Consider proposing upstream changes to https://github.com/gbif/gbif-web/
+// and remove these hp-idigbio-specific patches
+
 // If something is already accessible (such as if GBIF patches this upstream)
 // we do not want to overwrite them, so try only target problem elements not already processed.
 

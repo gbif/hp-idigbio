@@ -1,0 +1,224 @@
+---
+#source-url: https://github.com/gbif/jekyll-hp-base-theme/blob/c91cd83e389a181b67cb01d01e313618262858dd/_layouts/institution-search.html
+#retrieved-at: 2026-04-22 14:45Z
+#change-description: added accessibility injection script after liquid `include appWidget.html`
+layout: gbifData
+description: Default template for occurrence search
+---
+{% assign languageCode = site.data.languages[page.lang].widgetLocale | default: site.data.languages[page.lang].languageCode | default: page.lang | default: site.algae.rootLang | default: 'en' %}
+
+{{ content }}
+
+<div id="root" class="gbif"></div>
+
+
+{% assign useOldLibrary = page.useOldLibrary | default: site.useOldLibrary | default: false %}
+{% if useOldLibrary %}
+  <script>
+    var widgetLocale = '{{ languageCode }}';
+    var userTheme = typeof siteTheme !== 'undefined' ? siteTheme : undefined;
+    var userConfig = typeof siteConfig !== 'undefined' ? siteConfig : {};
+    var routes = userConfig.routes || {};
+    routes.basename = basename;
+
+    ReactDOM.render(
+      React.createElement(
+        gbifReactComponents.App,
+        { 
+          style: { height: 'calc(100vh - 4.25rem)' }, 
+          siteConfig: {
+            ...siteConfig,
+            theme: userTheme, 
+            routes: routes,
+            locale: widgetLocale
+          },
+          pageLayout: true
+        }
+      ),
+      document.getElementById('root')
+    );
+
+    if (typeof userTheme === 'undefined') {
+      console.warn('No theme defined - using default styling');
+    }
+    if (typeof userConfig === 'undefined') {
+      console.warn('No config provided - all data will be shown');
+    }
+  </script>
+{% else %}
+  {% include appWidgetNew.html %}
+{% endif %}
+
+<script>
+var g_idba11y_activeObserver;
+var gf_idba11y_enableTraceLogging = !window.location.hostname.match('idigbio.gbif.us');
+
+(function () {
+//NOTE// A lot of this code is duplicated with <script>s in other GBIF _layouts
+// for expediency. Consider proposing upstream changes to https://github.com/gbif/gbif-web/
+// and remove these hp-idigbio-specific patches
+
+// If something is already accessible (such as if GBIF patches this upstream)
+// we do not want to overwrite them, so try only target problem elements not already processed.
+
+const ARIA_LABEL_STR__MORE = 'More filters...';
+
+/**
+ * @param {string[]} excludes - Array of tests to not evaluate
+ */
+hasAccessibleName = (elem, excludes = []) => (
+  (!excludes.includes('aria-label') && elem.getAttribute('aria-label')) ||
+  (!excludes.includes('aria-labelledby') && elem.getAttribute('aria-labelledby')) ||
+  (!excludes.includes('title') && elem.getAttribute('title')) ||
+  (!excludes.includes('textContent') && elem.textContent.trim().length > 0)
+);
+
+// Intended for filter buttons on top of widget
+//ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+//reason: Form field missing label
+// Although these are buttons, GBIF coded them as role=combobox.
+// Per WAI-ARIA 1.1, this changes accessible name calculation:
+// combobox is calculated from author rather than contents [WAI-ARIA 1.1 sect. 5.4];
+// see WAI-ARIA 1.1 sect. 5.2.7.
+function scana11yFilterButton(btn) {
+  if (gf_idba11y_enableTraceLogging)
+    console.debug('idb-a11y-patch:scana11yFilterButton called');
+
+  if (btn.ariaHasPopup !== 'dialog')
+    return;
+
+  // exclude other buttons we (or GBIF) have already processed
+  if (hasAccessibleName(btn, /*excludes*/ ['textContent']))
+    return;
+
+  //target: [slider icon] more
+  if (btn.querySelector('span > svg')) {
+    btn.ariaLabel = ARIA_LABEL_STR__MORE;
+    return;
+  }
+
+  btn.ariaLabel = 'Set filter: '+btn.innerText.trim();
+}
+
+//src?:
+// - section: https://github.com/gbif/gbif-web/blob/5414cc0f4dbcc4decd1fcc5356b4fe50cdf2a9b9/packages/gbif-org/src/components/filters/filterTools.tsx#L1079
+// - buttons: https://github.com/gbif/gbif-web/blob/5414cc0f4dbcc4decd1fcc5356b4fe50cdf2a9b9/packages/gbif-org/src/components/filters/filterTools.tsx#L1028
+function scana11yFilterSection(sectree) {
+  if (gf_idba11y_enableTraceLogging)
+    console.debug('idb-a11y-patch:scana11yFilterSection called');
+
+  let qs = null;
+  //target: 'Rubbish bin' button with hover text 'Clear' flush to right side of the presented filters above the table
+  if (qs = sectree.querySelector('div.g-justify-end > button')) {
+    if (!hasAccessibleName(qs)) {
+      //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+      //reason: Button needs text alternative
+      qs.ariaLabel = 'Clear filter';
+    }
+  } else console.error('idb-a11y-patch:scana11yFilterSection: rubbish not found');
+
+  //target: Hidden filter button. (It's hidden to a sighted viewer, but not to accessibility tools.)
+  // What triggers this to appear?
+  if (qs = sectree.querySelector('div.g-justify-end > div > button')) {
+    if (!hasAccessibleName(qs)) {
+      //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+      //reason: Button needs text alternative.. even if invisible.
+      qs.ariaLabel = ARIA_LABEL_STR__MORE;
+    }
+  } else console.error('idb-a11y-patch:scana11yFilterSection: filter button not found');
+
+  //target: Visible filter buttons in this section
+  // For all remaining targets:
+  //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+  //reason: Form field missing label
+  // Although these are buttons, GBIF coded them as role=combobox.
+  // Per WAI-ARIA 1.1, this changes accessible name calculation:
+  // combobox is calculated from author rather than contents [WAI-ARIA 1.1 sect. 5.4];
+  // see WAI-ARIA 1.1 sect. 5.2.7.
+  sectree.querySelectorAll('button[aria-haspopup=dialog]').forEach(
+    (btnelem) => scana11yFilterButton(btnelem) );
+}
+
+const rootNode = document.querySelector('div#root.gbif');
+if (!rootNode) {
+  console.error('idb-a11y-patch: cannot find root node (did GBIF rename it?)');
+  return;
+}
+
+var idba11y_thead_labelled = false;
+// Have to wait for ReactJS render, so watch for tree modifications
+const mo = new MutationObserver((muts, obs) => {
+  g_idba11y_activeObserver = obs;
+  for (const mut of muts) {
+    mut.addedNodes.forEach((node) => {
+      if (gf_idba11y_enableTraceLogging)
+        console.debug('idb-a11y-patch: node mutated', node.nodeType, node.nodeName, node);
+
+      if (node.nodeType !== Node.ELEMENT_NODE)
+        return;
+
+      if (node.nodeName === 'SECTION') {
+        if (!document.location.pathname.startsWith('/institution/search'))
+          return;
+        // Special handling: The GBIF widget in this page contains everything
+        // within a single section. Try breaking it down.
+        if (node.childElementCount !== 2) {
+          console.error('idb-a11y-patch: unexpected widget structure, aborting');
+          return;
+        }
+        try {
+          scana11yFilterSection(node.children[0]);
+        } catch (err) {
+          console.error(err);
+        }
+      } else if (node.nodeName === 'BUTTON') {
+        if (node.innerText.trim()) {
+          // non-occurrence(?) pages add filter buttons later, not at time of adding <section></section>
+          scana11yFilterButton(node);
+        }
+      } else if (node.nodeName === 'DIV') {
+        if (
+          node.childElementCount === 2 &&
+          node.children[0].nodeName === 'INPUT' &&
+          node.children[1].nodeName === 'BUTTON' &&
+          node.children[1].type === 'submit' &&
+          !hasAccessibleName(node.children[1])
+        ) {
+          //target: Input boxes paired with a submit button,
+          // such as the first button of the filter section in /literature/search
+          //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+          //reason: Button needs text alternative
+          // Cannot use aria-labelledby: input box does not have an id
+          node.children[1].ariaLabel = node.children[0].placeholder;
+        }
+
+        //target: Linked images (or invisible links) on right side
+        //ADA//WCAG 2.1/A/SC 2.4.4 Link Purpose (In Context)
+        //ADA//WCAG 2.1/A/SC 4.1.2 Name, Role, Value
+        //reason: Link missing a text alternative
+        let qs = node.querySelector('article');
+        if (!qs)
+          return;
+        let articleName = node.querySelector('h3 > a')?.innerText?.trim();
+        qs = qs.querySelectorAll('a');
+        if (qs.length !== 2 || !hasAccessibleName(qs[0])) {
+          console.warn('idb-a11y-patch: unexpected link count in article');
+          return;
+        } else if (!hasAccessibleName(qs[1])) {
+          qs[1].ariaLabel = 'Go to institution details';
+          if (articleName)
+            qs[1].ariaLabel += ': '+articleName;
+        }
+
+        //target: Images within aforementioned links, if existing
+        //ADA//WCAG 2.1/A/SC 1.1.1 Non-text Content
+        // Presumably all side images are decorative?
+        if (qs[1].childElementCount === 1 && qs[1].firstChild.nodeName === 'IMG')
+          qs[1].firstChild.alt = '';
+      }
+    }); //end-foreach added node/mutation
+  } //end-for (const mut of muts)
+});
+mo.observe(rootNode, /*options*/ { childList: true, subtree: true });
+})();
+</script>

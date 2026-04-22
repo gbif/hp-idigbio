@@ -18,6 +18,31 @@ $theme-features-background-color: #f5fbfb;
   background: $theme-features-background-color;
 }
 
+// // GBIF Tailwind CSS overrides
+//
+// GBIF uses Tailwind to style their Hosted Portal search interface widget:
+// https://github.com/gbif/gbif-web/blob/8ee7155051682b81fca9f5b835451f8c394d986a/packages/gbif-org/tailwind.config.js
+//
+// A more proper fix may be to update the CSS class attributes (particularly 
+// the granular/scaled colours) for non-ADA-conformant UI elements rather than 
+// defining classes to be another already-existing class.
+//
+//NOTE// *Do not* change GBIF theme colours (branding), just use a more conformant shade.
+.g-opacity-60 {
+  /* from: .g-opacity-70 */
+  opacity: .7;
+}
+.g-text-slate-400 {
+  /* from: .g-text-slate-500 */
+  color: rgb(100, 116, 139);
+}
+.g-text-slate-500 {
+  /* from: .g-text-slate-600 */
+  color: rgb(71, 85, 105);
+}
+
+
+
 // You can add additional styling here
 .content figure figcaption {
   font-size: smaller;

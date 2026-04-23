@@ -36,10 +36,10 @@
     href: https://web.archive.org/web/20260423/idigbio.org
 - text: News and Events
   menu:
-  - text: Events Calendar
+  - text: iDigBio Events Calendar
     href: /calendar
-  - text: Events Hub
-    href: https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg
+  - text: iDigBio Events Hub
+    href: https://ufl.zoom.us/ze/hub/iDigBio
   - text: iDigBio News
     href: /news
   - text: "---"
@@ -48,7 +48,7 @@
   - text: "---"
   - text: Code of Conduct
     href: https://www.gbif.org/code-of-conduct  
-  - text: Event Statistics
+  - text: iDigBio Event Statistics
     href: /en/event-stats
 - text: FAQ
   href: /en/faq

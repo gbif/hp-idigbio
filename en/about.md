@@ -53,6 +53,6 @@ iDigBio, or Integrated Digitized Biocollections, was initially funded in 2011 as
 
 Although iDigBio's funding will end in 2027, the community resources and data mobilized have been preserved through a variety of mechanisms, including: 
 - [This website](./) as iDigBio's new home,
-- [An archive of iDigBio's legacy website and wiki](http://web.archive.org/web/20260423/idigbio.org),
+- [An archive of iDigBio's legacy website and wiki](https://wayback.archive-it.org/17494/20260423/idigbio.org),
 - the [Biodiversity specimen data mobilized to and available in GBIF](/occurrence/search?view=map).
 - and Migration of all content and user accounts from the [legacy iDigBio IPT](https://ipt.idigbio.org/) to the [GBIF U.S. IPT](https://ipt.gbif.us/).

@@ -148,6 +148,12 @@ DigitalData2026:
   alt: "Advertisement for Digital Data Conference 2026"
   caption: "Advertisement for Digital Data Conference 2026 by Lauren Cohen (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
+InternetArchive:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Internet_Archive_logo_and_wordmark.svg/1280px-Internet_Archive_logo_and_wordmark.svg.png
+  src: /assets/images/events/Internet_Archive_logo_and_wordmark.png
+  alt: "Internet Archive Logo and Wordmark"
+  caption: "[Internet Archive Logo and Wordmark](https://commons.wikimedia.org/wiki/File:Internet_Archive_logo_and_wordmark.svg) by the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive) (licensed under Public Domain)."
+
 WaybackMachine:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Wayback_Machine_logo_2010.svg/960px-Wayback_Machine_logo_2010.svg.png
   src: /assets/images/events/Wayback_Machine_logo_2010.png

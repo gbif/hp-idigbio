@@ -28,14 +28,14 @@ stats:
       background: "{{ site.data.images.NetworkIcon.src }}"
       alt: "{{ site.data.images.NetworkIcon.alt }}"
       imageLicense: "{{ site.data.images.NetworkIcon.caption }}"
-    - title: <span data-ajax-url="http://api.gbif.org/v1/grscicoll/collection?machineTagNamespace=iDigBio.org"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?machineTagNamespace=iDigBio.org"></span>
       description: Collections
       href: /collection/search
       hrefAriaLabel: Browse collections
       background: "{{ site.data.images.MultipleIcon.src }}"
       alt: "{{ site.data.images.MultipleIcon.alt }}"
       imageLicense: "{{ site.data.images.MultipleIcon.caption }}"
-    - title: <span data-ajax-url="http://api.gbif.org/v1/grscicoll/institution?machineTagNamespace=iDigBio.org"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?machineTagNamespace=iDigBio.org"></span>
       description: Institutions
       href: /institution/search
       hrefAriaLabel: Browse institutions

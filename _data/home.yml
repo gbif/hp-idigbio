@@ -14,13 +14,13 @@ stats:
       background: "{{ site.data.images.LocationIcon.src }}"
       alt: "{{ site.data.images.LocationIcon.alt }}"
       imageLicense: "{{ site.data.images.LocationIcon.caption }}"
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search??networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973&mediaType=StillImage"></span>
-      description: Images
-      href: /occurrence/search?view=GALLERY
-      hrefAriaLabel: Browse images
-      background: "{{ site.data.images.ImageIcon.src }}"
-      alt: "{{ site.data.images.ImageIcon.alt }}"
-      imageLicense: "{{ site.data.images.ImageIcon.caption }}"
+#    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search??networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973&mediaType=StillImage"></span>
+#      description: Images
+#      href: /occurrence/search?view=GALLERY
+#      hrefAriaLabel: Browse images
+#      background: "{{ site.data.images.ImageIcon.src }}"
+#      alt: "{{ site.data.images.ImageIcon.alt }}"
+#      imageLicense: "{{ site.data.images.ImageIcon.caption }}"
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?networkKey=68e8e67a-43e6-44a3-8817-dc0e6b70f973"></span>
       description: Publishers
       href: /publisher/search

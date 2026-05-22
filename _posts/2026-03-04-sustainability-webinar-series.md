@@ -14,11 +14,11 @@ This webinar series will highlight innovations, workflows, and institutional str
 
 ## Please join us for our upcoming webinars:
 Stay informed about upcoming iDigBio events through our centralized [Zoom Events Hub](https://ufl.zoom.us/ze/hub/iDigBio), where you can easily browse and register for upcoming webinars.
-- **12 May 2026 (3:00-4:00 PM ET)** Biodiversity Media Collections in the Age of Digitization and AI
 - _Stay tuned for other webinars in this series that will be posted soon!_ 
 
 ## Watch recordings from our previous webinars:
 If you missed a session or want to watch again, you can access past webinar recordings at any time in our [YouTube playlist](https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV).
+- **12 May 2026** Biodiversity Media Collections in the Age of Digitization and AI
 - **05 May 2026** Imaging the Florida Museum's Natural History Collections: Workflows, Innovation, and the Future of 3D Digitization
 - **30 April 2026** Current State of Digitization in Mammalogy and Future Directions
 - **21 April 2026** Planning for the future of Biodiversity Digitization and Data Mobilization at the Carnegie Museum of Natural History

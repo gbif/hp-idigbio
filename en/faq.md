@@ -22,9 +22,9 @@ In order to ensure the longevity and persistence of iDigBio's online presence, w
 
 ## How can I find things in the archived legacy website and wiki?
 [As previously announced]({% post_url 2026-03-04-website-transition %}), an [archive of iDigBio’s legacy website and wiki](https://wayback.archive-it.org/17494/20260423/idigbio.org) has been created using the Internet Archive’s Archive-It service. You can generally find what you are looking for using one or more of the following methods:
-- Go to iDigBio's Archive-It collections page, https://archive-it.org/collections/17494, and then use the **Search** bar next to the **Narrow Your Results** heading. 
-- If you know the original URL, you can put https://wayback.archive-it.org/17494/20260423/ in front of that URL. For example: https://wayback.archive-it.org/17494/20260423/https://www.idigbio.org/wiki/index.php/Sustaining_Collections_Digitization_Beyond_NSF_Funding:_A_Webinar_Serie 
-- Use a third-party search engine, such as Google, to find your potential target, and then put https://wayback.archive-it.org/17494/20260423/ in front of the target URL. Note, however, that this method will NOT work forever as the search engines refresh their indexes.
+- Go to iDigBio's Archive-It collections page, <https://archive-it.org/collections/17494>, and then use the **Search** bar next to the **Narrow Your Results** heading. 
+- If you know the original URL, you can put <https://wayback.archive-it.org/17494/20260423/> in front of that URL. For example: <https://wayback.archive-it.org/17494/20260423/https://www.idigbio.org/wiki/index.php/Sustaining_Collections_Digitization_Beyond_NSF_Funding:_A_Webinar_Serie> 
+- Use a third-party search engine, such as Google, to find your potential target, and then put <https://wayback.archive-it.org/17494/20260423/> in front of the target URL. Note, however, that this method will NOT work forever as the search engines refresh their indexes.
 
 ## Where are my data?
 Since we have transitioned to a GBIF Hosted Portal, if your data are not published to GBIF, they will not be visible. Only data published to GBIF will be visible on this latest iteration of iDigBio's website. Please contact us if you have any questions or concerns, including if you would like help publishing data to GBIF.

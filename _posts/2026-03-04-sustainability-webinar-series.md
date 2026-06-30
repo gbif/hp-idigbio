@@ -1,5 +1,5 @@
 ---
-title: "Webinar Series: The Importance of Sustaining Biodiversity Specimen Collections Digitization in the Absence of NSF Funding"
+title: "Sustaining Collections & Digitization: A Webinar Series"
 date:   2026-03-04 15:00:00 +0500
 categories: ["Webinar", "Sustainability", "Digitization"]
 lang: en
@@ -14,7 +14,12 @@ This webinar series will highlight innovations, workflows, and institutional str
 
 ## Please join us for our upcoming webinars:
 Stay informed about upcoming iDigBio events through our centralized [Zoom Events Hub](https://ufl.zoom.us/ze/hub/iDigBio), where you can easily browse and register for upcoming webinars.
-- _Stay tuned for other webinars in this series that will be posted soon!_ 
+- **21 July 2026** Talking with Taxon Works: Connecting Collections and Research
+- **28 July 2026** Field Stations, Marine Labs, and the Preservation of Biodiversity Collections
+- **27 August 2026** Is Data Publication Anything Other Than a Terminal Event? Evidence From Six Years and 50 Million Curated Links in Bionomia
+- **3 November 2026** The Florida Museum's barcode, container type, real-time inventory management system for fluid-preserved natural history collections
+ 
+ _Stay tuned for other webinars in this series that will be posted soon!_ 
 
 ## Watch recordings from our previous webinars:
 If you missed a session or want to watch again, you can access past webinar recordings at any time in our [YouTube playlist](https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV).

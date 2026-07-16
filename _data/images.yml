@@ -75,12 +75,6 @@ CitronellaAnt:
   alt: "Lasius claviger media from GBIF occurence 4974197818"
   caption: "[*Lasius claviger*](https://www.gbif.org/occurrence/4974197818) Observed in United States of America by grogbor (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
-DigitalArt:
-  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/8K_Futuristic_Digital_Art_Wallpaper.jpg/1280px-8K_Futuristic_Digital_Art_Wallpaper.jpg
-  src: /assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg
-  alt: "Digital Art Wallpaper 3D with globe"
-  caption: "[Digital Art Wallpaper 3D with globe](https://commons.wikimedia.org/wiki/File:8K_Futuristic_Digital_Art_Wallpaper.jpg) by Satheesh Sankaran (licensed under [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/))."
-  
 DNATissueVials:
   src: /assets/images/DNA_Banking_Tissue_Vials_iDB.png
   alt: "Tissue vials used for DNA banking"
@@ -140,9 +134,15 @@ VividDancer:
   caption: "[*Argia vivida* Hagen, 1865](https://www.gbif.org/occurrence/1621793994) Observed in United States of America by Merav Vonshak (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
 
 
-##################################
-##  IMAGES FOR SPECIFIC EVENTS  ##
-##################################
+###########################################
+##  IMAGES FOR SPECIFIC EVENTS OR POSTS  ##
+###########################################
+DigitalArt:
+  # src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/8K_Futuristic_Digital_Art_Wallpaper.jpg/1280px-8K_Futuristic_Digital_Art_Wallpaper.jpg
+  src: /assets/images/8K_Futuristic_Digital_Art_Wallpaper.jpg
+  alt: "Digital Art Wallpaper 3D with globe"
+  caption: "[Digital Art Wallpaper 3D with globe](https://commons.wikimedia.org/wiki/File:8K_Futuristic_Digital_Art_Wallpaper.jpg) by Satheesh Sankaran (licensed under [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/))."
+  
 DigitalData2026:
   src: /assets/images/events/Digital-Data-2026-SAVE-DATE.jpeg
   alt: "Advertisement for Digital Data Conference 2026"
@@ -154,6 +154,12 @@ InternetArchive:
   alt: "Internet Archive Logo and Wordmark"
   caption: "[Internet Archive Logo and Wordmark](https://commons.wikimedia.org/wiki/File:Internet_Archive_logo_and_wordmark.svg) by the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive) (licensed under Public Domain)."
 
+Lego404:
+  # src: https://c.pxhere.com/photos/0b/96/error_not_found_404_lego_mistake_4_0_number-1380359.jpg!d
+  src: /assets/images/lego-404-not-found.jpg
+  alt: "404 not found error message created using LEGO"
+  caption: "[LEGO 404 not found](https://pxhere.com/en/photo/1380359) by Anonymous (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
+  
 WaybackMachine:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Wayback_Machine_logo_2010.svg/960px-Wayback_Machine_logo_2010.svg.png
   src: /assets/images/events/Wayback_Machine_logo_2010.png

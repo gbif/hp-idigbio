@@ -29,6 +29,11 @@ In order to ensure the longevity and persistence of iDigBio's online presence, w
 ## Where are my data?
 Since we have transitioned to a GBIF Hosted Portal, if your data are not published to GBIF, they will not be visible. Only data published to GBIF will be visible on this latest iteration of iDigBio's website. Please contact us if you have any questions or concerns, including if you would like help publishing data to GBIF.
 
+## What about my media/images?
+* iDigBio is permanently shutting down its servers at the University of Florida in August. All images and media will be permanently deleted. Hence, access to all media and image files currently visible in the iDigBio Portal will terminate on 31 August 2026.
+* **If your media/images have been moved to another storage resource, the media record links/URIs have been updated, and the modified/updated records have been republished to GBIF or another aggregator, then your media/images will be accessible as usual. THIS IS THE ONLY WAY TO ENSURE CONTINUED ACCESS TO YOUR MEDIA/IMAGES.**
+* See [this post]({% post_url 2026-07-16-media-update %}) for additional details.
+
 ## What is biodiversity digitization?
 Biodiversity digitization is the process of converting physical specimen information -- such as labels, images, and associated data -- into digital formats. This allows researchers and the public to access specimen records online and use them for scientific analysis, environmental monitoring, and education.
 

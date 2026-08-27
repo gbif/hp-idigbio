@@ -3,8 +3,9 @@ title:  "Fall 2026 Strategic Planning for Biodiversity Collections Course"
 date:   2026-08-27
 categories: ["Online Course", "Strategic Planning"]
 lang: en
-background: "{{ https://github.com/gbif/hp-idigbio/blob/master/assets/images/SPBC%202026_DrupalBanner.png }}"
-alt: "{{ https://github.com/gbif/hp-idigbio/blob/master/assets/images/SPBC%202026_DrupalBanner.png }}"
+background: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.src }}"
+alt: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.alt }}"
+imageLicense: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.caption }}"
 ---
 Registration Open for **Fall 2026 Strategic Planning for Biodiversity Collections Course**
 

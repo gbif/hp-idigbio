@@ -8,7 +8,9 @@ alt: "{{ https://github.com/gbif/hp-idigbio/blob/master/assets/images/SPBC%20202
 ---
 Registration Open for **Fall 2026 Strategic Planning for Biodiversity Collections Course**
 
+
 Dear Colleagues,
+
 iDigBio is pleased to announce an 8-week "Strategic Planning for Biodiversity Collections” online course!
 
 **Take this opportunity to introduce new purpose and excitement into your organization. Prepare to relate your collection’s compelling vision to stakeholders and discuss long-term goals and strategies with administrators.**

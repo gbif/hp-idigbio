@@ -14,15 +14,20 @@ This webinar series will highlight innovations, workflows, and institutional str
 
 ## Please join us for our upcoming webinars:
 Stay informed about upcoming iDigBio events through our centralized [Zoom Events Hub](https://ufl.zoom.us/ze/hub/iDigBio), where you can easily browse and register for upcoming webinars.
-- **21 July 2026** Talking with Taxon Works: Connecting Collections and Research
-- **28 July 2026** Field Stations, Marine Labs, and the Preservation of Biodiversity Collections
-- **27 August 2026** Is Data Publication Anything Other Than a Terminal Event? Evidence From Six Years and 50 Million Curated Links in Bionomia
-- **3 November 2026** The Florida Museum's barcode, container type, real-time inventory management system for fluid-preserved natural history collections
+- **03 September 2026** AI agents for biodiversity data: where we are now, and what's possible
+- **10 October 2026** Beyond the Jar: Challenges, Innovations, and Opportunities in Digitizing Fluid-Preserved Specimens
+- **20 October 2026** From Anthropology to Zoology: Arctos as a shared solution for diverse collection types
+- **03 November 2026** The Florida Museum's barcode, container type, real-time inventory management system for fluid-preserved natural history collections
+- **10 November 2026** Bringing Collections to Life with Storytelling
  
  _Stay tuned for other webinars in this series that will be posted soon!_ 
 
 ## Watch recordings from our previous webinars:
 If you missed a session or want to watch again, you can access past webinar recordings at any time in our [YouTube playlist](https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV).
+- **27 August 2026** Is Data Publication Anything Other Than a Terminal Event? Evidence From Six Years and 50 Million Curated Links in Bionomia
+- **18 August 2026** Fossil Collections Digitization: Sustaining a Community of Practice
+- **28 July 2026** Field Stations, Marine Labs, and the Preservation of Biodiversity Collections
+- **21 July 2026** Talking with Taxon Works: Connecting Collections and Research
 - **12 May 2026** Biodiversity Media Collections in the Age of Digitization and AI
 - **05 May 2026** Imaging the Florida Museum's Natural History Collections: Workflows, Innovation, and the Future of 3D Digitization
 - **30 April 2026** Current State of Digitization in Mammalogy and Future Directions

@@ -161,10 +161,15 @@ Lego404:
   caption: "[LEGO 404 not found](https://pxhere.com/en/photo/1380359) by Anonymous (licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/))."
 
 StrategicPlanningforBiodiversityCollectionsCourse:
-  src: /assets/images/events/SPBC2026_DrupalBanner.png
-  alt: "Advertisement for Strategic Planning for Biodiversity Collections Online Course"
-  caption: "Advertisement for Strategic Planning for Biodiversity Collections Online Course by Lauren Cohen (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
-    
+  src: /assets/images/events/SPBC_WebBanner.png
+  alt: "Banner for Strategic Planning for Biodiversity Collections Online Course"
+  caption: "Banner for Strategic Planning for Biodiversity Collections Online Course by Lauren Cohen (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
+StrategicPlanningforHerbariaCourse:
+  src: /assets/images/events/SPH_WebBanner.png
+  alt: "Banner for Strategic Planning for Herbaria Online Course"
+  caption: "Banner for Strategic Planning for Herbaria Online Course by Lauren Cohen (licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/))."
+
 WaybackMachine:
   # src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Wayback_Machine_logo_2010.svg/960px-Wayback_Machine_logo_2010.svg.png
   src: /assets/images/events/Wayback_Machine_logo_2010.png

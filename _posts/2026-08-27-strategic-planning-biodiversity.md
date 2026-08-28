@@ -1,8 +1,9 @@
 ---
 title:  "Fall 2026 Strategic Planning for Biodiversity Collections Course"
-date:   2026-08-27
+date:   2026-08-27 08:00:00 +0500
 categories: ["Online Course", "Strategic Planning"]
 lang: en
+lang-ref: spbc-2026
 background: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.src }}"
 alt: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.alt }}"
 imageLicense: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.caption }}"

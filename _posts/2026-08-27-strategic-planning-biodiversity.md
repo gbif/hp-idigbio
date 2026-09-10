@@ -23,7 +23,7 @@ There is no charge for participation in the course. We invite anyone affiliated 
 
 **A summary syllabus for the course is available [here](https://docs.google.com/document/d/1ZPq6klH5pxvccpLWc36j1RwOSS0NVu5b2MM64zNEAN8/edit?usp=sharing).**
 
-**To apply, please complete this short Google [Form](https://forms.gle/fsfokKyb6dRcU1Wj7). by September 9, 2026.** Admission decisions will be made shortly thereafter. Admissions are based on a mix of considerations, including variety of career stages and collections, urgency for the collection, the collection's concrete plans to leverage the strategic planning in the near future (e.g., for funding), and sustained interest in the class as evidenced by application again this year after an unsuccessful application in the previous year.
+**Applications for this offering are now closed.** Admission decisions will be made shortly and will be based on a mix of considerations, including variety of career stages and collections, urgency for the collection, the collection's concrete plans to leverage the strategic planning in the near future.
 
 With best regards,
 

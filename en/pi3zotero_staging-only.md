@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const style = 'apa'; 
   
   // Construct the API endpoint URL
-  const url = `https://zotero.org{libraryType}/${libraryId}/collections/${collectionKey}/items?format=bib&style=${style}&linkwrap=1`;
+  const url = `https://zotero.org/{libraryType}/${libraryId}/collections/${collectionKey}/items?format=bib&style=${style}&linkwrap=1`;
 
   // Fetch the data from Zotero
   fetch(url)

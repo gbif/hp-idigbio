@@ -9,7 +9,7 @@ imageLicense: "{{ site.data.images.VividDancer.caption }}"
 alt: "{{ site.data.images.VividDancer.alt }}"
 height: 70vh
 ---
-<p>iDigBio continues to host or co-host a variety of training workshops, webinars, symposia, conferences, and other events throughout the year that cover a wide range of digitization-, data-, and workforce development-related topics. The charts below present statistics about iDigBio's events from 2011 to the present.</p>
+<p>iDigBio hosts or co-hosts a variety of training workshops, webinars, symposia, conferences, courses, and other events throughout the year that cover a wide range of digitization-, data-, and workforce development-related topics. The charts below present statistics about our events.</p>
 
 <h3 class="is-sr-only">Cumulative Number of iDigBio Events</h3>
 <figure role="group">

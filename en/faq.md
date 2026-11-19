@@ -15,22 +15,25 @@ toc-title: Table of Contents
 # General Questions
 
 ## What is iDigBio?
-iDigBio is an <a href="https://www.gbif.org/participant/375">Other Associate Participant Node</a> and <a href="https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71">Data Publisher</a> within the <a href="https://www.gbif.org/the-gbif-network">GBIF Network</a>. Our focus is on specimen-based biodiversity collections from U.S. institutions. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making. [Learn More](/en/about)
+iDigBio promotes and catalyzes digitization, mobilization, and use of biodiversity specimen data from U.S. institutions and collections through community capacity building, community networks and partnerships, digital infrastructure, and standards. We envision a world in which digitized biodiversity and extended specimen data are findable, accessible, interoperable, and reusable, providing endless possibilities for research, policy, economic decision-making, and understanding of our natural world. [Learn More](/en/about)
 
-## Why does this look different now?
-In order to ensure the longevity and persistence of iDigBio's online presence, we have transitioned to a GBIF Hosted Portal. This enables us to stay online and to continue to serve data and information via GBIF infrastructure. [Learn More]({% post_url 2026-03-04-website-transition %})
+## Why does everything look different now?
+In order to ensure the longevity and persistence of iDigBio's online presence, we have transitioned to a GBIF Hosted Portal, which enables us to stay online and to continue to serve data, information, and resources via GBIF infrastructure. [Learn More]({% post_url 2026-03-04-website-transition %})
 
-## How can I find things in the archived legacy website and wiki?
-[As previously announced]({% post_url 2026-03-04-website-transition %}), an [archive of iDigBio’s legacy website and wiki](https://wayback.archive-it.org/17494/idigbio.org) has been created using the Internet Archive’s Archive-It service. You can generally find what you are looking for using one or more of the following methods:
+## How can I find things in the legacy website and wiki?
+[As previously announced]({% post_url 2026-03-04-website-transition %}), an [archive of iDigBio's legacy website and wiki](https://wayback.archive-it.org/17494/idigbio.org) has been created using the Internet Archive's Archive-It service. You can generally find what you are looking for using one or more of the following methods:
 - Go to iDigBio's Archive-It collections page, <https://archive-it.org/collections/17494>, and then use the **Search** bar next to the **Narrow Your Results** heading. 
 - If you know the original URL, you can put <https://wayback.archive-it.org/17494/> in front of that URL. For example: <https://wayback.archive-it.org/17494/https://www.idigbio.org/wiki/index.php/Sustaining_Collections_Digitization_Beyond_NSF_Funding:_A_Webinar_Serie> 
-- Use a third-party search engine, such as Google, to find your potential target, and then put <https://wayback.archive-it.org/17494/> in front of the target URL. Note, however, that this method will NOT work forever as the search engines refresh their indexes.
+- Use a third-party search engine, such as Google, to find your potential target, and then put <https://wayback.archive-it.org/17494/> in front of the target URL. (However, this method will NOT work forever as search engines refresh their indexes.)
+
+## Where are the iDigBio portal and API?
+[As previously announced]({% post_url 2026-03-04-website-transition %}), the legacy iDigBio Portal and API were shut down on 20 November 2026. Access to biodiversity data is available via [gbif.org](https://gbif.org) and this [hosted portal](/occurrence/search) (for those data that are specimen-based).
 
 ## Where are my data?
-Since we have transitioned to a GBIF Hosted Portal, if your data are not published to GBIF, they will not be visible. Only data published to GBIF will be visible on this latest iteration of iDigBio's website. Please contact us if you have any questions or concerns, including if you would like help publishing data to GBIF.
+iDigBio has transitioned to a GBIF Hosted Portal for both its website and portal. If you have already published your data to GBIF, then they will be available via [gbif.org](https://gbif.org) and this [hosted portal](/occurrence/search) (for those data that are specimen-based). However, if you have not yet published your data to GBIF, then they will be unavailable. Please contact us if you have any questions or concerns, including if you would like help publishing your data to GBIF.
 
 ## What about my media/images?
-* iDigBio is permanently shutting down its servers at the University of Florida in August. All images and media will be permanently deleted. Hence, access to all media and image files currently visible in the iDigBio Portal will terminate on 31 August 2026.
+* iDigBio permanently shut down its media and image servers at the University of Florida on 31 August 2026. Access to any and all images and media stored on those servers is no longer available.
 * **If your media/images have been moved to another storage resource, the media record links/URIs have been updated, and the modified/updated records have been republished to GBIF or another aggregator, then your media/images will be accessible as usual. THIS IS THE ONLY WAY TO ENSURE CONTINUED ACCESS TO YOUR MEDIA/IMAGES.**
 * See [this post]({% post_url 2026-07-16-media-update %}) for additional details.
 
@@ -41,7 +44,7 @@ Biodiversity digitization is the process of converting physical specimen informa
 Natural history collections preserve specimens that document life on Earth across time and geography. These collections support research in fields such as ecology, evolution, genomics, climate science, agriculture, and public health.
 
 ## Does iDigBio provide training or support?
-Yes! iDigBio offers workshops, webinars, courses, and connections to community resources to help institutions digitize collections and manage biodiversity data effectively. Some examples or places to get training are: [iDigBio's Digitization Academy](https://digitizationacademy.org/), [iDigBio's Events Hub](https://events.zoom.us/eo/AvSszxsM4niEVPAGEQkDTnV8NXazTnv3fd7lQIpuwIRLyRGrkId-~AggLXsr32QYFjq8BlYLZ5I06Dg), and [GBIF's Training and Learning Center](https://www.gbif.org/training).
+Yes! iDigBio offers workshops, webinars, courses, and connections to community resources to help institutions digitize collections and manage biodiversity data effectively. Some examples or places to get training are: [iDigBio's Digitization Academy](https://digitizationacademy.org/), [iDigBio's Events Hub](https://ufl.zoom.us/ze/hub/iDigBio), [iDigBio's Event Recordings](https://www.youtube.com/@iDigBio), and [GBIF's Training and Learning Center](https://www.gbif.org/training).
 
 ## Are there educational materials available?
 Yes! iDigBio has collected training materials, guides, and learning resources related to biodiversity data, digitization workflows, and informatics tools. You may explore these through our [Digitization Knowledgebase](https://digitizationknowledge.org/).

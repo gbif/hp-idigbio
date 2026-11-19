@@ -18,9 +18,6 @@
     href: /institution/search
   - text: Literature
     href: /literature/search
-  - text: "---"
-  - text: Legacy iDigBio Portal
-    href: https://portal.idigbio.org/
 - text: Resources
   menu:
   - text: Digitization Academy
@@ -32,7 +29,7 @@
   - text: Sustainability Webinar Recordings
     href: https://www.youtube.com/playlist?list=PLE9wWtOTu3RKyHGjniHDJuZOekvXWfjQV
   - text: "---"
-  - text: Archived legacy iDigBio website
+  - text: Archived legacy iDigBio website & wiki
     href: https://wayback.archive-it.org/17494/idigbio.org
 - text: News and Events
   menu:

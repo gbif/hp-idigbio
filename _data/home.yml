@@ -46,23 +46,31 @@ stats:
 about:
   klass: aboutSplit
   reverse: true
-  title: Making data and images of millions of biological specimens available on the web.
+  title: Making data and images of millions of biological specimens available on the web
   description: |
-      iDigBio is an [Other Associate Participant Node](https://www.gbif.org/participant/375) and [Data Publisher](https://www.gbif.org/publisher/a86e9e36-12ec-49a4-a94c-c0c981fffb71) within the [GBIF Network](https://www.gbif.org/the-gbif-network). Our focus is on specimen-based biodiversity collections from U.S. institutions. We promote and catalyze digitization, mobilization, and use of data about biodiversity specimens through community capacity building, open data, and innovative uses of these data. We envision a world in which digitized biodiversity and extended specimen data underpin research, policy, and economic decision-making.
+      iDigBio promotes and catalyzes digitization, mobilization, and use of biodiversity specimen data from U.S. institutions and collections through community capacity building, community networks and partnerships, digital infrastructure, and standards. We envision a world in which digitized biodiversity and extended specimen data are findable, accessible, interoperable, and reusable, providing endless possibilities for research, policy, economic decision-making, and understanding of our natural world.
   background: "{{ site.data.images.ImagingStation.src }}"
   alt: "{{ site.data.images.ImagingStation.alt }}"
   imageLicense: "{{ site.data.images.ImagingStation.caption }}"
   ratio: 70
   cta:
-  - text: Learn More
-    href: /en/about
+  - text: Upcoming Events
+    href: https://ufl.zoom.us/ze/hub/iDigBio
     isPrimary: true
+  - text: Event Recordings
+    href: https://www.youtube.com/@iDigBio
+  - text: FAQ
+    href: /en/faq
+  - text: iDigBio Archive
+    href: https://wayback.archive-it.org/17494/idigbio.org
+  - text: iDigBio History
+    href: /en/about
 
 explorer:
   reverse: false
   title: Explore Data
   description: |
-      Access, browse, visualize, and filter specimen-based biodiversity data
+      Search, browse, visualize, and filter specimen-based biodiversity data
   background: "{{ site.data.images.ButterflyDrawer.src }}"
   alt: "{{ site.data.images.ButterflyDrawer.alt }}"
   imageLicense: "{{ site.data.images.ButterflyDrawer.caption }}"

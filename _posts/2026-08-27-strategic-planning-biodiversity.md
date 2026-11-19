@@ -7,6 +7,7 @@ lang-ref: spbc-2026
 background: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.src }}"
 alt: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.alt }}"
 imageLicense: "{{ site.data.images.StrategicPlanningforBiodiversityCollectionsCourse.caption }}"
+published: false
 ---
 Registration Open for **Fall 2026 Strategic Planning for Biodiversity Collections Course**
 
